@@ -3,23 +3,39 @@ Title: People are Right Not to Share Code...
 
 ... but we are wrong to let them get away with it.
 
-Last week, a preprint of an article discussing code sharing made the following
-remarks:
+Last week, a `preprint <http://arxiv.org/abs/1304.6780v1>`__ of an article
+discussing code sharing made the following remarks:
 
+    [I]t appears that the general agreement often expressed at
+    relevant conferences that source codes should be shared (Allen et al.,
+    2012c; Allen et al., 2013) does not coincide with the way
+    most researchers act when their own code becomes the subject
+    of the discussion.
 
 On Hacker News, a working astrophysicist voiced his concerns:
 
-We have what is called a **collective action problem**: it seems there is wide
-agreement that it would be best for everyone if everyone shared, but individual
-incentives are to defect (not share). The best for the individual is to be able
-to use everyone's code, but not share any of their own. The result is that few
-share.
+    For me, as an "experimentalist" (read, data-analyst), I also maintain job
+    attractiveness by having sets of code that no one else has.
+
+To summarise: in public, people apparentlyto agree that sharing is good; in
+private (or anonymously), they refuse to do it. We have what is called a
+**collective action problem**: it seems there is wide agreement that it would
+be best for everyone if everyone shared, but individual incentives are to
+defect (not share). The best for the individual is to be able to use everyone's
+code, but not share any of their own. The result is that few share.
 
 Yes, there are advantages to sharing. Overall, though, I do think that people
-are, for the most part, selfishly correct to not share. Note that the code that
-is not shared is probably of worse quality and less useful than code that is
-already shared (because there was no random assignment of sharing/not sharing
-decisions).
+are, for the most part, selfishly correct to not share. You may gain a little
+exposure, a few citations for your papers based on the use of the tools (this
+is the standard *it is good for you* spiel). But this is less than getting one
+of those collaborations where you just run your software for somebody and you
+are made an author (which is what your astrophysicist is talking about). Note
+that the code that is not shared is probably of worse quality and less useful
+than code that is already shared (because there was no random assignment of
+sharing/not sharing decisions).
+
+And this is not even talking about one of the biggest risk of sharing code:
+that people will find out you made a mistake.
 
 How do we handle a collective action problem? We can have the state pass a law
 that everyone must share. This will probably not happen (first of all, there is
@@ -48,14 +64,15 @@ research). Interestingly, all of these authorities act based on peer-review and
 feedback. This is an ingrained part of the culture. Therefore, whatever the
 community consensus is, it will get filtered through.
 
-Therefore, if the community consensus is that not sharing is not cool,
-decisions will be made in that direction.
+Therefore, if the community consensus is that keeping code private is
+prejudicial to the whole scientific enterprise, decisions will be made that
+start to pressure people into sharing.
 
 If you are evaluating a paper (as editor or peer-reviewer), you can ask about
 the code (or even just praise the authors that do release code, implying that
 that makes you more supportive of publication; in certain marginal decisions,
-it should make the difference between publication and rejection). By the way,
-be hard on authors who do not cite the software they use.
+it should make the difference between publication and rejection). Or be hard on
+authors who do not cite the software they use.
 
 The same is true of grant evaluations: do the authors mention what will happen
 to the code? Particularly in a public funding setting, you are representing the
@@ -72,6 +89,8 @@ researcher for not sharing code (but if you are an external evaluator, you can
 consider this in evaluating whether that person has made a contribution that is
 valued by the whole community).
 
-Until we align private and public incentives, I think that denying that this
-tension exists by claiming that it really is in your interest to share will
-fail. It will fail because it is not true.
+Until we align private and public incentives, we will have sub-optimal results
+for society. I think that denying that there is a tension between public and
+private interests by claiming that it really is in your selfish interest to
+share will fail. It will fail because it is not true.
+
