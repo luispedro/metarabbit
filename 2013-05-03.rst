@@ -1,11 +1,14 @@
 title: First Post
 --
 
-Following Titus advice (belatedly, I am no longer a student, but a postdoc), I
-started a new research blog. You are reading it.
+Following Titus `advice
+<http://ivory.idyll.org/blog/advice-to-graduate-students.html>`__ (rather late,
+I am no longer a student, but a postdoc), I started a new research blog:
+`http://metarabbit.wordpress.com`__ (you're reading it now).
 
-I plan to publish at least three times a week and I have set up a beeminder for
-it, so I'm serious. I plan to post
+I plan to publish at least three times a week and I have `set up a beeminder <https://www.beeminder.com/luispedro/goals/metarabbit>`__ for
+it, so I'm serious (if you don't know about beeminder, check it out). I plan to
+post:
 
 1.  Reviews of papers I read and liked. This is the easiest because if I've
     read the paper and thought about it, the extra effort of writing a couple
@@ -29,8 +32,8 @@ I write relevant posts.
 
 *
 
-I used to blog a lot about politics, but I grew tired of it (it's too much like
-sports teams). I am now writing a book about my political views. Once that's
+I used to blog a lot about politics, but I grew tired of it (`politics is the mind killer <http://lesswrong.com/lw/gw/politics_is_the_mindkiller/>`__)
+sports teams). I am now `writing a book about my political ideas <http://luispedro.org/projects/libertarian-welfare>`__. Once that's
 done, I will no longer need to talk about politics. It will be in the book.
 
 But I still need to talk about science because I still think science is
