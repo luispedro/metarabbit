@@ -107,3 +107,8 @@ to doing so, namely the loss of competitive advantage just disappears: if
 everybody does something, there can be no competitive advantage to doing/not
 doing so.
 
+Thus, we can separate the two issues: (1) is it good for science (and the
+taxpayers paying the bills) that researchers share code? where I think the
+answer is more clearly positive from (2) is it good for individual researchers
+in competition to share code? where I think the answer is negative.
+
