@@ -1,0 +1,62 @@
+title: Paper: Probabilistic Inference of Biochemical Reactions in Microbial Communities from Metagenomic Sequences
+--
+
+**Paper**: *Probabilistic Inference of Biochemical Reactions in Microbial
+Communities from Metagenomic Sequences* by Dazhi Jiao, Yuzhen Ye, and Haixu
+Tang
+
+This is a recent paper in Plos CompBio which looks at the following problem:
+
+1. Metagenomics gives us many genes, which map to enzymes.
+2. Those enzyme can be mapped (by KEGG) to reactions, but these assignments are ambiguous.
+3. Can we obtain a consensus interaction network?
+
+The authors approach the problem probabilisticly by computing, for each
+possible interaction network, a probability. Their model is based on the notion
+that real interaction networks probably have fewer metabolites than all
+possible combinations. From the paper (my emphasis):
+
+    However, if the product of a gene is annotated to catalyze multiple
+    reactions, some of these reactions may be excluded from the sampled
+    subnetwork, as long as at least one of these reactions is included. We note
+    that, according to this condition, each sampled subnetwork represents a
+    putative reconstruction of the collective metabolic network of the
+    metagenome, among which **we assume the subnetworks containing fewer
+    metabolites are more likely to represent the actual metabolism of the
+    microbial community than the ones containing more metabolites.**
+
+From this idea, using standard `MCMC <>`__ they are able to assign to each
+reaction a probability that it is part of a community.
+
+They validate their method using clustering. They show that using their
+probability assignments results in better separation of samples that relying on
+naïve assignments of all enzymes to all possible reactions (See Figure 2 in the
+paper). The result is nice and clean.
+
+They also suggest that they are able to extract differentially present
+reactions better than the baseline methods. Unfortunately, due to the lack of a
+validated result, it is really impossible to know whether they just got more
+false positives. I do not really know how to do it better, though.
+
+However, it is good to be able to even talk of differentially expressed
+reactions instead of just genes or orthologous groups.
+
+*
+
+In global, the authors present an interesting formulation of a hard problem. I
+always like the idea of handling uncertainty probabilistically. 
+
+This is the sort of paper that opens up a bunch of interesting ideas and makes
+you wish that the next steps had been taken:
+
+- Can they handle uncertainty in the basic gene assignments?
+- Or KEGG annotations?
+
+Currently, they assume that all enzymes are actually present and perform one of
+the functions listed, but neither of these statements is always true.
+
+Another area where their method could be taken is whether to move up from
+computing marginal probabilities of single reactions and into computing small
+subnetworks. I hope that the authors will explore some of these questions and
+present us with some follow up work in the near future.
+
