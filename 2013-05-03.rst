@@ -4,7 +4,7 @@ title: First Post
 Following Titus `advice
 <http://ivory.idyll.org/blog/advice-to-graduate-students.html>`__ (rather late,
 I am no longer a student, but a postdoc), I started a new research blog:
-`http://metarabbit.wordpress.com`__ (you're reading it now).
+`http://metarabbit.wordpress.com <http://metarabbit.wordpress.com>`__ (you're reading it now).
 
 I plan to publish at least three times a week and I have `set up a beeminder <https://www.beeminder.com/luispedro/goals/metarabbit>`__ for
 it, so I'm serious (if you don't know about beeminder, check it out). I plan to
