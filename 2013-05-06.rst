@@ -12,7 +12,8 @@ sharing made the following remarks:
     most researchers act when their own code becomes the subject
     of the discussion.
 
-On Hacker News, a working astrophysicist voiced his concerns:
+On `Hacker News <https://news.ycombinator.com/item?id=5611702>`__, a working
+astrophysicist voiced his concerns:
 
     For me, as an "experimentalist" (read, data-analyst), I also maintain job
     attractiveness by having sets of code that no one else has.
