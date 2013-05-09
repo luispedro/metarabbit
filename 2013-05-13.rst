@@ -1,0 +1,36 @@
+title: A few interesting statistical facts
+--
+
+1. This one has gotten a lot of press recently, so it's not so new; so bear
+with me if you've heard before:
+
+For almost everyone, **your friends have more friends than you do.**
+
+It remains true if instead of friends you substitute most other types of
+contacts: most of the people you follow on twitter have more followers than you
+do.
+
+(The fact that most of your sexual partners had more sexual partners than you
+had is another reason to practice safe sex.)
+
+2. I don't know if this one has a name, but it's about full busses: most people
+ride in busses that are fuller than average.
+
+Let's say that there are two types of bus: 25% of busses are completely full,
+the other 75% are empty (except for the driver). Then, riders will always
+experience full busses even if most busses are empty. This is true even if only
+1% of busses are full, but the 25% number is a bit closer to reality. During
+rush hour, half the busses are very full (those going into town in the morning;
+out of town in the evening), even though the typical bus is pretty empty.
+
+It comes up in other contexts, of course: *restaurants are on average emptier
+than is experience by the typical patron.* It can even have public policy
+implications: the expensive publicly-funded football stadium is less used than
+the typical visitor experiences.
+
+*
+
+What both of these have in common is that they remind us that it is a mistake
+to generalize too much from our own experience in a way that comes from the
+structure of reality and observation.
+

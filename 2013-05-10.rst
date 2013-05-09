@@ -1,0 +1,28 @@
+title: Why I develop open-source scientific software?
+
+In my previous post, I argued that it is not in your own personal interest to
+release scientific code. I argued that it is *in society's interest*, but
+selfishly, you should not do it.
+
+Now, you could accuse me of being a hypocrite.* I was writing open-source code
+before I started doing science and I initially saw research as some of a
+continuation of the same ethos.
+
+*
+
+I once tweeted that the *main reason that many scientists don't share their
+code is that they are embarrassed by it*.
+
+This was a tweet and it was written in a way targetted to that medium and my
+twitter persona is always *ah ah, only serious* (half joking, half serious).
+
+What was not clear behind my
+
+Look at my public code: it is well tested, well documented, reviewed,
+discussed. I wish my private code was always like that, but it is not. which is
+why I try to make as much of my research code public as 
+
+
+* This is a very modern form of hypocrisy, whereby we behave altruistically
+while professing to be selfish.
+
