@@ -1,8 +1,10 @@
 title: Why I develop open-source scientific software?
 
-In my previous post, I argued that it is not in your own personal interest to
-release scientific code. I argued that it is *in society's interest*, but
-selfishly, you should not do it.
+In my previous `post about scientific software
+<https://metarabbit.wordpress.com/2013/05/06/people-are-right-not-to-share-scientific-code/>`__,
+I argued that it is not in your own personal interest to release scientific
+code. I argued that it is *in society's interest*, but selfishly, you should
+not do it.
 
 Now, you could accuse me of being a hypocrite (This would be a very modern form
 of hypocrisy, whereby we behave altruistically while professing to be selfish.)
@@ -44,14 +46,16 @@ What I did not make clear at the time was that I was also talking about myself.
 
 **Releasing code is a commitment mechanism to make myself write better code.**
 
-Look at my `public code <https://github.com/luispedro>`__: it is `well tested,
-`well documented <http://mahotas.readthedocs.org/en/latest/>`__, `reviewed
+Look at my `public code <https://github.com/luispedro>`__: it is `well tested
+<https://travis-ci.org/luispedro/mahotas>`__, `well documented
+<http://mahotas.readthedocs.org/en/latest/>`__, `reviewed
 <https://github.com/luispedro/mahotas/issues?page=1&state=closed>`__,
 `discussed
 <https://groups.google.com/forum/?fromgroups#!forum/pythonvision>`__.
 
-I wish my private code was always like that, but it is not. This is
-why I try to make as much of my research code public as possible.
+I wish my private code was always like that, but it is not; it is of lower
+quality. This is why I try to make as much of my research code public as
+possible.
 
 1.  When I release new release of the code and in less than 24 hours I get a
     bug report on something silly, it is more than slightly embarrassing.
