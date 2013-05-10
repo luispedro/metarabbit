@@ -28,9 +28,16 @@ than is experience by the typical patron.* It can even have public policy
 implications: the expensive publicly-funded football stadium is less used than
 the typical visitor experiences.
 
+3. (This one is true in Europe): Most families only have a single child, but
+most children have siblings.
+
+This is a variation on the one above. Let's say 2/3 of families have 1 child,
+and 1/3 of families have more than 1. Then, most of the children are coming
+from that 1/3 of families and they'll have siblings.
+
 *
 
-What both of these have in common is that they remind us that it is a mistake
+What all of these have in common is that they remind us that it is a mistake
 to generalize too much from our own experience in a way that comes from the
 structure of reality and observation.
 
