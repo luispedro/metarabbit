@@ -41,7 +41,7 @@ Larger families are  over-represented in the next cohort (in a country with a
 1.2~1.3 birthrate, a family of 5 is four times over represented in the younger
 cohort).
 
-*
+¶
 
 What all of these have in common is that *the fact that you are an observer
 makes you biased*. They also remind us that it is a mistake to generalize too
