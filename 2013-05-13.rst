@@ -13,8 +13,9 @@ do.
 (The fact that most of your sexual partners had more sexual partners than you
 had is another reason to practice safe sex.)
 
-2. I don't know if this one has a name, but it's about full busses: most people
-ride in busses that are fuller than average.
+2. I don't know if this one has a name, but it's about full busses, so we can
+call it *the bus paradox*: most people ride in busses that are fuller than
+average.
 
 Let's say that there are two types of bus: 25% of busses are completely full,
 the other 75% are empty (except for the driver). Then, riders will always
@@ -31,18 +32,19 @@ the typical visitor experiences.
 3. (This one is true in some countries in Europe): Most families only have a
 single child, but most children have siblings.
 
-This is a variation on the one above. Let's say 66% of families have 1 child,
-and 34% of families have more than 1. Then, most of the children are coming
-from that 34% of families with many children (at least 68%, probably more) and
-they'll have siblings.
+This is a variation on the bus paradox above. Let's say 66% of families have 1
+child, and 34% of families have more than 1. Then, most of the children are
+coming from that 34% of families with many children (at least 68%, probably
+more) and they'll have siblings.
 
-And larger families are completely over-represented in the next cohort (in a
-country with a 1.2 birthrate, a family of 5 is four times over represented in
-the younger cohort).
+Larger families are  over-represented in the next cohort (in a country with a
+1.2~1.3 birthrate, a family of 5 is four times over represented in the younger
+cohort).
 
 *
 
-What all of these have in common is that they remind us that it is a mistake
-to generalize too much from our own experience as the fact that we are
-observing something can itself be a confounding effect.
+What all of these have in common is that *the fact that you are an observer
+makes you biased*. They also remind us that it is a mistake to generalize too
+much from our own experience as the fact that we are observing something can
+itself be a confounding effect.
 
