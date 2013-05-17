@@ -37,21 +37,48 @@ point to note is that the tasks are all independent.
 You can run ``jug execute`` on the command line and jug will start executing
 tasks::
 
-    jug execute --verbose=info &
+    jug execute &
 
 The nice thing is that it is fine to run multiple of these at the same time::
 
-    jug execute --verbose=info &
-    jug execute --verbose=info &
-    jug execute --verbose=info &
-    jug execute --verbose=info &
+    jug execute &
+    jug execute &
+    jug execute &
+    jug execute &
 
-They will all execute in parallel, 
+They will all execute in parallel. We can use ``jug status`` to check what is
+happening::
+
+    jug status
+
+Which prints out::
+
+    Task name                                    Waiting       Ready    Finished     Running
+    ----------------------------------------------------------------------------------------
+    primes.is_prime                                    0          74          20           5
+    ........................................................................................
+    Total:                                             0          74          20           5
+
+
+74 ``is_prime`` tasks are still in the *Ready* state, 5 are currently running
+(which is what we expected, right?) and 20 are done.
+
+Wait a little bit and check again::
+
+    Task name                                    Waiting       Ready    Finished     Running
+    ----------------------------------------------------------------------------------------
+    primes.is_prime                                    0           0          99           0
+    ........................................................................................
+    Total:                                             0           0          99           0
+
+Now every task is finished. If we now run ``jug execute``, it will do nothing,
+because there is nothing for it to do!
 
 §
 
 The introduction above has a severe flaw: this is not how you should compute
-all primes smaller than 100. On Monday, I will post a more realistic example.
+all primes smaller than 100. Also, I have not shown how to get the prime
+values. On Monday, I will post a more realistic example.
 
 It will also include a processing pipeline where later tasks depend on the
 results of earlier tasks.
