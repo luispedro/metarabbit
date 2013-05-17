@@ -1,73 +1,58 @@
-The Folk Theorem of Statistical Computing
+Jug: Pro
 
-Andrew Gelman calls this the `folk theorem of statistical computing
-<http://andrewgelman.com/2008/05/13/the_folk_theore/>`__:
+Next Tuesday, I'm giving a short talk on `Jug
+<http://luispedro.org/software/jug>`__ for the `Heidelberg Python Meetup
+<http://www.meetup.com/HeidelbergPython/events/114607062/>`__.
 
-    When you have computational problems, often there’s a problem with your
-    model.
 
-(This is not a folk theorem per se, as it is not a theorem; but the name stuck.[#]_)
+If you miss it, you can hear it in Berlin at the `BOSC2013
+<http://www.open-bio.org/wiki/BOSC_2013>`__ (Bioinformatics Open Source
+Conference) in July. I will take this opportunity to write a couple of posts
+about jug.
 
-There is an interesting corollary:
+Jug is a cross between the venerable ``make`` and Python. In Make tradition,
+you write a ``jugfile.py``. Perhaps, this is best illustrated by an example.
 
-    When you are performing parameter selection using cross-validation or a
-    similar blind procedure, **the bad parameter choices take longer than the
-    good ones**!
+We are going to implement the dumb algorithm for finding all primes under 100.
+We write a function to check whether a number is prime::
 
-This reminds me of the advertising quip (typically attributed to `John
-Wanamaker <http://www.quotationspage.com/quotes/John_Wanamaker/>`__) that *Half
-the money I spend on advertising is wasted; the trouble is I don't know which
-half*, except it is even worse: **most** of my computation is wasted; the
-trouble is I don't know which bits.
+    def is_prime(n):
+        from time import sleep
+        # Sleep a little bit so that this does not run ridiculously fast
+        sleep(1.)
+        for j in xrange(2,n-1):
+            if (n % j) == 0:
+                return False
+        return True
 
-Of course, you can reply: *if I knew the right parameters, then you would not
-need to find them in the first place*. Still, understanding that your
-computation is most wasted in the really bad cases can be actionable.
+Then we build *tasks* out of this function::
 
-Here is an example from machine learning: if you are using a support vector
-machine based system, you will often need to fit two parameters:
+    from jug import Task
+    primes100 = [Task(is_prime, n) for n in range(2,101))
 
-1. The SVM penalty $C$.
-2. The kernel parameter (in the case of radial basis functions, the width
-   $\sigma$).
+Each of these tasks is of the form *call ``is_prime`` with argument ``n``*. So
+far, we have only built the tasks, nothing has been executed. One important
+point to note is that the tasks are all independent.
 
-A simple solution is to try a grid of these parameters::
+You can run ``jug execute`` on the command line and jug will start executing
+tasks::
 
-    for c in [2**(-2), 2**(-1), 2**0,...]:
-        for s in [2**(-2), 2**(-1), 2**0,...]:
-            use cross validation to evaluate using c & s
-    pick best one
+    jug execute --verbose=info &
 
-There is a fair share of wasted computation. For example, let's say you have a
-parameter choice that is so awful it gives you 100% error rate and another
-which is so good it gives you 0% error. If you are lucky and you check the good
-combination first, you can abort the bad parameter choices early: the first
-time you see an error, you know it will never be as good.
+The nice thing is that it is fine to run multiple of these at the same time::
 
-This leads to the following algorithm::
+    jug execute --verbose=info &
+    jug execute --verbose=info &
+    jug execute --verbose=info &
+    jug execute --verbose=info &
 
-    error = { param -> 0 for all parameters }
-    forever:
-        next_param = parameter with less error which has not run all folds
-        run crossvalidation fold on next_param
-        error[next_param] += error on this fold
+They will all execute in parallel, 
 
-        if error[ best_completed_parameter_value ] is minimum error:
-            return best_completed_parameter_value
+§
 
-This aborts as early as possible with the best error.
+The introduction above has a severe flaw: this is not how you should compute
+all primes smaller than 100. On Monday, I will post a more realistic example.
 
-This is implemented in my `machine learning package
-<http://luispedro.org/software/milk>`__ (`github link
-<http://github.com/luispedro/milk`__) by default.
-
-Testing it on ``murphylab_slf7dna`` (with a bit of hacking of the internals to
-print statistics), we see that this algorithm only runs 57% of cross validation
-loops. Because the bad parameter choices are slower, we get an extra speed-up
-and it only takes 49% of the time of running all the iterations.
-
-.. [#] A really interesting question is whether you can formalise and prove it.
-   A good model will often be one that has a nice little "fitness" peak, which
-   is also easy to fit. Likelihood functions with local optima all over the
-   place or ill-conditioned may correspond to worse models.
+It will also include a processing pipeline where later tasks depend on the
+results of earlier tasks.
 
