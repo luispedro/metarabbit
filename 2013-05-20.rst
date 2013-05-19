@@ -1,0 +1,70 @@
+Jug:
+
+On Friday, `I posted an introduction tot Jug
+<https://metarabbit.wordpress.com/2013/05/17/introduction-to-jug-parallel-tasks-in-python/>`__.
+The usage was very basic, however. This is a slightly more advanced usage.
+
+Let us imagine you are trying to compare two image segmentation algorithms
+based on human-segmented images. This is a completely real-world example as it
+`was one of the projects where I first used jug
+<https://github.com/luispedro/segmentation>`__ [#]_.
+
+Here is a Python file for this::
+
+    import mahotas as mh
+    from jug import TaskGenerator
+
+    @TaskGenerator
+    def method1(image):
+        image = mh.imread(image)
+        binimage = (image > image.mean())
+        labeled, _ = mh.label(binimage)
+        return labeled
+
+    @TaskGenerator
+    def method2(image):
+        image = mh.imread(image)
+        image  = mh.gaussian_filter(image, 4)
+        binimage = (image > mh.otsu(image))
+        labeled, _ = mh.label(binimage)
+        return labeled
+
+    @TaskGenerator
+    def compare(labeled, ref):
+        from milk.measures.cluster_agreement import rand_arand_jaccard
+        ref = mh.imread(ref)
+        return rand_arand_jaccard(labeled.ravel(), ref.ravel())[1]
+
+    @TaskGenerator
+    def print_results(results):
+        import numpy as np
+        r1, r2 = np.mean(results, 0)
+        with open('output.txt') as out:
+            out.write('Result method1: {}\nResult method2: {}'.format(r1,r2))
+
+    inputs = glob('input/*.jpg')
+    results = []
+    for im in inputs:
+        m1 = method1(im)
+        m2 = method2(im)
+        ref = im.replace('input','reference')
+        v1 = compare(m1, ref)
+        v2 = compare(m2, ref)
+        results.append( (v1,v2) )
+    print_results(results)
+        
+§
+
+**Reminder**
+
+Tomorrow, I'm giving a short talk on `Jug
+<http://luispedro.org/software/jug>`__ for the `Heidelberg Python Meetup
+<http://www.meetup.com/HeidelbergPython/events/114607062/>`__.
+
+If you miss it, you can hear it in Berlin at the `BOSC2013
+<http://www.open-bio.org/wiki/BOSC_2013>`__ (Bioinformatics Open Source
+Conference) in July (19 or 20).
+
+.. [#] The code in that repository still uses a pretty old version of jug, this
+   was 2009, after all.
+
