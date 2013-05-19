@@ -87,13 +87,23 @@ We can call::
 
 to get 4 processes going at once.
 
+§
+
+Note also the line::
+
+    print_results(results)
+
+``results`` is a list of ``Task`` objects. This is *how you define a
+dependency*. Jug picks up that to call ``print_results``, it needs all the
+``results`` values and behaves accordingly.
+
+Easy as Py.
 
 §
 
-You can get the full script above as a `gist
-<https://gist.github.com/luispedro/5608622>`__ or `get it bundled with the data here
-<http://luispedro.org/files/talks/2013/jug-presentation.tar.gz>`__.
-        
+You can get the full script above including data `from github
+<https://github.com/luispedro/jug-presentations/tree/master/jug-segmentation-tutorial>`__
+
 §
 
 **Reminder**
