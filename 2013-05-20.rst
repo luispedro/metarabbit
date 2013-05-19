@@ -9,25 +9,39 @@ based on human-segmented images. This is a completely real-world example as it
 `was one of the projects where I first used jug
 <https://github.com/luispedro/segmentation>`__ [#]_.
 
-Here is a Python file for this::
+We are going to build this up piece by piece.
+
+First a few imports::
 
     import mahotas as mh
     from jug import TaskGenerator
+    from glob import glob
+
+Here, we test two thresholding-based segmentation method, called ``method1`` and
+``method2``. They both (i) read the image, (ii) blur it with a Gaussian, and
+(iii) threshold it [#]_::
 
     @TaskGenerator
     def method1(image):
-        image = mh.imread(image)
+        # Read the image
+        image = mh.imread(image)[:,:,0]
+        image  = mh.gaussian_filter(image, 2)
         binimage = (image > image.mean())
         labeled, _ = mh.label(binimage)
         return labeled
 
     @TaskGenerator
     def method2(image):
-        image = mh.imread(image)
+        image = mh.imread(image)[:,:,0]
         image  = mh.gaussian_filter(image, 4)
+        image = mh.stretch(image)
         binimage = (image > mh.otsu(image))
         labeled, _ = mh.label(binimage)
         return labeled
+
+
+We need a way to compare these. We will use the `Adjusted Rand Index
+<http://en.wikipedia.org/wiki/Rand_index>`__ [#]_::
 
     @TaskGenerator
     def compare(labeled, ref):
@@ -35,23 +49,50 @@ Here is a Python file for this::
         ref = mh.imread(ref)
         return rand_arand_jaccard(labeled.ravel(), ref.ravel())[1]
 
+Running over all the images **looks exactly like Python**::
+
+    results = []
+    for im in glob('images/*.jpg'):
+        m1 = method1(im)
+        m2 = method2(im)
+        ref = im.replace('images','references').replace('jpg','png')
+        v1 = compare(m1, ref)
+        v2 = compare(m2, ref)
+        results.append( (v1,v2) )
+
+But how do we get the results out?
+
+A simple solution is to write a function which writes to an output file::
+
     @TaskGenerator
     def print_results(results):
         import numpy as np
         r1, r2 = np.mean(results, 0)
-        with open('output.txt') as out:
-            out.write('Result method1: {}\nResult method2: {}'.format(r1,r2))
-
-    inputs = glob('input/*.jpg')
-    results = []
-    for im in inputs:
-        m1 = method1(im)
-        m2 = method2(im)
-        ref = im.replace('input','reference')
-        v1 = compare(m1, ref)
-        v2 = compare(m2, ref)
-        results.append( (v1,v2) )
+        with open('output.txt', 'w') as out:
+            out.write('Result method1: {}\nResult method2: {}\n'.format(r1,r2))
     print_results(results)
+
+§
+
+**Except for the ``TaskGenerator`` this would be a pure Python file!**
+
+With ``TaskGenerator``, we get jugginess!
+
+We can call::
+
+    jug execute &
+    jug execute &
+    jug execute &
+    jug execute &
+
+to get 4 processes going at once.
+
+
+§
+
+You can get the full script above as a `gist
+<https://gist.github.com/luispedro/5608622>`__ or `get it bundled with the data here
+<http://luispedro.org/files/talks/2013/jug-presentation.tar.gz>`__.
         
 §
 
@@ -66,5 +107,12 @@ If you miss it, you can hear it in Berlin at the `BOSC2013
 Conference) in July (19 or 20).
 
 .. [#] The code in that repository still uses a pretty old version of jug, this
-   was 2009, after all.
+   was 2009, after all. ``TaskGenerator`` had not been invented yet.
+
+.. [#] This is for demonstration purposes; the paper had better methods, of
+   course.
+
+.. [#] Again, you can do better than Adjusted Rand, as we show in the paper;
+   but **this is a demo**. This way, we can just call a function in `milk
+   <http://luispedro.org/software/milk>`__
 
