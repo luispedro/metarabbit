@@ -1,0 +1,37 @@
+A couple of things I noticed lately that relate to a few of my posts/ideas.
+
+§ One
+
+.. raw:: html
+
+    <blockquote class="twitter-tweet"><p>Many "scientists should do x" conversations need to be reframed as"the culture of science needs to support x."</p>&mdash; Jacquelyn Gill (@JacquelynGill) <a href="https://twitter.com/JacquelynGill/status/335011282715541504">May 16, 2013</a></blockquote>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+This is a very nice way to phrase what I wrote about `collective action
+problems in sharing code
+<http://metarabbit.wordpress.com/2013/05/06/people-are-right-not-to-share-scientific-code/>`__
+
+§ Two
+
+First of all, a really cool thing, Thomas J. Webb `commented on his own paper
+with a blog update
+<http://www.plosone.org/annotation/listThread.action?inReplyTo=65961&root=65961>`__.
+
+In the `blog post
+<http://www.scilogs.com/mola_mola/the-big-blue-bit-in-the-middle-still-big-still-blue/>`__,
+he writes (emphasis is mine):
+
+    With some trepidation, I opened up the file of R code I'd used for the original
+    analysis. And got a pleasant surprise: it was readable! Largely this was
+    because **I submitted it as an appendix to our paper, and so had taken more care
+    than usual to annotate it carefully.** I think this demonstrates an
+    under-apprecaiated virtue of sharing data and code: in preparing it such that
+    it is comprehensible to others, it becomes much more useful to your future
+    self. This point is nicely made in a `new paper
+    <https://peerj.com/preprints/7/>`__ by Ethan White and colleagues on making
+    using and reusing data easier.
+
+Exactly: `sharing code makes you write better code <http://metarabbit.wordpress.com/2013/05/10/why-i-develop-open-source-scientific-software/>`__.
+
+(hat tip to `@mattjhodgkinson <https://twitter.com/mattjhodgkinson>`__ on twitter).
+
