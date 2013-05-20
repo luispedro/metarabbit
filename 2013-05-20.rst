@@ -1,6 +1,6 @@
 Jug:
 
-On Friday, `I posted an introduction tot Jug
+On Friday, `I posted an introduction to Jug
 <https://metarabbit.wordpress.com/2013/05/17/introduction-to-jug-parallel-tasks-in-python/>`__.
 The usage was very basic, however. This is a slightly more advanced usage.
 
