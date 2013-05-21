@@ -1,4 +1,4 @@
-The Folk Theorem of Statistical Computing
+Parameter Optimization and Early Exit
 
 Andrew Gelman calls this the `folk theorem of statistical computing
 <http://andrewgelman.com/2008/05/13/the_folk_theore/>`__:
@@ -17,12 +17,11 @@ There is an interesting corollary:
 This reminds me of the advertising quip (typically attributed to `John
 Wanamaker <http://www.quotationspage.com/quotes/John_Wanamaker/>`__) that *Half
 the money I spend on advertising is wasted; the trouble is I don't know which
-half*, except it is even worse: **most** of my computation is wasted; the
-trouble is I don't know which bits.
+half*.
 
 Of course, you can reply: *if I knew the right parameters, then you would not
 need to find them in the first place*. Still, understanding that your
-computation is most wasted in the really bad cases can be actionable.
+computation is slower in the really bad cases can be actionable.
 
 Here is an example from machine learning: if you are using a support vector
 machine based system, you will often need to fit two parameters:
@@ -61,10 +60,15 @@ This is implemented in my `machine learning package
 <http://luispedro.org/software/milk>`__ (`github link
 <http://github.com/luispedro/milk`__) by default.
 
-Testing it on ``murphylab_slf7dna`` (with a bit of hacking of the internals to
-print statistics), we see that this algorithm only runs 57% of cross validation
-loops. Because the bad parameter choices are slower, we get an extra speed-up
-and it only takes 49% of the time of running all the iterations.
+I tested it on ``murphylab_slf7dna`` (with a bit of hacking of the internals to
+print statistics &c). I see that fitting with the right parameters takes 650ms
+(after preprocessing). We check a total of 48 parameter values. So we might
+expect that to take 0.65 * 48 = 31s. Since bad parameters take longer, it
+actually takes 48s (50% longer).
+
+Using the early exit trick, it takes it down to 24s. This is half the time of
+running the full grid. This despite the fact that slightly more than the full
+grid was run: 57%.
 
 .. [#] A really interesting question is whether you can formalise and prove it.
    A good model will often be one that has a nice little "fitness" peak, which
