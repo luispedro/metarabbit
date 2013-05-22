@@ -1,0 +1,70 @@
+Paper Review: **Distributed 3D image segmentation using micro-labor workforce**
+
+    DP2: Distributed 3D image segmentation using micro-labor workforce Richard
+    J.  Giuly, Keun-Young Kim and Mark H. Ellisman. `Bioinformatics
+    <http://bioinformatics.oxfordjournals.org/content/29/10/1359.abstract>`__
+    `doi: 10.1093/bioinformatics/btt154
+    <http://dx.doi.org/10.1093/bioinformatics/btt154>`__
+
+I just love this paper. It is just at that intersection of quirky and serious
+which makes you laugh while being dead serious (I admit that it only *makes you
+laugh* if you have a very particular sense of humour).
+
+The quirky aspect is the following: they authors solve complex
+three-dimensional image segmentation problems by using a Amazon Mechanical
+Turk crowd of untrained workers to do it! They do so by reducing the problem to
+a serious of simple yes/no questions that can be understood by people without
+any background in neurology.
+
+The serious aspect is that it seems that **it actually works**. It gives good
+segmentations without resorting to highly-paid experts or very fancy
+algorithms.
+
+§
+
+One of the main results that has come out of `bioimage informatics <>`__ that
+surprises `computer vision <>`__ people and biologists is the following:
+
+**Computers can be better than people at bioimage informatics**
+
+We (humans) are excellent at face recognition (a task we evolved to do and grew
+up doing), which is why computer vision researchers who work on this sort of
+problem tend to revere the human visual systems. However, we just cannot
+recognize the endoplasmic reticulum. Seriouly, people are really bad at
+recognising the ER in fluorescent microscopy images.  And, by people, I mean
+trained cell biologists.
+
+We can read this paper in the context in the context of the general discussion
+of human/computer partnerships. What `can humans do for the computer <>`__ and
+vice-versa?
+
+§
+
+I have now gone off on a tangent, but the paper does present a fairly typical
+image processing pipeline:
+
+1.  Add Gaussian blur to images
+2.  Over-segment into super pixels
+3.  Merge superpixels into segmentations by performing repeated queries of the
+    form:
+
+Q: *Should region A and region B be merged together?*
+
+This is all very standard except that ``Q`` **is performed by humans**. In
+fact, what I think is the main contribution of this paper: *Q is performed by
+non-experts*. And it works.
+
+It's briliant!
+
+§
+
+The thing I do wonder is why this was an Application paper instead of a
+Research paper. It presents what I think is an interesting new perspective,
+which seems more valuable than the software (which, by the way, is not even
+open-source; which limits its worth as well). This also meant that the authors
+only had two pages in which to expose their methods.
+
+I would have loved to read more results and discussion. I half-suspect that
+this was not the authors' choice and can only hope that the increasing
+digitalization of research publications removes these page limitations.
+
