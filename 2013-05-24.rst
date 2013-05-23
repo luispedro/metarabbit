@@ -12,9 +12,10 @@ laugh* if you have a very particular sense of humour).
 
 The quirky aspect is the following: they authors solve complex
 three-dimensional image segmentation problems by using a Amazon Mechanical
-Turk crowd of untrained workers to do it! They do so by reducing the problem to
-a serious of simple yes/no questions that can be understood by people without
-any background in neurology.
+Turk crowd of untrained workers to do it!
+
+They do so by reducing the problem to a serious of simple yes/no questions that
+can be understood by people without any background in neurology.
 
 The serious aspect is that it seems that **it actually works**. It gives good
 segmentations without resorting to highly-paid experts or very fancy
@@ -30,13 +31,12 @@ surprises `computer vision <>`__ people and biologists is the following:
 We (humans) are excellent at face recognition (a task we evolved to do and grew
 up doing), which is why computer vision researchers who work on this sort of
 problem tend to revere the human visual systems. However, we just cannot
-recognize the endoplasmic reticulum. Seriouly, people are really bad at
-recognising the ER in fluorescent microscopy images.  And, by people, I mean
-trained cell biologists.
+recognize the endoplasmic reticulum. Even trained cell biologists are really
+not that good at recognising the ER in fluorescent microscopy image.
 
-We can read this paper in the context in the context of the general discussion
-of human/computer partnerships. What `can humans do for the computer <>`__ and
-vice-versa?
+We can perhaps read this paper in the context in the context of the general
+discussion of human/computer partnerships. What `can humans do for the computer
+<>`__ and vice-versa?
 
 §
 
@@ -52,7 +52,8 @@ Q: *Should region A and region B be merged together?*
 
 This is all very standard except that ``Q`` **is performed by humans**. In
 fact, what I think is the main contribution of this paper: *Q is performed by
-non-experts*. And it works.
+non-experts*. And it works. By dumbing it down for the human, the computer
+actually ends up doing well.
 
 It's briliant!
 
