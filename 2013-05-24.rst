@@ -23,8 +23,10 @@ algorithms.
 
 §
 
-One of the main results that has come out of `bioimage informatics <>`__ that
-surprises `computer vision <>`__ people and biologists is the following:
+One of the main results that has come out of `bioimage informatics
+<http://en.wikipedia.org/wiki/Bioimage_informatics>`__ that surprises `computer
+vision <http://en.wikipedia.org/wiki/Computer_vision>`__ people and biologists
+is the following:
 
 **Computers can be better than people at bioimage informatics**
 
@@ -36,7 +38,7 @@ not that good at recognising the ER in fluorescent microscopy image.
 
 We can perhaps read this paper in the context in the context of the general
 discussion of human/computer partnerships. What `can humans do for the computer
-<>`__ and vice-versa?
+<http://en.wikipedia.org/wiki/Human_computation>`__ and vice-versa?
 
 §
 
