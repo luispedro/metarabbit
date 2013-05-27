@@ -6,8 +6,8 @@ The vision for 2014 is off by at least 10 years, but compelling.
 
 It is even worse when you realise that most of the time we are still reviewing
 these god-awful things in "manuscript format" where the reference are 10 pages
-down and the figures are on separate pages &c. *We pay the cost of formatting
-for submission and do not even get most of the benefits*.
+down and the figures are split off from the captions &c. *We pay the cost of
+formatting for submission and do not even get most of the benefits*.
 
 By the way, kudos to `PeerJ on this matter <https://peerj.com/about/author-instructions/>`__:
 
@@ -19,8 +19,8 @@ By the way, kudos to `PeerJ on this matter <https://peerj.com/about/author-instr
 
 2. `Want women in science, pay postdocs more <http://incubator.rockefeller.edu/?p=1256>`__
 
-This is a probably wrong, but interesting, argument.  (Also, as a male postdoc,
-I'm all for the *pay postdocs more*.)
+This is a probably wrong, but interesting, argument.  (But, as a male postdoc,
+I'm all for the **pay postdocs more**.)
 
 3. `Euphemisms for non-significant <http://mchankins.wordpress.com/2013/04/21/still-not-significant-2/>`__
 
@@ -32,4 +32,11 @@ It's probably not true, but you just found such a good story that you don't
 want to check before publishing.
 
 Bioinformaticians should start talking about stories that are *too good to
-debug*. The Mad Scientist posts about `exactly such stories <http://jasonya.com/wp/job-opening-worst-critic-better-fill-it-for-yourself-otherwise-someone-else-will/>`__
+debug*. The Mad Scientist posts about `exactly such stories
+<http://jasonya.com/wp/job-opening-worst-critic-better-fill-it-for-yourself-otherwise-someone-else-will/>`__
+
+5. `Are All Dictator Game Results Artifacts? <http://www.epjournal.net/blog/2013/05/are-all-dictator-game-results-artifacts/>`__
+
+The answer is *maybe*.
+
+
