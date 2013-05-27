@@ -8,7 +8,10 @@ I got a new paper published:
 
 This is about my computer vision software package, `mahotas
 <http://github.com/luispedro/mahotas>`__. It started as a way to do `bioimage
-informatics <>`__, but the sotware is more general than that
+informatics <http://en.wikipedia.org/wiki/Bioimage_informatics>`__, but the
+sotware is actually generic to computer vision.
+
+The tutorial I posted earlier on image segmentation used mahotas.
 
 The journal calls these *metapapers* in that they are not the work but a
 reference to the work, i.e., the software. This is an interesting new
@@ -20,3 +23,9 @@ researcher. I also wrote that it would be a good idea to change the incentives
 to make it more profitable to do the right thing. The Journal of Open Research
 Software is exactly one such step.
 
+It has already been used in a few publications, both by myself and others:
+
+- 
+- 
+- 
+- 
