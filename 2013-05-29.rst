@@ -6,7 +6,7 @@ Andrew Gelman calls this the `folk theorem of statistical computing
     When you have computational problems, often there’s a problem with your
     model.
 
-(This is not a folk theorem per se, as it is not a theorem; but the name stuck.[#]_)
+(This is not a folk theorem per se, as it is not a theorem; but the name stuck. [#]_)
 
 There is an interesting corollary:
 
@@ -22,6 +22,8 @@ half*.
 Of course, you can reply: *if I knew the right parameters, then you would not
 need to find them in the first place*. Still, understanding that your
 computation is slower in the really bad cases can be actionable.
+
+§
 
 Here is an example from machine learning: if you are using a support vector
 machine based system, you will often need to fit two parameters:
@@ -56,9 +58,11 @@ This leads to the following algorithm::
 
 This aborts as early as possible with the best error.
 
+§
+
 This is implemented in my `machine learning package
 <http://luispedro.org/software/milk>`__ (`github link
-<http://github.com/luispedro/milk`__) by default.
+<http://github.com/luispedro/milk>`__) by default.
 
 I tested it on ``murphylab_slf7dna`` (with a bit of hacking of the internals to
 print statistics &c). I see that fitting with the right parameters takes 650ms
@@ -73,5 +77,6 @@ grid was run: 57%.
 .. [#] A really interesting question is whether you can formalise and prove it.
    A good model will often be one that has a nice little "fitness" peak, which
    is also easy to fit. Likelihood functions with local optima all over the
-   place or ill-conditioned may correspond to worse models.
+   place or ill-conditioned may correspond to worse models. There may be a
+   proof hiding in here.
 
