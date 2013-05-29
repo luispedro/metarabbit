@@ -1,0 +1,44 @@
+I wrote a book. Well, only in part, Willi Richert and I wrote a book.
+
+It is called Building Machine Learning Systems With Python and is now available
+from Amazon (or Amazon.co.uk), although it has already been partially available
+directly from the publisher.
+
+§
+
+The book is an introduction to using machine learning in Python.
+
+We mostly rely on scikit-learn, which is the most complete package for machine
+learning in Python. I do prefer my own code for my own projects, but `milk
+<>`__ is not as complete. It has stuff that scikit-learn does not (and stuff
+they have, correctly, appropriated).
+
+The approach is tutorial-like, without much math but code examples. We do
+emphacise correct evaluation of the results. In fact, we repeatedly warn
+against mixing up your training and testing data. This simple principle is,
+unfortunately, still often disrespected in scientific publications. [#]_
+
+§
+
+There is an aspect that I really enjoyed about this whole process:
+
+Before starting the book, I had already submitted two papers, neither of which
+is out already (even though, after some revisions, they are in *accepted*
+state). In the meanwhile, the book has been written, edited (only a few minor
+issues are still pending) and people have been able to buy parts of it for a
+few months now.
+
+I have now a renewed confidence in the choice to stay in science (also because
+I moved from a place where things are completely absurd to a place where the
+work very well). But the delay in publications that is common in the life
+sciences is an emotional drag.
+
+.. [#] It is rare to see somebody just report training accuracy and claim their
+   algorithm does well. However, performing feature selection or parameter
+   tuning on the whole data prior to cross-validating on the selected features
+   with the tuned parameters is pretty common still today. This leads to
+   inflated results all around. One of the problems of doing things correctly
+   is that reviewers of your work will then say "but so-and-so got better
+   results" even if so-and-so did it incorrectly (yes, I've had this happen,
+   multiple times); but that is a rant for another day.
+
