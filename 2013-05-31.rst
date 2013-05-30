@@ -1,8 +1,13 @@
 I wrote a book. Well, only in part, Willi Richert and I wrote a book.
 
 It is called Building Machine Learning Systems With Python and is now available
-from Amazon (or Amazon.co.uk), although it has already been partially available
-directly from the publisher.
+from `Amazon
+<http://www.amazon.com/Building-Machine-Learning-Systems-Python/dp/1782161406/ref=sr_1_1?s=books&ie=UTF8&qid=1369909229&sr=1-1>`__
+(or `Amazon.co.uk <http://www.amazon.co.uk/dp/1782161406>`__), although it has
+already been partially available directly
+`from the publisher
+<http://www.packtpub.com/building-machine-learning-systems-with-python/book>`__
+for a while (in a form where you get chapters as editing is finished).
 
 §
 
@@ -10,8 +15,8 @@ The book is an introduction to using machine learning in Python.
 
 We mostly rely on scikit-learn, which is the most complete package for machine
 learning in Python. I do prefer my own code for my own projects, but `milk
-<>`__ is not as complete. It has stuff that scikit-learn does not (and stuff
-they have, correctly, appropriated).
+<http://luispedro.org/software/milk>`__ is not as complete. It has stuff that
+scikit-learn does not (and stuff they have, correctly, appropriated).
 
 The approach is tutorial-like, without much math but code examples. We do
 emphacise correct evaluation of the results. In fact, we repeatedly warn
