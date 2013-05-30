@@ -18,10 +18,37 @@ learning in Python. I do prefer my own code for my own projects, but `milk
 <http://luispedro.org/software/milk>`__ is not as complete. It has stuff that
 scikit-learn does not (and stuff they have, correctly, appropriated).
 
-The approach is tutorial-like, without much math but code examples. We do
-emphacise correct evaluation of the results. In fact, we repeatedly warn
-against mixing up your training and testing data. This simple principle is,
-unfortunately, still often disrespected in scientific publications. [#]_
+We try to cover all the major modes in machine learning and, in particular,
+have:
+
+1. classification
+2. regression
+3. clustering
+4. dimensionality reduction
+5. topic modeling
+
+and also, towards the end, three more applied chapters:
+
+1. classification of music
+2. pattern recognition in images
+3. using `jug <http://metarabbit.wordpress.com/tag/python-jug/>`__ for parallel
+   processing (including in the cloud).
+
+§
+
+The approach is tutorial-like, without much math but lots of code examples.
+
+This should get people started and will be more than enough if the problem is
+easy (and there are still many easy problems out there). With good features
+(which are problem-specific, anyway) knowing how to run an `SVM
+<http://en.wikipedia.org/wiki/Support_vector_machine>`__ will very often be
+enough.
+
+Lest you fear we are giving people enough just enough knowledge to be
+dangerous, we emphacise correct evaluation of the results throughout the book.
+We warn repeatedly against mixing up your training and testing data. This
+simple principle is, unfortunately, still often disregarded in scientific
+publications. [#]_
 
 §
 
@@ -36,14 +63,18 @@ few months now.
 I have now a renewed confidence in the choice to stay in science (also because
 I moved from a place where things are completely absurd to a place where the
 work very well). But the delay in publications that is common in the life
-sciences is an emotional drag.
+sciences is an emotional drag. In some cases, the bulk of the work was finished
+a few years before the paper is finally out.
 
 .. [#] It is rare to see somebody just report training accuracy and claim their
-   algorithm does well. However, performing feature selection or parameter
-   tuning on the whole data prior to cross-validating on the selected features
-   with the tuned parameters is pretty common still today. This leads to
-   inflated results all around. One of the problems of doing things correctly
-   is that reviewers of your work will then say "but so-and-so got better
-   results" even if so-and-so did it incorrectly (yes, I've had this happen,
-   multiple times); but that is a rant for another day.
+   algorithm does well. In fact, I have never seen it in a recent paper.
+   However, performing feature selection or parameter tuning on the whole data
+   prior to cross-validating on the selected features with the tuned parameters
+   is pretty common still today (there are other sins of evaluation too: "we
+   used multiple parameters and report the best"). This leads to inflated
+   results all around. One of the problems is that, if you do things correctly
+   in this environmnet, you risk that reviewers of your work will say "looks
+   great, but so-and-so got better results" because so-and-so tuned on the
+   testing set and seems to have "beaten" you. (Yes, I've had this happen,
+   multiple times; but that is a rant for another day.)
 
