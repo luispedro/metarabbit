@@ -1,0 +1,16 @@
+Due to popular demand (at least two people asked, surely that's demand), here
+is a generalization of `Monday's work
+<http://metarabbit.wordpress.com/2013/06/03/how-long-does-plos-one-take-to-accept-a-paper/>`__
+to include a few more PLoS journals.  (This was mostly because it was easier to
+generalize my scripts to process process any PLoS journal.)
+
+Here are the images for all PLoS journals. PLoS 1 at the end is the same figure
+I posted on Monday.
+
+**For PLoS journals, it seems that the average acceptance time is 5 months.**
+
+PLoS Medicine is the journal that takes the longest to review, PLoS One is the
+fastest (although some of the papers may have been reviewed in another PLoS
+journal before, speeding up the process).
+
+
