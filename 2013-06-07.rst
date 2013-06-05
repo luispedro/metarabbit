@@ -1,0 +1,15 @@
+Some Links
+
+1. A wonderful `explanation of Bergman divergences
+<http://mark.reid.name/blog/meet-the-bregman-divergences.html>`__. I also
+learned that cool result of Banerjee & Gou.
+
+2. I liked `The Enduring Myth of the SPARQL Endpoint
+<http://daverog.wordpress.com/2013/06/04/the-enduring-myth-of-the-sparql-endpoint/>`__.
+This reminded of `Titus' remark` that *scaling is the only CS problem that
+still matters*.
+
+Money quote: *There is a reason there are no 'SQL Endpoints'.*
+
+
+
