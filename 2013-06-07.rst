@@ -13,5 +13,29 @@ Money quote: *There is a reason there are no 'SQL Endpoints'.*
 
 3. `Why proxy measures fail
 <http://mathbabe.org/2013/06/04/how-proxies-fail/>`__: this applies to Journal
-Impact Factor, but will also apply to altmetrics.
+Impact Factor, but will also apply to altmetrics. In fact, we can read it as
+arguing that *metrics that are not widely used look better than metrics that
+are widely used*. But it is fallacious to expect that proposed metrics will not
+go through the same process.
+
+4. President of the AAAS `faked her PhD
+<http://www.bostonglobe.com/metro/2013/06/03/leader-cambridge-prestigious-academy-arts-and-sciences-inflated-resume-falsely-claiming-doctorate/kWvnF95OTkI0HCVvBHe9XJ/story.html>`__.
+
+5. `This battle will eventually reach biology
+<http://egtheory.wordpress.com/2013/06/05/prediction-vs-understanding/>`__.
+(This is a much better exposition of the problem than Chomsky's rants, by the
+way).
+
+I think it will be a while before we can just predict any biological behaviour
+that is interesting, though.
+
+However, how soon before somebody claims that
+
+    Every time I fire a biologist, the performance of our biological
+    predictior goes up.
+
+Is the `curious task of machine learning is to demonstrate to men how little
+they really know about what they imagine they can study
+<http://en.wikiquote.org/wiki/Friedrich_Hayek>`__?
+
 
