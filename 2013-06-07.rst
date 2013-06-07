@@ -6,7 +6,7 @@ learned that cool result of Banerjee & Gou.
 
 2. I liked `The Enduring Myth of the SPARQL Endpoint
 <http://daverog.wordpress.com/2013/06/04/the-enduring-myth-of-the-sparql-endpoint/>`__.
-This reminded of `Titus' remark` that *scaling is the only CS problem that
+This reminded of Titus Brown' remark that *scaling is the only CS problem that
 still matters*.
 
 Money quote: *There is a reason there are no 'SQL Endpoints'.*
@@ -23,16 +23,16 @@ go through the same process.
 
 5. `This battle will eventually reach biology
 <http://egtheory.wordpress.com/2013/06/05/prediction-vs-understanding/>`__.
-(This is a much better exposition of the problem than Chomsky's rants, by the
-way).
+(This is a much better exposition of the anti-ML position than Chomsky's rants,
+by the way).
 
 I think it will be a while before we can just predict any biological behaviour
 that is interesting, though.
 
 However, how soon before somebody claims that
 
-    Every time I fire a biologist, the performance of our biological
-    predictior goes up.
+    Every time I fire a biologist, the performance of our systems biology model
+    goes up.
 
 Is the `curious task of machine learning is to demonstrate to men how little
 they really know about what they imagine they can study
