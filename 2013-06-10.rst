@@ -1,0 +1,41 @@
+Paper Review: Dual Host-Virus Arms Races Shape an Essential Housekeeping Protein
+
+    Dual Host-Virus Arms Races Shape an Essential Housekeeping Protein by Ann
+    Demogines, Jonathan Abraham, Hyeryun Choe, Michael Farzan, and Sara L.
+    Sawyer. PLoS Biol 11(5): e1001571. doi:`10.1371/journal.pbio.1001571
+    <http://doi.dx.org/10.1371/journal.pbio.1001571>`__
+
+This paper is not really related to my research, but I always enjoy a good cell
+biology story. My review is thus mostly a retelling of what I think were the
+highlights of the story.
+
+    In wild rodent populations, the retrovirus MMTV and New World arenaviruses
+    both exploit Transferrin Receptor 1 (TfR1) to enter the cells of their
+    hosts. Here we show that the physical interactions between these viruses
+    and TfR1 have triggered evolutionary arms race dynamics that have directly
+    modified the sequence of TfR1 and at least one of the viruses involved. 
+
+What is most interesting is that TfR1 is a housekeeping gene involved in iron
+uptaking, which is essential for survival. Thus, it is probably highly
+constrained in its defensive evolution as even a small loss of function can be
+deleterious for the host.
+
+The authors looked at the specific residues which seem to mutate rapidly in
+rodent species and they map to known virus/protein contact regions (which are
+known from X-ray crystallography).
+
+Interestingly, the same evolutionary patterns are visible in rodent species
+*for which no known virus use this entry point*. However (and this is cool) we
+can find *viral fossils* in the genome of these rodents (i.e., we can parts of
+the viral sequence in the genome, which indicate that somewhere in the
+evolutionary past of these animals, a retrovirus integrated into the genome).
+
+§
+
+This process also explains why some viruses infect some species and not others:
+divergent evolution of the virus itself to catch up with the defensive
+evolution of different hosts makes them unable to infect across species. Thus,
+whenever the host mutates, it forces the virus gene to make an awkward choice:
+does it want to chase the new host surface and specialize to this species or
+let this species go as a possible target?
+
