@@ -1,0 +1,40 @@
+What is a Gene?
+
+I think the `GenBank file spec
+<http://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html>`__ gets the definition
+just right:
+
+    gene: A region of biological interest identified as a gene and for which a
+    name has been assigned.
+
+That's basically it. If people call it a gene, it's a gene.
+
+§
+
+They could be meaning:
+
+- a region in the genome that gets transcripted (or translated; but are introns part of it?)
+- the nucleotide or amino-acid code in those regions
+- the "reference" nucleotide code that is expected in that region
+- the homologs of that (or othologs or paralogs or purposefullly remaining fuzzy because it's hard to say what's what)
+- the regions of genome that cluster together across different organisms
+- a higher level concept that groups several proteins together through inferred orthology
+- (or perhaps even convergent evolution)
+- ...
+
+In many discussions, gene is a good word to `rationalist taboo
+<http://wiki.lesswrong.com/wiki/Rationalist_taboo>`__. It clears up many
+mistakes when people are obliged to say what they mean by this tricky word.
+
+
+§
+
+Another good word to taboo is *species* when the organisms are bacteria
+
+To even use the same word as we have for animals is probably a mistake. We need
+a word for "bacteria whose rRNA clusters together in nucleotide space" without
+all of the baggage of *species*.
+
+And so we would replace a veneral biological concept with a computational
+definition: progress!
+
