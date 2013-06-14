@@ -1,0 +1,71 @@
+1. `False Positives from Next-Generation Sequencing <http://massgenomics.org/2013/06/ngs-false-positives.html>`__
+
+2. `What I look for in software papers <http://carlboettiger.info/2013/06/13/what-I-look-for-in-software-papers.html>`__
+
+    I [frequently review] *software papers* which I define as publications
+    whose primary purpose is to publicize a piece of scientific software and
+    provide a traditional research product with hopes that it will receive
+    citations and recognition from other researchers in grant and job reviews.
+    To me **this feels very much like hacking the publication recognition
+    system rather than the ideal way to recognize and track the role of
+    software in research communities, but a very practical one in the current
+    climate**.
+
+3. `On the organic movement and charlatanism <http://kfolta.blogspot.de/2013/06/unintended-collateral-damage.html>`__
+
+Unfortunately, charlatanism sells. When I was last in Portugal, I was
+disappointed to find out that one of the organic stores I would to patronize
+for their premium produce and such had gone over to mostly selling `small
+bottles of holy water at $1000/gallon
+<http://en.wikipedia.org/wiki/Homeopathy>`__ and "natural pills". Their
+salespeople went from scruffy to dressing in white coats.
+
+4. I read `Mind and Cosmos: Why the Materialist Neo-Darwinian Conception of
+Nature Is Almost Certainly False
+<http://www.amazon.com/gp/product/0199919755/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0199919755&linkCode=as2&tag=mutualinform-20>`__
+by Thomas Nagel.
+
+Someone wrote about `What Money Can't Buy
+<http://www.amazon.com/gp/product/0374203032/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0374203032&linkCode=as2&tag=mutualinform-20>`__
+that it *was wrong, but wrong in a way that many people are wrong. Therefore,
+it is a useful contribution to articulate exactly that argument.* [#]_ In fact he writes:
+
+    I would like to defend the untutored reaction of incredulity of the
+    reductionist neo-Darwinian account of the origin and evolution of life.
+
+For example, here he is again:
+
+    In the available geological time since the first life forms appeared on
+    earth, what is the likelihoo that, as a result of physical accident, a
+    sequence of viable genetic mutations should have occurred that was
+    sufficient to permit natural selection to produce the organisms that
+    actually exist?
+
+In the conclusion he calls neo-Darwinism *a heroic triumph of ideological
+theory over common sense.*
+
+Perhaps it is the task of philosophy (which we may as well call *the science of
+the gaps*) to articulate common sense. But the celebration of ignorance that is
+behind these claims is a bit silly.
+
+5. Here is `a good comment on the book
+<http://philosophyofbrains.com/2013/03/29/nagels-mind-and-cosmos.aspx>`__. I
+think this is very much in line with *if you care about winning, belittle your
+opponents arguments; if you care about truth, you improve their arguments for
+them* (I think this was originally a Milton Friedman quote).
+
+Neo-Darwinism perfectly explains why there are `zombies
+<http://en.wikipedia.org/wiki/Philosophical_zombie>`__. Once you have RNA,
+zombies are just a matter of time. To explain conscienceness is a harder
+problem.
+
+.. [#] Of course, they are wrong in different ways. Michael Sandel is perhaps
+   *morally wrong* in that his ideas cause a lot of unnecessary suffering and
+   death (although, in another moral conception, those deaths are necessary and
+   just—this is not something we can decide scientifically by looking at the
+   world, but morally by deciding whether it is better that we preserve
+   *purity* in some conception or that we avoid the *deaths of others*). Or he
+   is *philosophically wrong* in that his ideas are contradictory.  On the
+   other hand, Thomas Nagel is *scientifically wrong*.
+
+
