@@ -1,4 +1,4 @@
-`The vast majority of statistical analysis is not performed by statisticians
+1. `The vast majority of statistical analysis is not performed by statisticians
 <http://simplystatistics.org/2013/06/14/the-vast-majority-of-statistical-analysis-is-not-performed-by-statisticians/>`__
 
 Let me fish out one paragraph:
@@ -19,4 +19,35 @@ Let me fish out one paragraph:
 What really jumps at me is how close the values were between the 1967
 experiment (with so few datapoints, immensily biased: they only took the ones
 that got there!) and the 2007 version (whose conclusion is actually **6.6**).
+
+2. `Odds ratio vs. risk ratio <http://understandinguncertainty.org/how-can-2-become-20>`__
+
+Scientists being misleading, tabloids being misled.
+
+I assume that the author's question of "why is this still allowed?" is
+rhethorical. His analysis answers the question: if we only allowed honest
+reporting in epidemiology, epidemiological papers would be much less
+interesting to the tabloids.
+
+3. A bit old, but interesting: `Peer reviews on PLoS One paper take reviews public
+<http://www.plosone.org/article/comments/info:doi%2F10.1371%2Fjournal.pone.0064967>`__
+
+4. Speaking of scientists (particularly public health "scientists") behaving
+badly: one of my top scientific peeves is the over-selling of weak results in
+public health, especially in nutrition. I think this is more damaging to the
+cause of evidence based policy than almost any anti-science group. Many people
+will say things like "I don't trust scientists: first it was don't eat olive
+oil, now olive oil is good. No peanuts, yes to peanuts, now no to peanuts
+again; science is just whatever is fashionable, really." [#]_
+
+So, I was happy to see `Nature telling a Harvard Medical School nutricionist to
+shut up
+<http://www.forbes.com/sites/trevorbutterworth/2013/05/27/top-science-journal-rebukes-harvards-top-nutritionist/>`__
+and stop mangling the science for "public benefit".
+
+.. [#] One really good comment from a non-scientist friend: "until I met you
+   and your scientist friends, I was mostly exposed to science through news
+   reports of the sort of studies that now I realise all the other scientists
+   sneer at." We need to sneer more. (Yes, I have non-scientist friends; who'd
+   have known?)
 
