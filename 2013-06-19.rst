@@ -1,0 +1,85 @@
+Paper Review: Unsupervised Clustering of Subcellular Protein Expression
+Patterns in High-Throughput Microscopy Images Reveals Protein Complexes and
+Functional Relationships between Proteins
+
+This is an excellent paper that came out in PlOS CB last week. The authors
+present a high-throughput analysis of yeast fluorescent microscopy images of
+tagged proteins.
+
+Figure 8, panel B (doi:10.1371/journal.pcbi.1003085.g008) shows a few examples
+of what they mean
+
+
+.. image:: http://www.ploscompbiol.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1003085.g008&representation=PNG_M
+    :alt: Figure 8
+
+One interesting aspect is that they work in a dynamic aspects only from
+snapshots. I was previously involved in a similar project (ref. 18 in the
+paper [#]_) and so I was happy to see others working in similar fashion.
+
+By leveraging the bud size as a marker of cell stage, they can build dynamic
+protein profiles and cluster these. This avoids the need for either (i)
+chemical synchronization [which has other side-effects in the cell] or (ii)
+movie acquisition [which besides taking longer, itself damages the cells
+through `photoxicity <http://en.wikipedia.org/wiki/Phototoxicity>`__].
+
+In all of the examples above, you can see a change in protein distribution as
+the bud grows.
+
+§
+
+They perform an unsupervised analysis of their data, noting that
+
+    Unsupervised analysis also has the advantage that it is unbiased by prior
+    ‘expert’ knowledge, such as the arbitrary discretization of protein
+    expression patterns into easily recognizable classes.
+
+Part of my research goals is to move beyond supervised/unsupervised into mixed
+models (take the supervision, but take it with a grain of salt). However, now
+we are talking about their paper, which was purely unsupervised.
+
+§
+
+The authors are Bayesian about their estimates in a very interesting way.
+
+They evaluate their segmentations against training data, which gives them a
+confidence measure:
+
+    Our confidence measure allows us to distinguish correctly identified cells
+    from artifacts and misidentified objects, without specifying what the
+    nature of artifacts might be.
+
+This is because their measure is a density estimate derived from training based
+on features of the shape. Now, comes the nice Bayesian point:
+    
+    This allows us to **weight probabilistically** data points according to the
+    posterior probability. For classes of cells where our model does not fit as
+    well, such as very early non-ellipsoidal buds, we expect to downweight all
+    the data points, but we can still include information from these data
+    points in our analysis. This is in contrast to the situation where we used
+    a hard threshold to exclude artifacts.
+
+    (emphasis mine)
+
+
+§
+
+Unlike the authors, I do not tend to care so much about *interpretable*
+features in my work. However, it is interesting that such a small number
+(seven) of features got such good results.
+
+There is more in the paper which I did not mention here: the image processing
+pipeline (which is fairly standard if you're familar with the field, but this
+unglamorous aspect of the business is where you always spend a lot of time); 
+
+§
+
+One of my goals is to raise the profile of `Bioimage Informatics
+<http://en.wikipedia.org/wiki/Bioimage_informatics>`__, so I will try to have
+more papers in this field on the blog.
+
+
+.. [#] We worked on mammalian cells, not budding yeast. Their cell cycles are
+   very different and the methods that work in one do not necessarily work in
+   the other.
+
