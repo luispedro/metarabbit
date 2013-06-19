@@ -2,13 +2,12 @@ Paper Review: Unsupervised Clustering of Subcellular Protein Expression
 Patterns in High-Throughput Microscopy Images Reveals Protein Complexes and
 Functional Relationships between Proteins
 
-This is an excellent paper that came out in PlOS CB last week. The authors
+This is an excellent paper that came out in PLoS CompBio last week. The authors
 present a high-throughput analysis of yeast fluorescent microscopy images of
 tagged proteins.
 
 Figure 8, panel B (doi:10.1371/journal.pcbi.1003085.g008) shows a few examples
-of what they mean
-
+of the data
 
 .. image:: http://www.ploscompbiol.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1003085.g008&representation=PNG_M
     :alt: Figure 8
@@ -16,6 +15,10 @@ of what they mean
 One interesting aspect is that they work in a dynamic aspects only from
 snapshots. I was previously involved in a similar project (ref. 18 in the
 paper [#]_) and so I was happy to see others working in similar fashion.
+
+Budding yeast, as the name says, buds. A mother cell will create a new bud,
+that bud will grow and eventually it will split off and become a new daughter
+cell.
 
 By leveraging the bud size as a marker of cell stage, they can build dynamic
 protein profiles and cluster these. This avoids the need for either (i)
@@ -35,14 +38,16 @@ They perform an unsupervised analysis of their data, noting that
     expression patterns into easily recognizable classes.
 
 Part of my research goals is to move beyond supervised/unsupervised into mixed
-models (take the supervision, but take it with a grain of salt). However, now
-we are talking about their paper, which was purely unsupervised.
+models (take the supervision, but take it with a grain of salt). However, this
+is not yet something that we can do with current machine learning technologies.
+
+The clusters are obtained are found to group together functionally similar
+genes (details in the paper).
 
 §
 
-The authors are Bayesian about their estimates in a very interesting way.
-
-They evaluate their segmentations against training data, which gives them a
+The authors are Bayesian about their estimates in a very interesting way. They
+evaluate their segmentations against training data, which gives them a
 confidence measure:
 
     Our confidence measure allows us to distinguish correctly identified cells
