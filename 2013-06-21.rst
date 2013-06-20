@@ -51,3 +51,13 @@ and stop mangling the science for "public benefit".
    sneer at." We need to sneer more. (Yes, I have non-scientist friends; who'd
    have known?)
 
+5. `Please stop putting the figures at the end of the manuscript
+<http://corticalia.wordpress.com/2013/04/17/letter-to-editor/>`__
+
+I have never heard anyone defend the current system of figures at the end of
+the manuscript (except on *that's the way it always was* grounds).
+
+Computers & networks normally have a two step impact on systems: (1) reproduce
+the old paper based procedures in digital form, and (2) reshape the procedures
+to be native. Science publishing is still stuck on step 1.
+
