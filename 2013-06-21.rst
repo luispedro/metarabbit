@@ -45,12 +45,6 @@ shut up
 <http://www.forbes.com/sites/trevorbutterworth/2013/05/27/top-science-journal-rebukes-harvards-top-nutritionist/>`__
 and stop mangling the science for "public benefit".
 
-.. [#] One really good comment from a non-scientist friend: "until I met you
-   and your scientist friends, I was mostly exposed to science through news
-   reports of the sort of studies that now I realise all the other scientists
-   sneer at." We need to sneer more. (Yes, I have non-scientist friends; who'd
-   have known?)
-
 5. `Please stop putting the figures at the end of the manuscript
 <http://corticalia.wordpress.com/2013/04/17/letter-to-editor/>`__
 
@@ -60,4 +54,10 @@ the manuscript (except on *that's the way it always was* grounds).
 Computers & networks normally have a two step impact on systems: (1) reproduce
 the old paper based procedures in digital form, and (2) reshape the procedures
 to be native. Science publishing is still stuck on step 1.
+
+.. [#] One really good comment from a non-scientist friend: "until I met you
+   and your scientist friends, I was mostly exposed to science through news
+   reports of the sort of studies that now I realise all the other scientists
+   sneer at." We need to sneer more. (Yes, I have non-scientist friends; who'd
+   have known?)
 
