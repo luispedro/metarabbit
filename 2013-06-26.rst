@@ -1,0 +1,45 @@
+    A certain minority needs to learn to write, but it is silly to think that
+    this will be of interest to the majority of the population. Do you expect
+    them to write for a living? How many writers can society employ? What would
+    their job prospects be? And, in any case, it is far from proven that the
+    illiterate classes even want to learn to write.
+    The current *teach everyone
+    to write* movement is a fad.
+
+I am pretty sure I could find some 19th century conservative writing something
+like the above.
+
+Consider this version:
+
+    A certain minority needs to learn to write **code**, but it is silly to
+    think that this will be of interest to the majority of the population. Do
+    you expect them to write **software** for a living? How many **coders**
+    can society employ? What would their job prospects be? And, in any case, it
+    is far from proven that the illiterate classes even want to learn to write.
+    The current *teach everyone to **code** * movement is a fad.
+
+§
+
+We do not teach people to read & write so they can be writers!
+
+We should not teach people to read & write code so they can be coders!
+
+§
+
+Imagine living in the modern world without being able to read. Sure, you could
+get by (people do, even in the richest countries), but you would never really
+understand what's going on. You are a foreigner.
+
+§
+
+Computer code is all around us, computer networks envelop us.
+
+If you live your life without knowing how computers work, you are missing out,
+you are excluded from the conversation, you deal with a world in which you are
+a foreigner.
+
+§
+
+Learning how to code is not vocational, it's liberal arts: part of the general
+education which is necessary to deal with the world.
+
