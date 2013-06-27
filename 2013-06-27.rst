@@ -1,0 +1,28 @@
+Yesterday, I argued that `computer programming should be part of basic
+instruction
+<http://metarabbit.wordpress.com/2013/06/26/computer-programming-as-liberal-arts/>`__.
+
+Today, I'll talk about a particular group of people who **need** to learn to
+programme: scientists, even lab scientists.
+
+Personally, one of the great draws of moving away from academia into industry
+(the good industry places, at least) is to be able to use decent tools. **Code
+sharing is a solved problem** (the solution is `version control
+<https://en.wikipedia.org/wiki/Revision_control>`__). CVS was released in 1986.
+That's almost 30 years ago. In academia, use of this type of tool is not (yet?)
+widespread.
+
+§
+
+In this context, I have (for a long time now) been putting my effort where my
+mouth is and created a course called `Programming for Scientists
+<http://luispedro.org/projects/pfs>`__, which I have taught a couple of times.
+
+Last week, at EMBL, I helped teach a course on Python. This was done on a tight
+schedule and still we were overwhelmed with demand (we sold out in about 24
+after a single email announcement).
+
+`Software Carpentry <http://software-carpentry.org/>`__ is another great
+project to teach scientists about programming and computer usage.
+
+
