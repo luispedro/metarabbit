@@ -1,5 +1,6 @@
 1. This month's issue of `The Atlantic <http://www.theatlantic.com/>`__ could
-be a Friday Links of its own as it is heavy on *science vs ignorance themes*:
+be a *Friday Links* of its own as it is heavy on *science vs ignorance themes*
+
 Many `fertility and age "facts" are based on outdated science
 <http://www.theatlantic.com/magazine/archive/2013/07/how-long-can-you-wait-to-have-a-baby/309374/>`__
 and a `fantastic defense of processed foods (against the likes Michael Pollan)
@@ -51,4 +52,5 @@ and B is psychotherapy? We `should recognize that neither psychotherapy nor
 meidcation have the efficacy that we would like to obtain from them in treating
 depression
 <http://blogs.plos.org/mindthebrain/2013/06/25/is-psychotherapy-for-depression-any-better-than-a-sugar-pill/>`__
+
 
