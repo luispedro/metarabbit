@@ -11,7 +11,9 @@ This is about my computer vision software package, `mahotas
 informatics <http://en.wikipedia.org/wiki/Bioimage_informatics>`__, but the
 sotware is actually generic to computer vision.
 
-The tutorial I posted earlier on image segmentation used mahotas.
+Earlier, I posted a `tutorial on image segmentation
+<https://metarabbit.wordpress.com/2013/05/20/segmenting-images-in-parallel-with-python-jug/>`__
+which used mahotas.
 
 The journal calls these *metapapers* in that they are not the work but a
 reference to the work, i.e., the software. This is an interesting new
