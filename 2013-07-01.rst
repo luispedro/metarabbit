@@ -1,8 +1,24 @@
 Public Service Announcement
 
-If you have ever done this::
+Intro if you don't know non-bioinformatics: FASTA is a text format to store
+nucleotide sequences like this::
 
-    grep -c '^>' big_file.fa | wc -l
+    > headers start with ">"
+    actatatatatatata
+    > next header
+    atttata
+
+In this case, "actatatatatatata" is the first sequence and "atttata" is the
+next one.
+
+§
+
+Often you want to count the number of sequences in a a file. Given the
+text-based format, you can just use ``grep``.
+
+However, if you have ever done this::
+
+    grep -c '^>' big_file.fa
 
 or (even better because ``grep`` can count)::
 
@@ -65,4 +81,8 @@ wonderful thing, but grep is slow in handling it and we do not need it here.
 
 More information `on 503 Service Unavailable
 <http://rg03.wordpress.com/2009/09/09/gnu-grep-is-slow-on-utf-8/>`__
+
+.. [#] It is faster to do ``grep '>' big_file.fa``, but who knows `if someone
+   didn't sneak a > into a header
+   <http://keithbradnam.com/blog/2013/6/25/the-fasta-file-format-a-showcase-for-the-best-and-worst-of-b.html>`__
 
