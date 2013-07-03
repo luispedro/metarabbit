@@ -1,0 +1,77 @@
+.. raw:: html
+
+   <span class="Z3988"
+   title="ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.jtitle=Bioinformatics&rft_id=info%3Adoi%2F10.1093%2Fbioinformatics%2Fbtt207&rfr_id=info%3Asid%2Fresearchblogging.org&rft.atitle=FuncISH%3A+learning+a+functional+representation+of+neural+ISH+images&rft.issn=&rft.date=2013&rft.volume=&rft.issue=&rft.spage=&rft.epage=&rft.artnum=&rft.au=Noa+Liscovitch&rft.au=Uri+Shalit&rft.au=Gal+Chechik&rfe_dat=bpr3.included=1;bpr3.tags=Biology%2CComputer+Science+%2F+Engineering%2CNeuroscience%2CBioinformatics%2C+Computational+Biology%2C+Systems+Biology%2C+Biomedical+Engineering%2C+Artificial+Intelligence%2C+Computational+Neuroscience">Noa
+   Liscovitch, Uri Shalit, & Gal Chechik (2013). FuncISH: learning a functional
+   representation of neural ISH images <span style="font-style:
+   italic;">Bioinformatics</span> DOI: <a rev="review"
+   href="http://dx.doi.org/10.1093/bioinformatics/btt207">10.1093/bioinformatics/btt207</a></span>
+
+This is part of the `ISMB 2013 <http://www.iscb.org/ismbeccb2013>`__
+Proceedings series, which I am interested in as I'll be going to Berlin and is
+a *Bioimage Informatics* paper, which I'm keen to cover.
+
+The authors are analysing in-situ hybridization (ISH) images from the Allen
+Brain Atlas. Figure 1 in the paper shows an example:
+
+.. image:: ISH_Fig1.png
+    :alt: Figure 1 in the paper
+
+
+**Results**
+
+The authors use the images an input for a functional classifier. The input to
+this classifier is an image and the output are functional GO terms. At least a
+confidence level for each GO term in the vocabulary.
+
+You can read the details in Section 3.1, but the system works to predict at
+least some functional categories. This is very interesting and I hope that the
+authors (or others) will pick up on the specific biology that is being
+predicted here and see if it can be used further. [#]_
+
+**Methodology**
+
+I was very interested in the methods and the details, as the authors used SIFT
+and a bag-of-words approach. I have a paper coming out showing that
+`SURF+bag-of-words works very well for subcellular determination
+<http://luispedro.org/projects/gen-classification>`__. This paper provides
+additional evidence that this family of techniques works well in bioimage
+analysis, even if the problem areas are different.
+
+They do make an interesting a few interesting remarks which I'll highlight here:
+
+    Although their name suggest differently, SIFT descriptors at several scales
+    capture different types of patterns.
+
+The original SIFT were developed for natural image matching where the scale is
+unknown and may even vary within the same image (if a person is standing
+close-by and another one is far away, they will be at different scales).
+However, this is not the case with bioimage analysis.
+
+§
+
+    Interestingly, the four visual words with the highest contribution to
+    classification were the words counting the zero descriptors in each scale.
+    This means that the highest information content lies in ‘least informative’
+    descriptors, and that overall expression levels (‘sparseness’ of
+    expression) are important factors in functional prediction of genes based
+    on their spatial expression.
+
+This is interesting, although an alternative hypothesis is that the null
+descriptors capture a very different type of information. Since there are only
+4 of them, these capture all this content. The other 2000 words are often
+highly correlated. Thus, they have high information content per group. Because
+of the penalized regression (in L2), the weight is spread around the correlated
+values.
+
+§
+
+Finally, I agree with this statement:
+
+    Combining local and global patterns of expression is, therefore, an
+    important topic for further research.
+
+.. [#] Unfortunately, my understanding of neuroscience does not go much beyond
+   *if I drink too much coffee, I get a headache**. So, I cannot comment on
+   whether these predictions make much sense.
+
