@@ -23,3 +23,13 @@ idea
 This is what being a good scientist is.
 
 
+4. From a post about the `IMF & Academia <http://www.themoneyillusion.com/?p=22081>`__:
+
+    Just as Canadians know much more about the US, than Americans know about
+    Canada, bloggers know much more about academia than academics know about
+    the blogosphere. 
+
+As with the previous link, my purpose here is to about the scientific aspect,
+not the politics.
+
+
