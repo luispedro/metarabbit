@@ -5,6 +5,11 @@ It talk about `my upcoming book
 <http://metarabbit.wordpress.com/2013/05/31/building-machine-learning-systems-with-python/>`__,
 Portugal and EMBL.
 
+It is in Portuguese, but I translated (semi-manually: first google translate,
+then fixed it) some sections, which I thought could be interesting:
+
+I discussed motivation in general:
+
     I think that the ability to self-motivate will become an increasingly important
     factor for success. I speak not only of professional success, but also some
     personal satisfaction (how many times you hear "I always thought I would like
@@ -25,7 +30,11 @@ Portugal and EMBL.
     pressure. Good powers go saying "I just finished a chapter" rather than "do not
     even look at it for months."
 
-    [...]
+(This is basically why I my daughter goes to a Montesorri school).
+
+I also talked about the problems in Portugal. I also still stand behind what I
+previously `wrote in my earlier blog
+<http://www.mutualinformation.org/2011/02/whats-wrong-with-portugal/>`__:
 
     The institutional infrastructure in Portugal is bad (the physical
     infrastructure is good, but I think the country has reached the limit of what
@@ -44,7 +53,7 @@ Portugal and EMBL.
     to take months. All this for a purchase of about 300 euros. I realized that
     being in Portugal I was doing wrong was beginning to think so.
 
-    [...]
+Finally, a comment on that buzzword *excellence*:
 
     Another difference [between research in Portugal and at EMBL] is the culture of
     excellence. I think this word is often used to mean certain policy choice of
