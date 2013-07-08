@@ -1,0 +1,56 @@
+A fairly long interview with me was published last week in Portuguese at
+`colisor
+<http://colisor.blogspot.com/2013/07/livros-emigracao-ciencia-politica-e.html>`__.
+It talk about `my upcoming book
+<http://metarabbit.wordpress.com/2013/05/31/building-machine-learning-systems-with-python/>`__,
+Portugal and EMBL.
+
+    I think that the ability to self-motivate will become an increasingly important
+    factor for success. I speak not only of professional success, but also some
+    personal satisfaction (how many times you hear "I always thought I would like
+    to someday...").  With the internet and digital technology, large doors opened
+    up for those able to work self-motivated.
+
+    We can learn a huge amount without paying anything for it, we can create music and put
+    online, we can make a movie for little money, we can write a book with a laptop
+    ... If the aim is to become famous or get rich, it is difficult. But, if we
+    want to do something for the small community of people who are interested in
+    the same topic that we (either machine learning or music that fuses fado and
+    electronic sounds) then today can reach this community with fewer barriers. But
+    it is there work that it takes to get there.
+
+    One thing that helps me is `Beeminder <http://beeminder.com>`_-. Another thing
+    that helps is social pressure. It is a powerful force: I told lot of people
+    around me that was writing. So when you ask "so the book?" you put some
+    pressure. Good powers go saying "I just finished a chapter" rather than "do not
+    even look at it for months."
+
+    [...]
+
+    The institutional infrastructure in Portugal is bad (the physical
+    infrastructure is good, but I think the country has reached the limit of what
+    is possible to do more physical infrastructure). There are many very well
+    qualified people and they could be very capable of doing things, but without
+    infrastructure ...
+
+    At one point, in mid-November I told a student: "try to decide what you want to
+    order as soon as possible, otherwise only by ith middle of January will we get
+    it". This was to order a small electronic equipment that could be purchased in
+    two hours by going to a store (and it would be so long because we
+    wwould take the subway). In the U.S., we would have ordered online, with
+    delivery within 3 days (or gone to the a store if we really needed it fast).
+    But, because of the need to do this through a long series of intermediate
+    (steps were still made by fax! In 2012), and with Christmas, there was a risk
+    to take months. All this for a purchase of about 300 euros. I realized that
+    being in Portugal I was doing wrong was beginning to think so.
+
+    [...]
+
+    Another difference [between research in Portugal and at EMBL] is the culture of
+    excellence. I think this word is often used to mean certain policy choice of
+    hiring ("excellent" people), but I'd say that's to misunderstand the concept and
+    try to "get excellence on the cheap" (without having to change anything).
+    **Excellence is a collective phenomenon**. If a excellent person has to wait
+    two months due to institutional impediments, the result will probably not be
+    excellent.
+
