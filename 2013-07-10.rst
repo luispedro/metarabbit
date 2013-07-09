@@ -1,0 +1,63 @@
+I have a new paper out:
+
+    **Luis Pedro Coelho**, Joshua D. Kangas, Armaghan Naik, Elvira
+    Osuna-Highley, Estelle Glory-Afshar, Margaret Fuhrman, Ramanuja Simha,
+    Peter B. Berget, Jonathan W. Jarvik, and Robert F.  Murphy, *Determining
+    the subcellular location of new proteins from microscope images using local
+    features* in Bioinformatics, 2013 [`Advanced Access
+    <http://dx.doi.org/10.1093/bioinformatics/btt392>`__]
+
+(It's not open access, but feel free to `email me for a preprint
+<mailto:luis@luispedro.org>`__.)
+
+As you can see, this was 10 months in review, so I am very happy that it is
+finally out. To be fair, the final version is much improved due to some
+reviewer comments (alas, not all reviewer comments were constructive).
+
+There are two main ideas in this paper. We could perhaps have broken this up
+into two `minimum publishable units
+<http://en.wikipedia.org/wiki/Least_publishable_unit>`__, but the first idea
+immediately brings up a question. We went ahead and answered that too.
+
+The is the main point of the paper is that:
+
+1. The evaluation of bioimage classification systems (in the context of
+subcellular classification, but others too) has under-estimated the problem.
+
+Almost all evaluations have used the following mode [#]_:
+
+1. Define the classes of interest, such as the organelles: *nuclear*, *Golgi*,
+   *mitochondria*, ...
+
+2. For each of these, select a *representative marker* (ie, DAPI for the
+   nuclear class, &c).
+
+3. Collect multiple images of different cells tagged with the representative
+   marker for each protein.
+
+4. Test whether a system trained on some images of that marker can recognise
+   other images of the same marker.
+
+5. Use cross-validation over these images. Get good results. Publish!
+
+Here is the **point of this paper**: By using a single marker (a tagged protein
+or other fluorescent marker) for each class, we are unable to distinguish
+between two hypothesis: (a) the system is good at distinguishing the classes
+and (b) the system is good at distinguishing the markers. We show empirically
+that, in many cases, you are distinguishing markers and not locations!
+
+This is a complex idea, and I will have at least another post just on this
+idea.
+
+The natural follow-up question is *how can we get better results in this new
+problem?*
+
+2. Local features work very well for bioimage analysis.
+
+I will have a few posts on this paper, including at least one on things that we
+left out because they did not work very well.
+
+.. [#] All that I know. I may be biased towards the subcellular location
+   literature (which I know very well), but other literatures may have been
+   aware of this problem. Add a comment below if you know of something.
+
