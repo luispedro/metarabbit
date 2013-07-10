@@ -52,7 +52,13 @@ idea.
 The natural follow-up question is *how can we get better results in this new
 problem?*
 
-2. Local features work very well for bioimage analysis.
+2. **Local features work very well for bioimage analysis.** Using `SURF and an
+adaptation of SURF <http://mahotas.readthedocs.org/en/latest/surfref.html>`__
+we obtained a *large accuracy boost*.
+
+I had pointed out in `my review of Liscovitch et al.
+<http://metarabbit.wordpress.com/2013/07/03/paper-review-funcish-learning-a-functional-representation-of-neural-ish-images/>`__
+that we had similarly obtained good results with local features.
 
 I will have a few posts on this paper, including at least one on things that we
 left out because they did not work very well.
