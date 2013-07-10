@@ -32,3 +32,12 @@ sentence such as:
 This will of course lead to a citation Matthew Effect: if you are highly cited,
 you are likely to get even more citations.
 
+§
+
+This has implications for open access. Whenever I have a paper I really want to
+read that is not open-access and to which my institution does not have access,
+I can generally get it by asking the author for a preprint. If, however, I am
+not looking for a specific paper but just something in a general area, then it
+whether something it open access or not may make me choose to read (and then
+subsequently cite) one paper instead of the other.
+
