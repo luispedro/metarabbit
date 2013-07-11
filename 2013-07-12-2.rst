@@ -1,0 +1,86 @@
+Another post on my paper (out this week):
+
+    **Luis Pedro Coelho**, Joshua D. Kangas, Armaghan Naik, Elvira
+    Osuna-Highley, Estelle Glory-Afshar, Margaret Fuhrman, Ramanuja Simha,
+    Peter B. Berget, Jonathan W. Jarvik, and Robert F.  Murphy, *Determining
+    the subcellular location of new proteins from microscope images using local
+    features* in Bioinformatics, 2013 [`DOI
+    <http://dx.doi.org/10.1093/bioinformatics/btt392>`__]
+
+As I wrote on Wednesday, `this paper has two main ideas
+<https://metarabbit.wordpress.com/2013/07/10/new-paper-determining-the-subcellular-location-of-new-proteins-from-microscope-images-using-local-features/>`__:
+(1) traditional subcellular location determination systems do not generalize
+very well and (2) local features do better. I will now try to explain the first
+point in depth.
+
+§
+
+Here are the first two sentences of the abstract (added emphasis):
+
+    Evaluation of previous systems for automated determination of subcellular
+    location from microscope images has been done using *datasets in which each
+    location class consisted of multiple images of the same representative
+    protein*. Here, we frame a more challenging and useful problem where
+    previously unseen proteins are to be classified.
+
+To expand on this: the typical evaluation model is the following:
+
+1. Define the classes of interest (e.g., the major organelles: *nucleus*,
+   *mitochondria*, ...).
+2. For each class, choose a representative. It could be a protein which was
+   fluorescently tagged or another fluorescent marker (like DAPI for DNA). In
+   our work, we only used fluoresencent proteins, but the same logic applies to
+   small molecular markers.
+3. Collect multiple images of cells tagged with this marker.
+4. Split up the set of images into *training* and *testing* groups. Learn a
+   classifier on the training set, evaluate it on the testing sets.
+5. Report the results.
+
+The techniques were, almost always, feature based [#]_. A feature is a function
+which computes a number from the image. By computing numbers which represent
+the properties of interest, we can hope that images from the same class will
+have similar results. The following image illustrates this [#]_:
+ 
+§
+
+We can get very high accuracies with this family of systems, which have been
+interpreted as meaning that automated system can determine the location of
+proteins at high accuracies. There is a **big hidden assumption** in the
+reasoning, however!
+
+There are two hypothesis that are consistent with the data:
+
+1. The system is very good at recognizing this location.
+2. The system is very good at recognizing this protein.
+
+Under the second hypothesis, the system is very good at recognizing the marker
+you used for DNA (say DAPI), but may fail miserably when presented with another
+nuclear marker.
+
+§
+
+Fundamentally, to test between the two hypothesis above, we need datasets with
+multiple proteins per location. This is what we collected. And, when we tested
+the generalization ability of traditional methods, they fell short.
+
+While a traditional approach was able to get 84% accuracy when it only needed
+to recognize the proteins it had been trained on (10 classes), it fell to 62%
+when it needed to recognize locations of new proteins. However, this is the
+important problem: to determine the location of *new proteins*, not the ones
+the system was trained on.
+
+§
+
+Over the next few posts I will explain how we tested this & then, finally, how
+we got some better results on this harder problem.
+
+.. [#] There is an exception that I know of, from the beginning of the field:
+   .... . They used a neural network directly on the pixels. It would be very
+   interesting to re-attempt this approach for cell images with the new
+   technology in deep learning that was developed in the meanwhile (I don't
+   have enough time to do it myself, so feel free to take this idea and run
+   with it).
+
+.. [#] This image is in Wikipedia, but I put it there, so I don't need to
+   credit it.
+
