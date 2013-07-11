@@ -1,0 +1,43 @@
+title:
+--
+
+I will have a series of blog posts on all the ideas on this paper. This first
+one will have the background to the work. The second post will have the central
+point we made, which I think we have strong support for. Then, I will put out a
+few other ideas and even some of the things that did not work very well.
+
+Below I am showing a *cartoon view* of a eukariotic cell, taken from `Wikipedia
+<>`__.
+
+.. image:: /wikipedia
+
+It has several organelles: the nucleus, the Golgi apparatus, the endoplasmic
+reticulum (ER), &c Proteins will travel to their assigned locations to perform
+their tasks.
+
+We would like to know where proteins locate. The best way to do so conclusively
+is to somehow image the protein in cells, which we can do with fluorescent
+microscopy. The image below is exactly the result of one such experiment. In
+green, we see a protein which has been tagged with GFP (see below for technical
+details).
+
+.. image:: /wikip`
+
+The **subcellular location determination problem** is to go from image such as
+these to location assignments. It is done using pattern recognition. Almost
+systems proposed go like this:
+
+.. image:: //asdas
+
+
+
+**Technical details**: The image above is of NIH 3T3 cells where proteins have
+been tagged (using CD tagging) to generate cell lines where proteins are now
+chimeric and contain a GFP cassette.
+
+**References**
+
+*This was the introduction of automated subccellular location analysis*.
+
+*This is a semi-recent review paper by yours truly*
+

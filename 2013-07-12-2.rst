@@ -40,6 +40,12 @@ The techniques were, almost always, feature based [#]_. A feature is a function
 which computes a number from the image. By computing numbers which represent
 the properties of interest, we can hope that images from the same class will
 have similar results. The following image illustrates this [#]_:
+
+.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/SubcellularLocationClassification.png/800px-SubcellularLocationClassification.png
+
+Images of known proteins (left and right) are projected into a low dimensional
+space of features. Then an image of unknown label can be predicted by looking
+in this low dimensional space as well.
  
 §
 
@@ -75,11 +81,14 @@ Over the next few posts I will explain how we tested this & then, finally, how
 we got some better results on this harder problem.
 
 .. [#] There is an exception that I know of, from the beginning of the field:
-   .... . They used a neural network directly on the pixels. It would be very
-   interesting to re-attempt this approach for cell images with the new
-   technology in deep learning that was developed in the meanwhile (I don't
-   have enough time to do it myself, so feel free to take this idea and run
-   with it).
+   `Danckaert et al. 2003 in Traffic
+   <http://www.ncbi.nlm.nih.gov/pubmed/11872144>`__.  They used a neural
+   network directly on the pixels with a single hidden
+   layer. It would be very interesting to re-attempt this approach for cell
+   images with the new technology in deep learning that was developed in the
+   meanwhile (I don't have enough time to do it myself, so feel free to take
+   this idea and run with it; or `get in touch <mailto:luis@luispedro.org>`__
+   if you want to do it together).
 
 .. [#] This image is in Wikipedia, but I put it there, so I don't need to
    credit it.
