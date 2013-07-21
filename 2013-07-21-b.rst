@@ -1,0 +1,32 @@
+**Mapping the Strategies of Viruses Hijacking Human Host Cells: An Experimental
+and Computational Comparative Study** by *Jacques Colinge*
+
+Original Paper: `Viral immune modulators perturb the human molecular network by
+common and unique strategies. Pichlmair et al. (2012)
+<http://www.nature.com/nature/journal/vaop/ncurrent/full/nature11289.html>`__
+
+Interesting use of tagged proteins with purification and mass spec to analyse
+the interactions between viral and host proteins. Many viruses target the same
+proteins, but there is specificity too.
+
+Drilling down on HCV, USP19 is a major target of viral proteins. This protein
+promotes degradation of misfolded proteins, but it may also be able to detect
+non-host proteins in general.
+
+Human proteins that are targeted by virusses are much more likely to be hubs of
+protein/protein interaction networks. As virus are often very small so can only
+target a small number of proteins, thus targetting the hubs may be efficient
+(at the cost of specificity of effect).
+
+**Multi-task learning for Host-Pathogen protein interactions** by *Meghana
+Kshirsagar*
+
+Many pathogens will use the same strategies, thus we can learn across different
+pathogens to find similarities between different host/pathogen pairs. Their
+working hypothesis is that pathogens will target the same pathways in the host.
+
+This is formalised as a multi-task learning process: loss on the training set
+is regularized by the difference of pairwise pathway signatures. Technically,
+this is nice because it can incorporate unlabeled data or missing data (as long
+as you can compute signatures).
+
