@@ -1,0 +1,46 @@
+(I missed the first half of the first talk, so I won't include it. Also, the
+internet is not good enough for me to get all the links. Sorry)
+
+**Of Men and Not Mice: Comparative Genomic Analysis of Human Diseases and Mouse
+Models** by *Wenzhong Xiao*
+
+Wenzhong Xiao presented an empirical study of correlation between immune
+response of mice and men. The correlations were very low, which is a warning to
+be careful in interpreting animal models results.
+
+An audience member raised the possibility of using humanized models, which was
+a great point. I'll add that the immune system and immune system dysfunction
+may be where mice and men differ the most and results there do not invalidate
+results in other areas of study.
+
+**Impact of genetic dynamics and single-cell heterogeneity on development of
+nonstandard personalized medicine strategies for cancer** by *Chen-Hsiang
+Yeang*
+
+Simulation study of using different strategies for cancer treatment in the
+present of resistant mutations. "The current system is often like a greedy
+algorithm: do X until resistance to X emerges, switch to Y. Repeat. Better
+strategies are possible."
+
+Very interesting points come out of simple models, but it felt like the start
+of a conversation rather than an answer.
+
+Interesting presentation detail: author used references to video games as one
+would use references to literature 100 years ago.
+
+**Systems-based metatranscriptomic analysis** by *Xuejian Xiong*.
+
+Original Paper: `He, D., Miao, M., Sitarz, E.E., Muiznieks, L.D., Reichheld,
+S., Stahl, R.J., Keeley, F.W. and Parkinson, J. (2012) Polymorphisms in the
+Human Tropoelastin Gene Modify in vitro Self-Assembly and Mechanical Properties
+of Elastin-like Polypeptides. PLoS ONE. 7(9): e46130
+<http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0036009>`__
+
+Study on non-obese diabetic mice with Illumina sequencing. They projected their
+reads into enzyme space to perform analysis at the metabolic network level.
+
+Interesting technical points: they use alignment in peptide space instead of
+nucleotide space to get around variability in codon encoding. They also found
+that Trinity worked best for their data.
+
+
