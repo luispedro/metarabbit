@@ -1,0 +1,54 @@
+This afternoon, I sat in the Bioimage Informatics Proceedings session.
+
+**Automated cellular annotation for high-resolution images of adult
+Caenorhabditis elegans** by Sarah J. Aerni et al. [`DOI
+<http://dx.doi.org/10.1093/bioinformatics/btt223>`__]
+
+Work uses C. elegans for studying development, where we can uniquely identy all
+959 cells. The question is how to do so automatically as it takes hours/days to
+do so viusally.
+
+Unlike previous work, they use morphological features of cells and not just
+expected location. They also allow for variable cell division. The result is
+higher accuracy in labeled data.
+
+**FuncISH: learning a functional representation of neural ISH images** by *Noa
+Liscovitch* et al. [`DOI <http://dx.doi.org/10.1093/bioinformatics/btt207>`__]
+
+(`I blogged about this paper before
+<http://metarabbit.wordpress.com/2013/07/03/paper-review-funcish-learning-a-functional-representation-of-neural-ish-images/>`__)
+
+This work looks at gene expression in the brain. Images are represented using
+local features. They *do not use the scale invariance of the SIFT
+representation* as the images are all at the same scale.
+
+The genes are mapped to functional annotations, which is more effective than
+the previously published baselines, which only used the images. This can pick
+up similarity of genes that are expressed in different cell regions.
+
+**Automated annotation of gene expression image sequences via non-parametric
+factor analysis and conditional random fields** by *Iulian Pruteanu-Malinici*
+et al. [`DOI <http://dx.doi.org/10.1093/bioinformatics/btt206>`__]
+
+Work with in-situ hybridization images on Drosophila embryos across genes and
+time. Features were extracted using a sparse Bayesian factor model. Then, the
+temporal aspect of the data is modeled using a conditional random field, which
+improves results when compared to considering the inputs as independent.
+
+**A high-throughput framework to detect synapses in electron microscopy
+images** by *Saket Navlakha* et al. [`DOI
+<http://dx.doi.org/10.1093/bioinformatics/btt222>`__]
+
+Presentation of methodological advances in detecting synapses, involving both
+new laboratorial and new computational methods. The basic lab technique was a
+now-unused 50 year-old method. The most interesting aspect is that the
+experimental technique is justified *because it makes (automatic) analysis
+easier*.
+
+They also tackled the typically ignore problem of generalizing a model learned
+on a particular set of samples to a new set of *similar but not quite the same*
+of samples. They empirically showed that `Co-training
+<http://en.wikipedia.org/wiki/Co-training>`__ works well for this problem if
+you are careful. Nice!
+
+
