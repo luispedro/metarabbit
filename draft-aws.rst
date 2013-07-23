@@ -1,0 +1,206 @@
+For the `Lisbon Machine Learning School <http://lxmls.it.pt>`__, we ran
+tutorials using `Amazon Webservices <http://aws.amazon.com>`__.
+
+Amazon was kind enough to sponsor the event and gave us the option of managing
+the credits centrally or having each student receive them on their own account.
+For a semester long course, the latter option would have been 100 times
+preferrable as it simplifies management while giving the students more power.
+However, for a 2-day tutorial inside a 1-week event, it would have been a mess.
+Most of the students probably don't even have credit cards, which are not so
+common outside the US [#]_.
+
+§
+
+Setting this up was a lot of work and so I am writing a very technical post in
+the hope of helping someone else in the same situation. Also email me for
+questions.
+
+This is the set up we ended up with:
+
+1.  There are two users on the account, a *super* user and a *student* user.
+    They have their own AWS Access/Secret key pairs. The *super* user is the
+    major account user and can do everything. The *student* user can upload to
+    a single S3 bucket we provide and can submit jobs to elastic mapreduce.
+    Otherwise, the *student* user cannot allocate new resources.
+2.  Each student will have their private EC2 machine and Elastic Map Reduce
+    cluster. All of them are using the same *student* user, but get different
+    machines.
+
+**Details**
+
+We prepare the following for EC2/S3:
+
+1. An SSH key pair (we will call it ``lxmls_ie`` here).
+2. A security group where port 22 is open (``quick-start-1``)
+3. An instance profile.
+4. An S3 bucket.
+
+For each student [#]_, we run the following as *super* user::
+
+    ec2-run-instances \
+        --iam-profile arn:aws:iam::168723129637:instance-profile/student \
+        --region eu-west-1 \
+        --verbose --key=lxmls_ie --instance-type=t1.micro ami-3d160149 --group quick-start-1
+
+So, an instance for student. We wait for amazon to boot up all the machines,
+and query for them::
+
+    urls=`ec2-describe-instances --region eu-west-1 |gawk '/^INSTANCE.*arn:aws:iam::168723129637:instance-profile.student/ { print $4 }'`
+
+I think in the end this is the major use of the instance-profile: it allows me
+to distinguish the student machines from the support machines [#]_.
+
+Now, we run the following::
+
+    for url in $urls; do
+        password=`pwgen --num-passwords=1`
+        ./initialize-instance.sh $url $password >>log.txt 2>>log2.txt
+        echo "$url	$password" >>host_passwords.txt
+    done
+
+We are generating a new password (with the ``pwgen`` utility) and calling an
+``initialize-instance.sh`` script for each url with a new password. That script
+looks like this::
+
+    # Get parameters
+    url=$1
+    password=$2
+
+    ssh -i lxmls_ie.pem -o StrictHostKeyChecking=no  -o UserKnownHostsFile=/dev/null  ubuntu@$url <<EOF
+
+This line means we are going to be sshing  using the key ``lxmls_ie.pem`` we
+used for creating the machines. To have this automated, we need to avoid the
+RSA host key warning, hence the ``-o`` settings. Then, we pass it a here doc
+with a long init script (I actually simplified a bit below, adapt as needed).
+
+First we get some software we'll use::
+
+    sudo apt-get install -y python-numpy emacs nano
+    sudo pip install boto --upgrade
+    sudo pip install mrjob
+
+Now, we set the password that was generated for this machine and configure sshd
+to accept password-based logini (by default, EC2 machines accept publickey
+only)::
+
+    (echo $password ; echo $password) | sudo passwd ubuntu
+    sudo sed 's/PasswordAuthentication no/PasswordAuthentication yes/' -i /etc/ssh/sshd_config
+
+We configure mrjob to use the right s3 buckets & install the packages we want::
+
+    cat >~/.mrjob.conf <<MRJOB_EOF
+    runners:
+      emr:
+        aws_region: eu-west-1
+        s3_log_uri: s3://lxmls-labs-scratch/
+        s3_scratch_uri: s3://lxmls-labs-scratch/
+        ec2_key_pair: lxmls_student
+        ec2_key_pair_file: /home/ubuntu/.lxmls_student.pem
+        bootstrap_python_packages:
+        - /home/ubuntu/.emr_packages/*.tar.gz
+    MRJOB_EOF
+
+We get a prepared environment and expand it (this also fills in the
+``.emr_packages`` directory mentioned in configuration file)::
+
+    wget https://s3-eu-west-1.amazonaws.com/lxmls-labs/initial.tar.gz
+    tar xzf initial.tar.gz 
+    rm initial.tar.gz
+
+Now, we initialize a persistent job flow::
+
+    export AWS_SECRET_ACCESS_KEY=SUPER_KEY
+    export AWS_SECRET_KEY=SUPER_KEY
+    export AWS_ACCESS_KEY_ID=SUPER_KEY
+    export AWS_ACCESS_KEY=SUPER_KEY
+
+    mrjob create-job-flow  --num-ec2-instances=4 > your-jobflow-id.txt
+
+We also set it to visible and write it to the mrjob configuration file::
+
+    python <<PYTHON_EOF
+    import boto.emr
+    conn = boto.emr.connect_to_region('eu-west-1')
+    jobflow=open('/home/ubuntu/your-jobflow-id.txt').read().strip()
+    conn.set_visible_to_all_users(jobflow, True)
+
+    mrjob_conf = open('/home/ubuntu/.mrjob.conf', 'a')
+    mrjob_conf.write('    emr_job_flow_id: {}\n'.format(jobflow))
+    mrjob_conf.close()
+    PYTHON_EOF
+
+
+Finally, we set up the student key in their environment and reboot for good
+luck::
+
+    echo export AWS_ACCESS_KEY=STUDENT_KEY >> ~/.bashrc
+    echo export AWS_ACCESS_KEY_ID=STUDENT_KEY >> ~/.bashrc
+    echo export AWS_SECRET_KEY=STUDENT_KEY >> ~/.bashrc
+    echo export AWS_SECRET_ACCESS_KEY=STUDENT_KEY >> ~/.bashrc
+
+    sudo reboot
+    EOF
+
+All of this gets us a running machine that is accessible in two ways: using the
+``lxmls_ie.pem`` keypair or with a password. We give the students the URL and
+password (and keep the ``lxmls_ie.pem`` backdoor if we need to fix something
+last minute).
+
+Each student also got a running Elastic Mapreduce instance. It is idle, but it
+will accept jobs from the student. Here is the major trick: the *student* user
+is allowed to submit jobs to EMR but only the *super* user is allowed to start
+new job flows (ie, allocate resources).
+
+Note that the super keys are used in the initialization script, but they are
+not saved to the machine. The student keys are saved to the machine.
+
+**Advantages**
+
+1. Everything works the first time without too much configuration. In the first
+version of these tutorials, the students had to handle keys themselves and it
+was very confusing in testing (yes, we tested all our tutorials).
+
+2. We have perfect control over what the students will see. The data and
+libraries we expected them to use are already pre-installed. In a short
+tutorial, this saves valuable time.
+
+3. Having a pre running jobflow saves additional initialization time.
+
+**Disadvantages**
+
+1. From my personal point of view, the major disadvantage is that it is all very
+magic: it works perfectly in demo, but the students don't learn enough to be
+able to do it themselves. Frankly, though, 6 hours is too little for them to
+learn AWS, which is a completely new operating system.
+
+2. The second major disadvantage is that a running jobflow will not give you
+good error messages! I did not find any good way for students to get good error
+messages if they make a mistake in the code they submit.
+
+3. It is possible for a student to mess up everyone else's clusters if they
+know the AWS system well enough.[#]_ We really don't expect this and would deal
+with it as a major breach of ethics (and kick out the offending party
+immediately). I would be very very surprised if this ever happened. Over a long
+semester, sure, people start to learn and play around, get dumb ideas... In two
+days? We were always more worried about someone inadvartently allocating a
+million machines (we wanted to protect against Murphy, not Machievalli).
+
+4. It is inefficient to idle the machines like this. Not a major argument in my
+book.
+
+.. [#] Lest you think that this is a sign of a simpler, gentler, form of living
+   (yes, I'm looking at you, American liberal); I'll point out that consumer
+   credit is very common and aggressively sold, almost always in forms that are
+   *way worse* than the American credit card.
+
+.. [#] We encouraged students to work in groups if they preferred (which they
+   often did). Feel free to read *group of students of size 1 or greater*
+   everytime I write *student*, but I did not want to encumber the exposition.
+
+.. [#] They can submit jobs to any of the other student's clusters. I am not
+   sure how they can query for all the clusters running accessible to that
+   user, but if they can, they could just jam everyone else's work.
+
+.. [#] We had a support machine for testing &c running all the time and
+   sometimes booted up a fresh one just for testing.
+
