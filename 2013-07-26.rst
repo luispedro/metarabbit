@@ -38,4 +38,6 @@ This is what I ended up with:
 
 On a test directory, disk usage went from 55GB down to 12GB.
 
+**Note**: This only works with the `github version of imread
+<http://github.com/luispedro/imread>`__.
 
