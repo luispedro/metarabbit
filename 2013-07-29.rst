@@ -1,0 +1,42 @@
+Because `my book
+<http://www.amazon.com/Building-Machine-Learning-Systems-Python/dp/1782161406>`__
+`just came out
+<http://metarabbit.wordpress.com/2013/07/26/building-machine-learning-systems-with-python-willi-richert-luis-pedro-coelho/>`__,
+I am again excerpting from `a Portuguese interview with me
+<http://colisor.blogspot.pt/2013/07/livros-emigracao-ciencia-politica-e.html>`__
+I `mentioned previously
+<http://metarabbit.wordpress.com/2013/07/08/motivation-portugal-excellence/>`__:
+
+    *Who is the target audience for this book?*
+
+    **Luis Pedro**: There are two distinct audiences: The first are programmers
+    who do not know much of machine learning, but liked to use a classifier,
+    for example. The second are people who do not need an introduction to
+    machine learning (because they already know), but maybe do not know how to
+    do it with the tools in Python.
+
+    *What were the main difficulties encountered in this process?*
+
+    **Luis Pedro**: The challenge is always to find examples that are not too
+    easy, but they are not also too difficult for an introduction. In one
+    case (image classification), I took some photographs to create a dataset.
+    In the literature, there are classical examples which are trivial to handle
+    with modern techniques and current research problems that are very
+    difficult. My dataset consists of poorly framed photographs taken with a
+    mobile phone camera.  Therefore, it also has a style more akin to a problem
+    area or mobile web.  The aim is to distinguish photographs of buildings,
+    natural landscape, or texts.
+
+    There was nothing too complex for anyone who knows the area. In fact, when
+    it comes to writing about something you already know how to do (as was the
+    case), `the hard part is the motivation
+    <http://metarabbit.wordpress.com/2013/07/08/motivation-portugal-excellence/>`__.
+
+    [...]
+
+    One thing we stress throughout is principled evaluation and we warn against
+    overselling your results. Even in the world of research papers still find
+    that mix training set and test set! Obviously not coming into work groups
+    of machine learning, but in more applied areas is still those who test
+    hyper-parameters in the test set.
+
