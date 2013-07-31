@@ -1,10 +1,10 @@
 Mahotas Software Meta Paper Published
---
 
 I got a new paper published:
 
     Mahotas: open source software for scriptable computer vision
     by Luis Pedro Coelho in Journal of Open Research Software
+    [`DOI <http://dx.doi.org/10.5334/jors.ac>`__]
 
 This is about my computer vision software package, `mahotas
 <http://github.com/luispedro/mahotas>`__. It started as a way to do `bioimage
@@ -27,7 +27,12 @@ Software is exactly one such step.
 
 It has already been used in a few publications, both by myself and others:
 
-- 
-- 
-- 
-- 
+- `Determining the subcellular location of new proteins from microscope images using local features by Coelho et al. (2013) <http://dx.doi.org/10.1093/bioinformatics/btt392>`__ (See `posts on this paper <http://metarabbit.wordpress.com/tag/coelho2013_bioinformatics/>`__
+- `Enabling user-guided segmentation and tracking of surface-labeled cells in time-lapse image sets of living tissues by Mashburn et al. (2012) <http://dx.doi.org/10.1002/cyto.a.22034>`__
+- `Decentralized Multi-Agent Algorithm for Translational 2D Image Alignment by Machálek and Olševičová (2013) <http://link.springer.com/chapter/10.1007%2F978-3-642-32335-5_2>`__
+- `Hierarchical Structuring in Block Copolymer Nanocomposites through Two Phase-Separation Processes Operating on Different Time Scales by Ploshnik et al. (2013) <http://dx.doi.org/10.1002/adfm.201300091>`__
+
+As you can see, this is not all about Bioimage Informatics, which is sort of
+nice as it means that this is actually useful outside of the field in which it
+was initially developed.
+
