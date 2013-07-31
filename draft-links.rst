@@ -21,3 +21,27 @@ distribute it to students in my class?
 Obviously, I don't mean *can I go ahead and ignore your license without
 realistic fear of getting sued*. I mean, this is a weird grey area.
 
+3. Why do we let doctors `prescribe off-label but not test it
+<http://marginalrevolution.com/marginalrevolution/2013/07/off-label-prescribing-vs-rct.html>`__?
+
+Actually, the doctor is fine doing the randomized study, just not publishing
+it. Often we have this rule R in context X and it seems horrible to imagine a
+world where *not R in X*, but then in context Y (which is very similar to *X*),
+*not R* is just fine. The practice of medicine is heavily regulated and people
+are very resistant to the idea that it is too much and it should be easier to
+practice medicine in the US. However, it is fine to be `a complete quack
+<http://en.wikipedia.org/wiki/Homeopathy>`__ and tell people that they can cure
+cancer with holy water.
+
+In a completely different context, I remember one `econtalk
+<http://www.econtalk.org/>`__ where the guest and Russ both agreed that it
+would be horrible if there were two levels of airplane safety: a safe and
+expensive plane and a less-safe one for those not paying as much. What horrible
+society would allow for poorer folks to travel in unsafe planes while the rich
+have their strict safety inspections?  And in my head I'm going *a society that
+allows busses, no?* If your *X* is not *plane* but *a trip between two cities*,
+then we already have a cheap and unsafe alternative to a nice and safe one. But
+as long as we keep these as separate things, then we reason about them
+individually and `status quo bias
+<http://en.wikipedia.org/wiki/Status_quo_bias>`__ kicks in.
+
