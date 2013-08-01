@@ -1,19 +1,20 @@
 For the `Lisbon Machine Learning School <http://lxmls.it.pt>`__, we ran
 tutorials using `Amazon Webservices <http://aws.amazon.com>`__.
 
-Amazon was kind enough to sponsor the event and gave us the option of managing
-the credits centrally or having each student receive them on their own account.
-For a semester long course, the latter option would have been 100 times
-preferrable as it simplifies management while giving the students more power.
-However, for a 2-day tutorial inside a 1-week event, it would have been a mess.
-Most of the students probably don't even have credit cards, which are not so
-common outside the US [#]_.
+Amazon was kind enough to sponsor the event and so we could provide the
+students the experience of running stuff on Elastic MapReduce.
 
-§
+Amazon gave us the option of managing the credits centrally or having each
+student receive them on their own account. For a semester long course, the
+latter option would have been preferrable as it simplifies management while
+giving the students more power. However, for a 2-day tutorial inside a 1-week
+event, it would have been a mess. Most of the students probably don't even have
+credit cards, which are not so common outside the US [#]_.
 
 Setting this up was a lot of work and so I am writing a very technical post in
-the hope of helping someone else in the same situation. Also email me for
-questions.
+the hope of helping someone else in the same situation.
+
+§
 
 This is the set up we ended up with:
 
@@ -35,14 +36,15 @@ We prepare the following for EC2/S3:
 3. An instance profile.
 4. An S3 bucket.
 
-For each student [#]_, we run the following as *super* user::
+We got as many machines ready as we had students::
 
     ec2-run-instances \
         --iam-profile arn:aws:iam::168723129637:instance-profile/student \
         --region eu-west-1 \
+        --instance-count $NR_STUDENTS \
         --verbose --key=lxmls_ie --instance-type=t1.micro ami-3d160149 --group quick-start-1
 
-So, an instance for student. We wait for amazon to boot up all the machines,
+An instance for student [#]_. We wait for amazon to boot up all the machines,
 and query for them::
 
     urls=`ec2-describe-instances --region eu-west-1 |gawk '/^INSTANCE.*arn:aws:iam::168723129637:instance-profile.student/ { print $4 }'`
@@ -104,10 +106,10 @@ We get a prepared environment and expand it (this also fills in the
 ``.emr_packages`` directory mentioned in configuration file)::
 
     wget https://s3-eu-west-1.amazonaws.com/lxmls-labs/initial.tar.gz
-    tar xzf initial.tar.gz 
+    tar xzf initial.tar.gz
     rm initial.tar.gz
 
-Now, we initialize a persistent job flow::
+Now, we initialize a persistent job flow, using 4 machines::
 
     export AWS_SECRET_ACCESS_KEY=SUPER_KEY
     export AWS_SECRET_KEY=SUPER_KEY
@@ -149,10 +151,13 @@ last minute).
 Each student also got a running Elastic Mapreduce instance. It is idle, but it
 will accept jobs from the student. Here is the major trick: the *student* user
 is allowed to submit jobs to EMR but only the *super* user is allowed to start
-new job flows (ie, allocate resources).
+new job flows (ie, allocate resources). For this, you need the following
+permissions in the IAM::
+
+    FIXME COPY & PASTE FROM THE IAM WEB INTERFACE
 
 Note that the super keys are used in the initialization script, but they are
-not saved to the machine. The student keys are saved to the machine.
+not saved to the machine. Only the student keys are saved to the machine.
 
 **Advantages**
 
@@ -180,18 +185,35 @@ messages if they make a mistake in the code they submit.
 3. It is possible for a student to mess up everyone else's clusters if they
 know the AWS system well enough.[#]_ We really don't expect this and would deal
 with it as a major breach of ethics (and kick out the offending party
-immediately). I would be very very surprised if this ever happened. Over a long
-semester, sure, people start to learn and play around, get dumb ideas... In two
-days? We were always more worried about someone inadvartently allocating a
-million machines (we wanted to protect against Murphy, not Machievalli).
+immediately). However, I would be very very surprised if this happened.  Over a
+long semester, people start to learn and play around, they get dumb ideas...
+In two days?  We were always more worried about someone inadvartently
+allocating a million machines by mistyping something and costing us too much
+money. We wanted to protect against Murphy, not Machievalli.
 
-4. It is inefficient to idle the machines like this. Not a major argument in my
-book.
+4. It is inefficient to idle the machines like this. Not a major argument since
+we only ran them during the tutorials. Amazon charges you for partial hours
+anyway, so if you run it for five hours during a tutorial, this might even be
+less than what the students would do if they were testing multiple versions of
+the code and booting up new machines every time. We can shut them down between
+the two tutorial days to save a bit of money.
+
+5. I might have missed a big hole in this configuration. AWS is a big operating
+system and I have not yet understood all of it.
+
+§
+
+If you are really running this, feel free to `email me
+<mailto:luis@luispedro.org>`__ for details.
+
+Also, **important**: you need to ask Amazon well in advance for enough quota to
+allocate so many machines at once! [#]_
 
 .. [#] Lest you think that this is a sign of a simpler, gentler, form of living
    (yes, I'm looking at you, American liberal); I'll point out that consumer
    credit is very common and aggressively sold, almost always in forms that are
-   *way worse* than the American credit card.
+   *way worse* than the American credit card and in the context of harsher
+   bankrupcy laws.
 
 .. [#] We encouraged students to work in groups if they preferred (which they
    often did). Feel free to read *group of students of size 1 or greater*
@@ -203,4 +225,12 @@ book.
 
 .. [#] We had a support machine for testing &c running all the time and
    sometimes booted up a fresh one just for testing.
+
+.. [#] We actually did not realize this until too late and had to work around
+   the limitations by spreading the students around the world (figuratively
+   speaking), so that some were running machines in Ireland, others in US,
+   others in São Paulo... It all worked in the end, but I had to set it up for
+   each region (and write scripts that are region aware). We had the setup I
+   describe replicated for each region (we did not need all the regions, but
+   most of them).
 
