@@ -1,6 +1,6 @@
 Mahotas Software Meta Paper Published
 
-I got a new paper published:
+I got a new paper published [#]_:
 
     Mahotas: open source software for scriptable computer vision
     by Luis Pedro Coelho in Journal of Open Research Software
@@ -35,4 +35,10 @@ It has already been used in a few publications, both by myself and others:
 As you can see, this is not all about Bioimage Informatics, which is sort of
 nice as it means that this is actually useful outside of the field in which it
 was initially developed.
+
+.. [#] Yes it has been a `good
+   <http://metarabbit.wordpress.com/2013/07/26/building-machine-learning-systems-with-python-willi-richert-luis-pedro-coelho/>`__
+   `month
+   <http://metarabbit.wordpress.com/2013/07/10/new-paper-determining-the-subcellular-location-of-new-proteins-from-microscope-images-using-local-features/>`__
+   for publications.
 
