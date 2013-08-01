@@ -1,8 +1,9 @@
 Let me highlight a good example of continuous improvement in mahotas and the
-advantages of `eating your own dog food <http://en.wikipedia.org/wiki/Eating_your_own_dog_food>`__.
+advantages of `eating your own dog food
+<http://en.wikipedia.org/wiki/Eating_your_own_dog_food>`__.
 
-Last week, I was using `mahotas <>`__ to compute some wavelets, but I couldn't
-remember the codes. So I got some error::
+I was using `mahotas <http://mahotas.rtfd.org>`__ to compute some wavelets, but I couldn't remember
+the possible parameter values. So I got some error::
 
     [1]: mh.daubechies(im, 'db4')
 
