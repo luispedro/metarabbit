@@ -19,7 +19,8 @@ enrolling and receiving a tuition bill. So, if your paper is CC-BY-NC, can I
 distribute it to students in my class?
 
 Obviously, I don't mean *can I go ahead and ignore your license without
-realistic fear of getting sued*. I mean, this is a weird grey area.
+realistic fear of getting sued by you*. I can probably do the same with any
+closed-access paper. [#]_
 
 3. Why do we let doctors `prescribe off-label but not test it
 <http://marginalrevolution.com/marginalrevolution/2013/07/off-label-prescribing-vs-rct.html>`__?
@@ -44,4 +45,12 @@ then we already have a cheap and unsafe alternative to a nice and safe one. But
 as long as we keep these as separate things, then we reason about them
 individually and `status quo bias
 <http://en.wikipedia.org/wiki/Status_quo_bias>`__ kicks in.
+
+.. [#] I recall a dialogue between two people which went something like this:
+   "This is much better than the commercial things." "It's not commercial?" "No,
+   it's from a small producer." "Who doesn't sell it for money?" "No, they do
+   sell it, but it's not a big company, you know?" "But I can go there and buy
+   it, right?" "Yes." "If they sell it, it's commercial; they just have a
+   particular marketing concept that appeals to their target demographic." This
+   was on the topic of cheese, but applies here as well.
 
