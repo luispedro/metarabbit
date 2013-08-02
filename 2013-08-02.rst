@@ -46,6 +46,10 @@ as long as we keep these as separate things, then we reason about them
 individually and `status quo bias
 <http://en.wikipedia.org/wiki/Status_quo_bias>`__ kicks in.
 
+4. The `problem of article level metrics
+<http://scholarlyoa.com/2013/08/01/article-level-metrics/>`__: they will be
+gamed.
+
 .. [#] I recall a dialogue between two people which went something like this:
    "This is much better than the commercial things." "It's not commercial?" "No,
    it's from a small producer." "Who doesn't sell it for money?" "No, they do
