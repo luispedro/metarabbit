@@ -35,4 +35,17 @@ By the way, the linked publication has a very high `altmetric score
 This is the 21st century, `the hard part is motivation
 <http://metarabbit.wordpress.com/2013/07/29/the-hard-part-is-motivation-books-etc/>`__
 
+4. An awesome video via Ed Yong: `what happens when a mosquito bites
+<http://phenomena.nationalgeographic.com/2013/08/06/heres-what-happens-inside-you-when-a-mosquito-bites/>`__
+
+I typically avoid science popularizations as frustrating to read (often
+oversimplified to the point of being wrong or trying to spin a scientific point
+into some BS philosophy), but Ed Yong is so refreshing. He is truly fascinated
+by the science itself and understands it.
+
+
+(The Economist, which I used to have time to read, is also excellent at
+science, as it is at everything else).
+
 .. [#] I quote from the preprint on arXiv, I hope it hasn't changed in the final version.
+
