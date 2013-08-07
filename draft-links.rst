@@ -8,7 +8,8 @@ an interesting discussion of incentives [#]_:
     already knew that" is misleading; the actual criticism is "someone has
     already claimed that."
 
-They also discuss how for-profit actors (pharma and biotech) have better incentives to replicate:
+They also discuss how for-profit actors (pharma and biotech) have better
+incentives to replicate (and get it right, not published; in the first place):
 
     Investing hundreds of thousands of dollars on a new treatment that is
     ineffective is a waste of resources and an enormous burden to patients in
@@ -46,6 +47,13 @@ by the science itself and understands it.
 
 (The Economist, which I used to have time to read, is also excellent at
 science, as it is at everything else).
+
+5. A gem found by `Derek Lowe <http://pipeline.corante.com/archives/2013/08/07/new_frontiers_in_analytical_chemistry.php>`__:
+
+    Emma, please insert NMR data here! where are they? and for this compound,
+    just make up an elemental analysis...
+
+In the supplemental data of a published paper.
 
 .. [#] I quote from the preprint on arXiv, I hope it hasn't changed in the final version.
 
