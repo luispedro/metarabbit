@@ -55,5 +55,10 @@ science, as it is at everything else).
 
 In the supplemental data of a published paper.
 
+6. The `dangers of lossy image compression
+<http://www.dkriesel.com/en/blog/2013/0802_xerox-workcentres_are_switching_written_numbers_when_scanning>`__:
+scanning documents semi-randomly changes numbers: because rows of numbers may
+look very similar in pixel distance, this makes the system reuse patches of the image!
+
 .. [#] I quote from the preprint on arXiv, I hope it hasn't changed in the final version.
 
