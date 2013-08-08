@@ -1,3 +1,7 @@
+I have so many links this week, that I am thinking of changing the format, from
+a regular *Friday Links* feature to posting some of these short notes as their
+own posts.
+
 1. `On reproducibility and incentives <http://andrewgelman.com/2013/07/28/50-shades-of-gray-a-research-story/>`__
 
 The linked `position paper <http://pps.sagepub.com/content/7/6/615.full>`__ has
@@ -43,7 +47,6 @@ I typically avoid science popularizations as frustrating to read (often
 oversimplified to the point of being wrong or trying to spin a scientific point
 into some BS philosophy), but Ed Yong is so refreshing. He is truly fascinated
 by the science itself and understands it.
-
 
 (The Economist, which I used to have time to read, is also excellent at
 science, as it is at everything else).
