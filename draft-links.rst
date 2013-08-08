@@ -60,5 +60,7 @@ In the supplemental data of a published paper.
 scanning documents semi-randomly changes numbers: because rows of numbers may
 look very similar in pixel distance, this makes the system reuse patches of the image!
 
+7. `The Mighty Named Pipe <http://vincebuffalo.org/2013/08/08/the-mighty-named-pipe.html>`__
+
 .. [#] I quote from the preprint on arXiv, I hope it hasn't changed in the final version.
 
