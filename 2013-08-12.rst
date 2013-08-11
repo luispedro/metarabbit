@@ -43,6 +43,23 @@ We get the same result with a slightly less legible, but faster manipulation
 
 Et voilà!
 
+Here is an example, from a stack of microbes imaged. This is is the maximum
+intensity projection:
+
+.. image:: zmax.jpg
+
+This is the *most in-focus slice* (using the sobel operator):
+
+.. image:: zbest.jpg
+
+And this is the extended depth of field result:
+
+.. image:: zedf.jpg
+
+It is clearly sharper, perhaps at the expense of some possible noise. I
+actually played around with blurring the image a little bit and it did improve
+things ever so slightly.
+
 .. [#] Other methods simply use a different measure here.
 
 .. [#] I am not 100% convinced that this is the best. After all we create an
