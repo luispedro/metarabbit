@@ -1,0 +1,18 @@
+1. `Giant Tortoises & Baobab trees
+<http://blogs.scientificamerican.com/extinction-countdown/2013/08/13/giant-tortoises-baobab-trees/>`__
+
+2. `Is research blogging worth it?
+<http://melissaterras.blogspot.co.uk/2012/04/is-blogging-and-tweeting-about-research.html>`__
+
+I always marvel at how, if I write something nifty, I can get 1,000s of
+visitors in a day (if I make it to Hacker News, I get 1,000s per hour). But,
+science is about small numbers.
+
+(And it will be impossible to even know, let alone measure, most of the effect.
+If someone googles and finds my Monday post on extended depth of field in
+Python and a year down the line cites the mahotas paper, it will be great; but
+I won't know about it.)
+
+3. `Software engineering in academia
+<http://www.timeshighereducation.co.uk/news/save-your-work-give-software-engineers-a-career-track/2006431.article>`__
+
