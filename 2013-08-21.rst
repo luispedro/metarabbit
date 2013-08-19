@@ -14,7 +14,9 @@ when writing. Mahotas-imread was not ready for this.
 
 Many (especially in the open-source world, unfortunately) would just say:
 *well, I won't support broken versions of libtiff*: if your code does not
-adhere to the spec, I am just going to not work for you.
+adhere to the spec, I am just going to not work for you. See this `excellent
+old essay by Joel Spolsky
+<http://www.joelonsoftware.com/articles/APIWar.html>`__ on this sort of thing.
 
 In my case, I prefer to work around the bug and when libtiff tries to read in
 write mode, return no data; which it correctly handles.
@@ -23,4 +25,7 @@ write mode, return no data; which it correctly handles.
 
 In the meanwhile, we also fixed compilation in Cygwin as well as a code path
 which led to a hard crash.
+
+Especially the possibility of a hard crash made me decide that this was
+important enough to merit a new release.
 
