@@ -1,0 +1,26 @@
+This is another story of continuous improvement, this time in mahotas' little
+brother imread.
+
+Last week, `Volker Hilsenstein
+<http://www.embl.de/almf/almf_services/contact/hilsenstein/>`__ here at EMBL
+had a few problems with imread on Windows. This is one of those very hard
+issues: how to help someone on a different platform, especially one which you
+know nothing about.
+
+In the end, the problem was an old version of libtiff. In that version, there
+is a logic error (literally, there is a condition which is miswritten and
+always false) and the code will attempt to read a TIFF header from a file even
+when writing. Mahotas-imread was not ready for this.
+
+Many (especially in the open-source world, unfortunately) would just say:
+*well, I won't support broken versions of libtiff*: if your code does not
+adhere to the spec, I am just going to not work for you.
+
+In my case, I prefer to work around the bug and when libtiff tries to read in
+write mode, return no data; which it correctly handles.
+
+§
+
+In the meanwhile, we also fixed compilation in Cygwin as well as a code path
+which led to a hard crash.
+
