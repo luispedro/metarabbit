@@ -5,12 +5,12 @@ Last week, `Volker Hilsenstein
 <http://www.embl.de/almf/almf_services/contact/hilsenstein/>`__ here at EMBL
 had a few problems with imread on Windows. This is one of those very hard
 issues: how to help someone on a different platform, especially one which you
-know nothing about.
+know nothing about?
 
-In the end, the problem was an old version of libtiff. In that version, there
-is a logic error (literally, there is a condition which is miswritten and
-always false) and the code will attempt to read a TIFF header from a file even
-when writing. Mahotas-imread was not ready for this.
+In the end, the problem was not Windows per se, but an old version of libtiff.
+In that version, there is a logic error (literally, there is a condition which
+is miswritten and always false) and the code will attempt to read a TIFF header
+from a file even when writing. Mahotas-imread was not ready for this.
 
 Many (especially in the open-source world, unfortunately) would just say:
 *well, I won't support broken versions of libtiff*: if your code does not
@@ -19,7 +19,15 @@ old essay by Joel Spolsky
 <http://www.joelonsoftware.com/articles/APIWar.html>`__ on this sort of thing.
 
 In my case, I prefer to work around the bug and when libtiff tries to read in
-write mode, return no data; which it correctly handles.
+write mode, return no data; which it correctly handles. I wrote the following
+data reading function to pass to libtiff::
+
+    tsize_t tiff_no_read(thandle_t, void*, tsize_t) {
+            return 0;
+    }
+
+The purpose of this code is simply to make imread work even on a broken, 5 year
+old version of a third party library.
 
 §
 
