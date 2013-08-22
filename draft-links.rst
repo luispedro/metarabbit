@@ -21,3 +21,13 @@ Tsay in PNAS.
     identify the winners based on sound recordings or recordings with both
     video and sound.
 
+3. `Sequencing mummies <http://link.springer.com/article/10.1007%2Fs13353-013-0145-1>`__
+
+    We applied, for the first time, next-generation sequencing (NGS) technology
+    on Egyptian mummies. [...] NGS data showed the presence of Plasmodium
+    falciparum and Toxoplasma gondii DNA sequences, indicating malaria and
+    toxoplasmosis in these mummies.
+
+It would be interesting to compare these P. falciparum sequences to the modern
+ones.
+
