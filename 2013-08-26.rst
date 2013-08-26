@@ -1,0 +1,51 @@
+Merging directories without loss of files
+
+A problem I often have is to have two directories which are probably mostly the
+same, but maybe not completely as some of the files might be newer (edited)
+versions of the other.
+
+For example, directory ``A``::
+
+    A/
+    A/document.txt
+    A/blogpost.txt
+    A/photo.jpg
+    A/me.jpg
+
+and ``B``::
+
+    B/
+    B/document.txt
+    B/photo.jpg
+    B/me.jpg
+    B/you.jpg
+
+Now, I want to merge ``A`` and ``B``. With only this small number of files, I
+could easily check by hand if ``document.txt`` is the same on both sides, &c.
+However, in a large directory, this becomes impossible, so I wrote up a `small
+utitlity <https://github.com/luispedro/merge>`__ to do so::
+
+    mergedirs B A
+
+Will go through all of the files in ``B`` and check whether an equivalent file
+in ``A`` exists. If so, *it will check the contents** (and flags, depending on
+the command line arguments used) and **refuse to remove any file for which you
+do not have a copy**.
+
+Another cute thing it can do is compute a hash of a directory with all its
+files::
+
+    mergedirs --mode=hash
+
+Prints out (for a directory called ``merge``)::
+
+    merge                    4a44a8706698da50f41fef5fdcffd163
+
+This can be useful to check whether two directories in different computers are
+exactly the same (in terms of file contents, flags &c).
+
+It's mostly a tool I wrote to `scratch my own itch
+<http://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar>`__. I have no plans
+to develop it beyond my needs, but I it might be useful for others
+too.
+
