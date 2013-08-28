@@ -1,0 +1,80 @@
+A good poker player *polarizes his hands*. This means that, for example, they
+might play a check-raise (this means you first *refrain from betting* and then
+come over the top on your opponent—This is normally done to give the impression
+that you have a strong hand) when they do have a very strong hand or when they
+completely missed the flop (they have very bad cards and are just bluffing).
+Intermediate hands are played differently [#]_
+
+I think good software documentation is often also polarized: you should have
+*hard documentation* and *soft documentation*, but nothing in the middle.
+
+Hard Documentation
+~~~~~~~~~~~~~~~~~~
+
+This is low level documentation, generally. This is of the kind that a Unix
+manpage gets you. This tells you **exactly** what each function and each
+argument does. If it is good, it will often be very succint.
+
+Mahotas has always excelled at this level. Here is the sobel edge function::
+
+    def sobel(img, just_filter=False):
+        '''
+        edges = sobel(img, just_filter=False)
+
+        Compute edges using Sobel's algorithm
+
+        `edges` is a binary image of edges computed according to Sobel's algorithm.
+
+        This implementation is tuned to match MATLAB's implementation.
+
+        Parameters
+        ----------
+        img : Any 2D-ndarray
+        just_filter : boolean, optional
+            If true, then return the result of filtering the image with the sobel
+            filters, but do not threashold (default is False).
+
+        Returns
+        -------
+        edges : ndarray
+            Binary image of edges, unless `just_filter`, in which case it will be
+            an array of floating point values.
+        '''
+
+This is because I can remember the general ideas behind each function, but I
+might like to look up the exact arguments. So, every little detail is
+documented.
+
+Soft Documentation
+~~~~~~~~~~~~~~~~~~
+
+Soft documentation are tutorials and other higher level guides. They do not
+pertain to a single function or a single object, but to the overall structure
+and thinking behind the software.
+
+Mahotas has not had so much of these, but I have been trying to add some over
+the past few months (`Finding Wally
+<http://mahotas.readthedocs.org/en/latest/wally.html>`__, for example). Some
+more mahotas blogging might also help.
+
+The Intermediate Level
+~~~~~~~~~~~~~~~~~~~~~~
+
+I don't care so much for intermediate level documentation. I rarely find that
+level helpful. Unfortunately, this is the level at which too much bad
+documentation is written. Stuff like:
+
+    This function is part of the image segmentation pipeline. It can be used
+    after pre-filtering or directly on the raw image data.
+
+Ok, sort of helpful, but not really.
+
+
+.. [#] The reason for the randomness is that if you always do a single thing,
+    people will catch on and exploit it (if you bluff a lot, people will call
+    it; if you always have a strong hand, then you won't get the added benefit
+    of having someone try to call your bluff and give you even more chips).
+    Intermediate hands should not be played like this because if the opponent
+    pushes back, they probably have something that beats your intermediate
+    hand. As always in poker, YMMV.
+
