@@ -22,3 +22,6 @@ with a *September 15* date. Probably it matters for the people who still read
 the paper version, but I never met anyone who still subscribed for the paper
 edition.
 
+3. `Dominant Assurance Contracts
+<http://marginalrevolution.com/marginalrevolution/2013/08/a-test-of-dominant-assurance-contracts.html>`__
+
