@@ -14,4 +14,11 @@ I like this protocol:
     sensitive question of interest, in this case whether you've used
     [Performance Enhancing Drugs] in the last 12 months. 
 
+2. My Bioinformatics paper will make the `September 15 issue
+<http://bioinformatics.oxfordjournals.org/content/29/18/2343.abstract>`__.
+
+It has been available since early July in Advanced Access, now it is available
+with a *September 15* date. Probably it matters for the people who still read
+the paper version, but I never met anyone who still subscribed for the paper
+edition.
 
