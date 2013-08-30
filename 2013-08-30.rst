@@ -25,3 +25,6 @@ edition.
 3. `Dominant Assurance Contracts
 <http://marginalrevolution.com/marginalrevolution/2013/08/a-test-of-dominant-assurance-contracts.html>`__
 
+I love the logic behind this type of market design and to see that it works out
+in practice is nice.
+
