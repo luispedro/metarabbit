@@ -1,4 +1,5 @@
 I decided to blog all my old papers (from when I did not have a science blog).
+Expect the next few weeks to go back to the past.
 
     NUCLEAR SEGMENTATION IN MICROSCOPE CELL IMAGES: A HAND-SEGMENTED DATASET
     AND COMPARISON OF ALGORITHMS Luis Pedro Coelho, Aabid Shariff, and Robert
@@ -16,11 +17,11 @@ and run a complex segmentation algorithm over a simple one on that we were
 working with?*
 
 I hand-segmented a bunch of images from our datasets. Frankly, if I knew how
-much work this would take; I'd not have done it.  And I would not have written
-this paper. I believe that this is why it is widely cited: a lot of people
+much work this would take; I'd not have done it. And I would not have written
+this paper. I believe that this is why it became widely cited: a lot of people
 understand the value of the dataset (and use it for their work).
+
 
 Here is the `reproducible research archive for this paper
 <https://github.com/luispedro/segmentation>`__.
-
 
