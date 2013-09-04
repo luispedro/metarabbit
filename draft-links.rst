@@ -9,3 +9,10 @@ Why didn't anybody think of that before? (it's a bogus paper, of course)
 /ht `Jeffrey Beall
 <http://scholarlyoa.com/2013/09/03/weekend-update-predatory-publishing-news/>`__
 
+4. A `review of my book
+<http://matt.eifelle.com/2013/09/04/book-building-machine-learning-systems-in-python/>`__
+
+    I don’t think it is possible to write a better book on Machine Learning in
+    Python, unless the ecosystem evolves with new algorithms. Which it will,
+    and it will mean a new edition of the book! Neat!
+
