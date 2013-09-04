@@ -1,0 +1,53 @@
+People do read you thesis
+
+Last week, `@proflikesubstance <https://twitter.com/ProfLikeSubst>`__ wrote
+that you should `Publish papers. Your thesis means nothing
+<http://scientopia.org/blogs/proflikesubstance/2013/08/27/3545/>`__:
+
+    Get the papers out. Don't focus on an arcane document that will gather dust
+    for the next 50 years until the departmental office needs space and throws
+    the old ones out.
+
+§
+
+I didn't even get the bound copies of my thesis. It's a PDF sitting `on a
+department server <http://reports-archive.adm.cs.cmu.edu/lane.html>`__ (it's
+open access!).
+
+Thus, thiss image of a thesis as a big block of paper, gathering dust is out of
+date. During my graduate studies, I did read a few theses by others.
+
+Because things are now electronic, *people will read your thesis*. Probably not
+PIs (who will read the executive summary, ie, the papers), but graduate
+students will (and, incredible though it may seem, graduate students are people
+too). The median paper is probably read by very few people too, by the way.
+
+§
+
+My thesis is a staple thesis: short intro, review, `paper
+<http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2901896/>`__, `paper
+<http://bioinformatics.oxfordjournals.org/content/26/12/i7.full>`__, `paper
+<http://dx.doi.org/10.1093/bioinformatics/btt392>`__, paper [yet unpublished],
+short "conclusion", `software paper as appendix
+<http://openresearchsoftware.metajnl.com/article/view/jors.ac>`__.
+
+Have your cake and eat it too.  
+
+I did, however, enjoy being able to write without any page limits and put in
+more details than made it into the final version of the papers. I also put in
+some side comments that I thought were cool but on the periphery of what the
+chapter was about. In some ways, I had the opportunity to write down the type
+of thought I would now cut out of the paper and put on the blog.
+
+§
+
+This is not to say that you shouldn't publish in peer-reviewed outlets. You
+should (as I said, my thesis is a staple thesis). But we shouldn't use bad
+or out-of-date arguments, like *nobody reads your thesis*, for it.
+
+You should publish because **your résumé looks better with publications than
+with a thesis**. Theses are like assholes, everybody has one (everyone who is
+applying to the sort of academic jobs we are discussing).
+
+So, write your thesis **and** publish.
+
