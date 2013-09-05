@@ -1,15 +1,16 @@
-A basic labeling principle
+"The label it once, label it" twice Principle
 
-In any machine learning based application, you often need labeled data. This
-often means asking "experts" to label your data.
+In many machine learning based applications, you need labeled data. This often
+means asking "experts" to label your data. I hereby introduce the *label it
+once, label it twice principle*:
 
 **Whenever you ask experts to label data, always get some data independently
 labeled by more than one.**
 
 I have seen projects where two people are deemed capable of labeling data,
-simply split the data 50/50. If you cannot afford to have the two labelers
-label all the data, split it 40-20-40, please: 40% for labeler 1, 40% for
-labeler 2, and 20% overlap.
+simply split the data 50/50. This is a huge missed opportunity. If you cannot
+afford to have the two labelers label all the data, split it 40-20-40, please:
+40% for labeler 1, 40% for labeler 2, and 20% overlap.
 
 §
 
@@ -44,4 +45,20 @@ especially in high throughput data.
 **Me**: 90%, give or take.
 
 **Audience member**: Oh. And could I use this automated method on my problem?
+
+§
+
+References for unreliable labelers:
+
+    MacLeod, Norman, Mark Benfield, and Phil Culverhouse. “Time to Automate
+    Identification.” Nature 467.7312 (2010): 154–155.
+
+    Coelho, Luis Pedro et al. “Principles of Bioimage Informatics: Focus on
+    Machine Learning of Cell Patterns.” Linking Literature, Information, and
+    Knowledge for Biology. Ed. Christian Blaschke & Hagit Shatkay. Springer
+    Berlin Heidelberg, 2010. 8–18. link.springer.com. Web. 30 July 2013.
+    Lecture Notes in Computer Science 6004.
+
+
+
 
