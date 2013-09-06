@@ -15,3 +15,9 @@ that even when *f* is monotonically increasing, its derivative goes to zero.
 <http://en.wikipedia.org/wiki/Easterlin_paradox>`__. For extra credit, detail
 the policy implications of this fact.
 
+§
+
+(The Easterlin Paradox is the observation that when you ask people who happy
+they are on a scale from 1 to 10, this happiness value first grows fast with
+higher incomes, but then it plateaus. It doesn't grow forever.)
+
