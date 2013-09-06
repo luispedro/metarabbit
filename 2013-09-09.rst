@@ -1,4 +1,4 @@
-"The label it once, label it" twice Principle
+"The label it once, label it twice" Principle
 
 In many machine learning based applications, you need labeled data. This often
 means asking "experts" to label your data. I hereby introduce the *label it
@@ -53,12 +53,10 @@ References for unreliable labelers:
     MacLeod, Norman, Mark Benfield, and Phil Culverhouse. “Time to Automate
     Identification.” Nature 467.7312 (2010): 154–155.
 
-    Coelho, Luis Pedro et al. “Principles of Bioimage Informatics: Focus on
-    Machine Learning of Cell Patterns.” Linking Literature, Information, and
-    Knowledge for Biology. Ed. Christian Blaschke & Hagit Shatkay. Springer
-    Berlin Heidelberg, 2010. 8–18. link.springer.com. Web. 30 July 2013.
-    Lecture Notes in Computer Science 6004.
-
+    `Human vs. machine: evaluation of fluorescence micrographs
+    <http://www.computersinbiologyandmedicine.com/article/S0010-4825(02)00060-4/abstract>`__
+    TW Nattkemper, T Twellmann, H Ritter, W Schubert Computers in biology and
+    medicine 33 (1), 31-43
 
 
 
