@@ -1,8 +1,8 @@
-"The label it once, label it twice" Principle
+The "Label it twice" Principle
 
 In many machine learning based applications, you need labeled data. This often
 means asking "experts" to label your data. I hereby introduce the *label it
-once, label it twice principle*:
+twice principle*:
 
 **Whenever you ask experts to label data, always get some data independently
 labeled by more than one.**
