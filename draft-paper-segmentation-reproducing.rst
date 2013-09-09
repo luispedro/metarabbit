@@ -9,8 +9,27 @@ If you now download that code, **that is not the code that was used for the
 paper**!
 
 In fact, the version that generates the tables in the paper does not run
-anymore, because it only runs with old versions of numpy! [#]_ In order for it
-to compute the computation in the paper, I had to update the code.
+anymore, because it only runs with old versions of numpy! In order for it to
+compute the computation in the paper, I had to update the code. In order to run
+the code in the paper, you need to get old versions of software.
 
-.. [#] The issue is the changed semantics of the histogram function.
+§
+
+To some extent, this is due to numpy's frustrating lack of forward
+compatibility [#]_. The issue at hand was the changed semantics of the
+histogram function. In the end, I think they basically made avoided that
+function in my code for a few years as it was toxic (when you write `libraries
+for others <>`__, you never know which version of numpy they are running).
+
+But as much as I can gripe about numpy breaking code between minor versions,
+they would eventually be justified in changing their API with the next major
+version change.
+
+§
+
+.. [#] I used to develop for the KDE project where **you did not break user's
+   code ever** and so I find it extremely frustrating to have to explain that
+   you should not change an API on esthetical grounds in between minor
+   versions.
+
 
