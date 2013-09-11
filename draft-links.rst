@@ -31,3 +31,15 @@ I was surprised at the level of specialization demonstrated:
 
 I thought he was going to say "non-physics applications".
 
+4. A (rather unthoughtful) `rant on academia
+<http://crypto.junod.info/2013/09/09/an-aspiring-scientists-frustration-with-modern-day-academia-a-resignation/>`__
+
+Does academia suffer from collective imposter syndrome?
+
+There are many things wrong with science in general, this email even touches
+many of them, but it is a very immature perspective on the issues (I did not
+finish it), written in anger...
+
+Yet, I saw at least 5 people sharing it and discussing it on twitter.
+
+
