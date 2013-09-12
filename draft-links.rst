@@ -31,3 +31,6 @@ I was surprised at the level of specialization demonstrated:
 
 I thought he was going to say "non-physics applications".
 
+4. Wonder statistics: `Do left-handed people die young
+<http://marginalrevolution.com/marginalrevolution/2013/09/sinister-statistics-do-left-handed-people-die-young.html>`__
+
