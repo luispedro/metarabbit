@@ -4,15 +4,18 @@ There are two types of predatory publishers:
 
 1. The truly predatory. These are the guys who build a website with the same
 name as a real journal, copy its editorial board and wait for scientists to
-make a mistake. Or who have conferences with the same name and organizing
-committee as a real conference (except for a hyphen or some other minor thing;
-the committee is still fake, though).
+make a mistake (this is `journal hijacking
+<http://scholarlyoa.com/tag/journal-hijacking/>`__). Or who have conferences
+with `a similar name
+<http://scholarlyoa.com/2013/01/25/omics-predatory-meetings/>`__ or a fake
+organizing committee.
 
-These are publishers preying on trusting authors. This is, by far, the
+These are publishers preying on trusting authors. This is, probably, the
 **minority** of predatory publishers.
 
 2. The low quality (or perhaps no quality) journals. This is what most of
-Beall's list is actually about.
+`Beall's list <http://scholarlyoa.com/individual-journals/>`__ is actually
+about.
 
 This is **the publishers and the authors*** preying on the scientific system
 and often preying on taxpayer's money! The authors *are accomplices and not
@@ -47,8 +50,10 @@ two-peer peer-reviewed journal publications for tenure* [#]_. The fact that it
 was a private institution does not change the basic point that it is the
 taxpayer paying. Its college students get taxpayer subsidized loans and they
 may get some public research money as well (which go to pay for these
-publishing fees). They are not victims, they are predators. The taxpayer is the
-victim.
+publishing fees).
+
+Most authors of "predatory journals" are not victims, they are predators
+themselves. The taxpayer is the victim.
 
 .. [#] There is always the possibility of publishing in a barely-known journal
    that's starting out because you think it shows promise and later realizing
