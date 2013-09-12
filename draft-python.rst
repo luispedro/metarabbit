@@ -1,0 +1,51 @@
+A little Python thing I like to do, but have never seen in other people's code
+is to remove a prefix like this::
+
+    s = 'some string'
+    if s.startswith('some '):
+        s = s[len('some '):]
+
+I like the ``s[lem('some '):]`` approach as I find it both error-robust (as
+opposed to typing the actual number like ``s[5;]`` [#]_) and self-documenting.
+For example, consider::
+
+
+    from glob import glob
+    files = glob('datadir/experiment/*.txt')
+
+    ids = [f[len('datadir/'):] for f in files]
+
+It is pretty clear that what I want to do is remove the ``datadir/`` prefix.
+
+It works for suffixes too::
+
+    without_ext = filename[:-len('.txt')]
+    combined = filename[len('datadir/experiment/'):-len('.txt')]
+
+This is much better than [#]_::
+
+    combined = filename[18:-4]
+
+§
+
+(One may be tempted to write ``filename.replacce('.txt','')`` to get rid of a
+suffix, but this is wrong! It does not work with
+``'datadir/experiments/datafiles.txt/filename.txt'``, which is perfectly
+legal.)
+
+§
+
+It is slightly inefficient because the Python interepreter will actually
+create a string, then compute its length. [#]_
+
+However, this is generally in code where it does not matter that much. If it
+did, I'd be doing it in C(++) or using some other method.
+
+.. [#] It is not allowed to just replace it by the result statitically because
+   you may have redefined the function ``len``. It could have a check for the
+   common case, I suppose.
+
+.. [#] It should have been ``filename[19:-4]``, but it's hard to see
+   immediately. In any case, writing a number always makes me thing and code
+   should not make you think too muchg
+
