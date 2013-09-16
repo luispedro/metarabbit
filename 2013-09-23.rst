@@ -1,4 +1,6 @@
-Over the last few posts, I described my nuclear segmentation paper.
+Over the `last few posts
+<http://metarabbit.wordpress.com/tag/coelho2009_isbi/>`__, I described my
+nuclear segmentation paper.
 
 It has a `reproducible research archive
 <https://github.com/luispedro/segmentation>`__.
@@ -22,8 +24,9 @@ compatibility [#]_. The issue at hand was the changed semantics of the
 histogram function.
 
 In the end, I think I completely avoided that function in my code for a few
-years as it was toxic (when you write `libraries for others <>`__, you never
-know which version of numpy they are running).
+years as it was toxic (when you write `libraries for others
+<https://github.com/luispedro/mahotas>`__, you never know which version of
+numpy they are running).
 
 §
 
@@ -34,9 +37,9 @@ version change.
 In the end, the half-life of code is such that each year, it becomes harder to
 reproduce older papers even if the code is available.
 
-.. [#] I used to develop for the KDE project where **you did not break user's
-   code ever** and so I find it extremely frustrating to have to explain that
-   you should not change an API on esthetical grounds in between minor
-   versions.
+.. [#] I used to develop for the `KDE Project <http://www.kde.org/>`__ where
+   **you did not break user's code ever** and so I find it extremely
+   frustrating to have to explain that you should not change an API on
+   esthetical grounds in between minor versions.
 
 
