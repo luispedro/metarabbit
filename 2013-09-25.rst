@@ -6,8 +6,8 @@ is to remove a prefix like this::
         s = s[len('some '):]
 
 I like the ``s[lem('some '):]`` approach as I find it both error-robust (as
-opposed to typing the actual number like ``s[5;]`` [#]_) and self-documenting.
-For example, consider::
+opposed to typing the actual number like ``s[5:]``) and self-documenting. For
+example, consider::
 
 
     from glob import glob
@@ -35,17 +35,17 @@ legal.)
 
 §
 
-It is slightly inefficient because the Python interepreter will actually
+It is slightly inefficient because the Python interpreter will actually
 create a string, then compute its length. [#]_
 
 However, this is generally in code where it does not matter that much. If it
 did, I'd be doing it in C(++) or using some other method.
 
-.. [#] It is not allowed to just replace it by the result statitically because
-   you may have redefined the function ``len``. It could have a check for the
-   common case, I suppose.
-
 .. [#] It should have been ``filename[19:-4]``, but it's hard to see
    immediately. In any case, writing a number always makes me thing and code
    should not make you think too muchg
+
+.. [#] It is not allowed to just replace it by the result statically because
+   you may have redefined the function ``len``. It could have a check for the
+   common case, I suppose.
 
