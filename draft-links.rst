@@ -12,3 +12,19 @@
     have they have never really been incorporated into medical practice for
     reasons I can't put my finger on."
 
+2. `Don't Use Hadoop, Your Data Isn't That Big
+<http://www.chrisstucchio.com/blog/2013/hadoop_hatred.html>`__
+
+What is big data can quickly devolve into penis size comparisons (*my data is
+bigger than yours*), but if your data fits in RAM it's not big, it's hardly
+even data.
+
+3. Related: `Bayes and Big Data
+<http://vserver1.cscs.lsa.umich.edu/~crshalizi/weblog/1046.html>`__. I think
+it's interesting, but (i) there is a lot of effort in quasi-Bayesian method
+[#]_ and (ii) small data is still very important.
+
+
+.. [#] Quasi-Bayesian is a term I coined just now to mean approximate Bayesian
+   for computation tractability.
+
