@@ -1,0 +1,19 @@
+Mahotas-imread Now Accepts Options When Writing
+
+This week, I committed to `mahotas-imread
+<https://github.com/luispedro/imread>`__, some code to allow for setting
+options when saving::
+
+    from imread import imsave
+
+    image = ...
+    imsave('file.jpeg', image, opts={ 'jpeg:quality': 95 })
+
+This saves the ``image`` array to file ``file.jpeg`` with quality 95.
+
+§
+
+This is only available in the version from `github
+<https://github.com/luispedro/imread>`__ (at the moment), but I will probably
+put up a new release soon.
+
