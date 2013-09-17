@@ -24,6 +24,8 @@ even data.
 it's interesting, but (i) there is a lot of effort in quasi-Bayesian method
 [#]_ and (ii) small data is still very important.
 
+4. `Are some people chimeras?
+<http://www.nytimes.com/2013/09/17/science/dna-double-take.html?_r=1&pagewanted=all&>`__
 
 .. [#] Quasi-Bayesian is a term I coined just now to mean approximate Bayesian
    for computation tractability.
