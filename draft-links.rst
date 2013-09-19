@@ -27,6 +27,14 @@ it's interesting, but (i) there is a lot of effort in quasi-Bayesian method
 4. `Are some people chimeras?
 <http://www.nytimes.com/2013/09/17/science/dna-double-take.html?_r=1&pagewanted=all&>`__
 
+5. Another `review of our book <http://www.robotc.cl/rawbots/?p=96>`__:
+
+    Give yourself a time, get this book, study and use it with your data:
+    suddenly many things that were obscure or abstruse, will became clearer.
+    This books is a investment which worths every penny.
+
+[`Amazon link for the book <http://bit.ly/MLPythonBook>`__
+
 .. [#] Quasi-Bayesian is a term I coined just now to mean approximate Bayesian
    for computation tractability.
 
