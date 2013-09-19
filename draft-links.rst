@@ -27,6 +27,17 @@ it's interesting, but (i) there is a lot of effort in quasi-Bayesian method
 4. `Are some people chimeras?
 <http://www.nytimes.com/2013/09/17/science/dna-double-take.html?_r=1&pagewanted=all&>`__
 
+5. This `whole post just rubs me the wrong way
+<http://www.johnskylar.com/post/61507282912/why-you-dont-fucking-love-science>`__.
+
+It's science as another interest group with the same whiny confusion of inputs
+and outputs. And classism of *I'm a scientist, pay me more than a lowly
+sanitation worker* just upsets my stomach as thus the notion that getting 5-10
+years of graduate school *entitles* you to a six-figure salary. Seriously, the
+author says that it is what one *ought* to get for all that schooling.
+
+Almost makes me want to wish for a cut to the NIH budget as a disgusted
+response to all the entitlement.
+
 .. [#] Quasi-Bayesian is a term I coined just now to mean approximate Bayesian
    for computation tractability.
-
