@@ -13,6 +13,12 @@ This is, however, a simplified version of the world: many proteins are present
 in multiple organelles. They may move between organelles in response to a
 stimulus or as part of the cell cycle.
 
+Thus, we can move beyond simple assignment of a protein to an organelle to
+assigning it to multiple organelles. In fact, some work (both from the Murphy
+group and others) has looked at subcellular location classification using
+multiple labels per image. This, however, is still not enough: we want to
+quantify this.
+
 .. commment:: 
 
     I was pretty happy about these results, so were the other co-authors, we
