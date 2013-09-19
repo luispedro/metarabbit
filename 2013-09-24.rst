@@ -1,0 +1,7 @@
+Another `review of our book <http://www.robotc.cl/rawbots/?p=96>`__:
+
+    Give yourself a time, get this book, study and use it with your data:
+    suddenly many things that were obscure or abstruse, will became clearer.
+    This books is a investment which worths every penny.
+
+[`Amazon link for the book <http://bit.ly/MLPythonBook>`__
