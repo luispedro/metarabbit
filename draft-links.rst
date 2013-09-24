@@ -4,7 +4,21 @@
 It is interesting that correct papers get retracted for ethical reasons, but
 rarely just because they are wrong.
 
-2. More `non-computational thinking, the stupid snob edition
+2. `Fraud & Science <http://m.sciencemag.org/content/341/6150/1043.full>`__
+
+    The proposal, submitted some years earlier to a funding agency on a
+    different continent, was copied by one of the reviewers, a highly
+    recognized scientist, and then submitted to the ERC. It was pure chance
+    that the former applicant detected the fraud.
+
+    [...] However, the larger legal framework of the European Commission (EC)
+    under which the ERC operates links "frauds" only to financial aspects. The
+    ERC is then obliged to report any (accomplished or attempted) misbehavior
+    to OLAF, the European antifraud police. Financial fraud, however, causes
+    the least headaches. In the above case, the ERC was unable to take action
+    against the mischievous applicant.
+
+3. More `non-computational thinking, the stupid snob edition
 <http://www.theabsolutesound.com/articles/2013-tas-editors-choice-awards-digital-interconnects/>`__
 
     David Salz’s thoroughly researched assault on USB’s sonic handicaps
@@ -18,4 +32,3 @@ The Silver Starlight USB **digital** cable costs $275/m!
 
 /ht `Carter T Schonwald (@cartazio) on twitter
 <https://twitter.com/cartazio/status/381825304719020032>`__
-
