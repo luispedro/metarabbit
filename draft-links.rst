@@ -18,6 +18,16 @@ rarely just because they are wrong.
     the least headaches. In the above case, the ERC was unable to take action
     against the mischievous applicant.
 
+
+Contrast with how `standard scientific practice becomes criminal when money is
+involved
+<http://m.washingtonpost.com/national/health-science/the-press-release-crime-of-a-biotech-ceo-and-its-impact-on-scientific-research/2013/09/23/9b4a1a32-007a-11e3-9a3e-916de805f65d_story.html?utm_content=buffer370cc&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer>`__:
+    
+    “If you applied this rule to scientists, a sizable proportion of them might
+    be in jail today,” said Steven N. Goodman, a pediatrician and
+    biostatistician at Stanford University who submitted a statement supporting
+    Harkonen’s appeal.
+
 3. Another weird `science fraud case
 <http://www.nature.com/news/mystery-over-obesity-fraud-1.13810>`__:
 
