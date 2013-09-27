@@ -1,0 +1,90 @@
+Python "lists" are not lists. They are arrays.
+
+§
+
+This seems like the sort of rookie mistake that starting scientists make: they
+use terms imprecisely, they write like journalists not scientists.
+
+I can totally imagine myself telling a student starting out: *a list is a list
+and an array is an array, these are well defined computer science terms, you
+cannot use them interchangibly* (and I can imagine their mental reaction:
+*this guy is a pedantic prick*). I say to the students think like a politician:
+*everything you write must still be defensible even taken out of context*. [#]_
+
+Calling an array a list is wrong.
+
+§
+
+I wondered whether they had been lists in the past, so I went back and checked
+the earliest version of Python available, which happens to be Python 1.0.1
+
+After a minor bug fix [#]_, it actually compiled and ran on my Ubuntu 13.04
+machine! It is somewhat crashy on errors, but otherwise works.
+
+§
+
+First find: already in Python 1.0.1, lists were arrays! This was already an
+year old code base, so maybe at an even earlier time point, men were men and
+lists were lists. But by 1994, lists were arrays.
+
+§
+
+A surprising thing about the code: *if you're familiar with recent Python code,
+this will feel very familiar*. Here is how you set a list member::
+
+    int
+    setlistitem(op, i, newitem)
+        register object *op;
+        register int i;
+        register object *newitem;
+    {
+        register object *olditem;
+        if (!is_listobject(op)) {
+            XDECREF(newitem);
+            err_badcall();
+            return -1;
+        }
+        if (i < 0 || i >= ((listobject *)op) -> ob_size) {
+            XDECREF(newitem);
+            err_setstr(IndexError, "list assignment index out of range");
+            return -1;
+        }
+        olditem = ((listobject *)op) -> ob_item[i];
+        ((listobject *)op) -> ob_item[i] = newitem;
+        XDECREF(olditem);
+        return 0;
+    }
+
+This feels very similar to recent Python.
+
+§
+
+Even more surpring, here is the inner loop::
+
+        switch (opcode) {
+        
+        case POP_TOP:
+            v = POP();
+            DECREF(v);
+            break;
+        
+        case ROT_TWO:
+            v = POP();
+            w = POP();
+            PUSH(v);
+            PUSH(w);
+            break;
+
+and so on... This is almost exactly the same as the most recent Python. We are
+still using fundamentally the same implementation of Python that was out 20
+years ago.
+
+.. [#] A common complaint I have heard after MS theses defenses is *the jury
+   member took this one sentence from my introduction out of context and made a
+   big deal out of it. It wasn't even that related to my work*.
+
+.. [#] There is a function ``getline()`` in the standard library which was not
+   there in the early 1990s. So, Python's use of an internal function with the
+   same name gets the compiler confused. Renaming the internal function to
+   ``python_getline`` fixes it.
+
