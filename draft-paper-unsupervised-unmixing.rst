@@ -19,6 +19,38 @@ group and others) has looked at subcellular location classification using
 multiple labels per image. This, however, is still not enough: we want to
 quantify this.
 
+This is the **pattern unmixing problem**. The goal is to go from an image (or a
+set of images) to something like the following: *This is 30% nuclear and 70%
+cytoplasmic*, which is very different from *70% nuclear and 30% cytoplasmic*.
+The basic organelles can serve as the base patterns [#]_.
+
+Before our paper, there was some work in approaching this problem from a
+*supervised* perspective: Given examples of different organelles (ie, of
+markers that locate to a single organelle), can we automatically build a system
+which when given images of a protein which is distributed in multiple
+organelles, can figure out which fraction comes from each organelle?
+
+Our paper extended this to work To the *unsupervised case*: can you learn a
+mixture when you **do not** know which are the basic patterns?
+
+**References**
+
+`Determining the distribution of probes between different subcellular locations
+through automated unmixing of subcellular patterns
+<http://dx.doi.org/10.1073/pnas.0912090107>`__ Tao Peng, Ghislain M. C. Bonamy,
+Estelle Glory-Afshar, Daniel R. Rines, Sumit K. Chanda, and Robert F. Murphy
+PNAS 2010 107 (7) 2944-2949; published ahead of print February 1, 2010,
+doi:10.1073/pnas.0912090107
+
+`Object type recognition for automated analysis of protein subcellular location
+<http://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQLlBH4AAAAJ&cstart=40&citation_for_view=qQLlBH4AAAAJ:L8Ckcad2t8MC>`__
+T Zhao, M Velliste, MV Boland, RF Murphy Image Processing, IEEE Transactions on
+14 (9), 1351-1359
+
+
+.. [#] This is still a limited model because we are not sure even how many base
+   patterns we should consider, but it will do for now.
+
 .. commment:: 
 
     I was pretty happy about these results, so were the other co-authors, we
