@@ -1,0 +1,56 @@
+Having just spent some posts discussing a paper on `nuclear segmentation
+<http://metarabbit.wordpress.com/2013/09/11/nuclear-segmentation-in-microscope-cell-images/>`__
+(`all tagged posts <http://metarabbit.wordpress.com/tag/coelho2009_isbi/>`__),
+let me ask the question:
+
+*Is cell segmentation needed? Is this a necessary step in an analysis pipeline
+dealing with fluorescent cell images?*
+
+This is a common FAQ whenever I give a talk on my work which does not use
+segmentation, for example, using `local features for classification
+<https://metarabbit.wordpress.com/tag/coelho2013_bioinformatics/>`__ (see `the
+video <http://bit.ly/coelho2013-video>`__). It is a FAQ because, for many
+people, it seems obvious that the answer is that *Yes, you need cell
+segmentation*. So, when they see me skip that step, they ask: *shouldn't you
+have segmented the cell regions?*
+
+Here is my answer:
+
+Remember Vapnik's dictum [#]_: *do not solve, as an step problem, a harder
+problem than the problem you really need to solve.*
+
+Thus the question becomes: *is your scientific problem dependent on cell
+segmentation?* In the case, for example, of subcellular location determination,
+it is not: all the cells in the same field display the same phenotype, your
+goal being the find out what it is. Therefore, you do not need to have an
+answer for each cell, only for the whole field.
+
+In other problems, you may need to have a per-cell answer: for example in some
+kinds of RNAi experiment only a fraction of the cells in a field display the
+RNAi phenotype and the others did not take up the RNAi. Therefore, segmentation
+may be necessary. Similarly, if a measurement such as *distance of fluoresccent
+bodies to cell membrane* is meaningful, by itself (as opposed to being used as
+a feature for classification), then you need segmentaion.
+
+However, sometimes you can get away without segmentation.
+
+§
+
+An important point to note is the following: while it may be good to have
+access to perfect classification, imperfect classification (i.e., the type you
+actually get), may not help as much as the perfect kind.
+
+§
+
+Just to be sure, I was not the first person to notice that you do not need
+segmentation for subcellular location determination. I think this is the first reference:
+
+    Huang, Kai, and Robert F. Murphy. "Automated classification of subcellular
+    patterns in multicell images without segmentation into single cells."
+    Biomedical Imaging: Nano to Macro, 2004. IEEE International Symposium on.
+    IEEE, 2004. [`Google scholar link
+    <http://scholar.google.de/scholar?cluster=12709516786266993777&hl=en&as_sdt=0,5&as_vis=1>`__]
+
+.. [#] I'm quoting from memory. It may a bit off. It sounds obvious when you
+   put it this way, but it is still often not respected in practice.
+
