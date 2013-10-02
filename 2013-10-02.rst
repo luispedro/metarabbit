@@ -1,0 +1,35 @@
+Why Science is a Third World Economy
+
+Because people are cheap and things are expensive.
+
+§
+
+To a large extent, it is easier to get money to pay for people (salaries [#]_)
+than to pay for things. Other times, people show up who are willing to work
+without being paid (they are self-funded). But then you need to get them
+materials to work with. For that, you need to actually spend some money.
+
+So, the discussions often feel very much like the third-world: a lot of people
+standing around, replacement of capital by labour.
+
+§
+
+A while back I read a review which was comparing several technologies for the
+same measurement task [#]_. There were two high-quality methods in terms of the
+output. One was very automated but required you buy some kit (~$400), the
+other was artisanal.
+
+The authors wrote that the first one was good because it was very fast, but
+expensive. The other one took a long time, but was cheap. They didn't even
+price the cost of labour! They didn't even ask how many hours of graduate
+student time you can get for $400.
+
+Which, of course, makes some sense in the public-funded bureaucratic world
+where money is `not fungible <http://en.wikipedia.org/wiki/Fungibility>`__. You
+cannot often reallocate money from stipends to materials.
+
+.. [#] or stipends which are exactly like a salary, except for tax purposes.
+
+.. [#] I could probably find it now if I looked, but I don't actually want to
+   lose track of the main point.
+
