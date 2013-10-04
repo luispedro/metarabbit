@@ -1,0 +1,63 @@
+Seeing is Believing. But Don't Believe it.
+
+One of the nice things about being at EMBL is that, if you just wait,
+eventually you can hear the important people in your field speak. Today, I'm
+quite excited about the `Seeing is Believing conference
+<http://www.embo-embl-symposia.org/symposia/2013/EES13-03/>`__
+
+But ever since I saw this advertised, I dislike the name *Seeing is Believing*.
+
+§
+
+.. image:: illusion
+
+1. Seeing is believing. This is unquestionable.
+2. But *seeing is not always justified believing*. Our seeing apparatus will
+   often lead us astray. This is especially true on 
+3. The fact that seeing is believing is actually often a cognitive problem
+   which needs to be overcome!
+
+§
+
+I can no longer find who said it a `BOSC
+<http://www.open-bio.org/wiki/BOSC_2013>`__, but someone pointed out,
+insightfully, that *a visualization is already an interpretation of the data,
+it may be wrong*.
+
+More often than not, I show you a picture of a cell, this is rarely raw data.
+The raw data is a big pixel array. By the time I'm showing it to you I've done
+the following:
+
+1. Chosen an example to show.
+2. Often projected the data from 3D to a 2D representation
+3. Tweaked contrast.
+
+Point 1 is the biggest culprit here: the selection of which cell to image and
+show can be an incredibly biased process (even unconsciously biased, of
+course).
+
+However, even tweaks to the way that the projection is performed and to the
+contrast can highlight or hide important details (as someone with a lot of
+experience playing with images, I can tell you that there is a lot of space for
+"highlighting what you want to show"). In the newer methods (super-resolution
+type methods), this is even worse: the "picture" you see is already the output
+of a big processing pipeline.
+
+§
+
+I'm not even thinking about the effects of the tagging protocols, which
+introduces their own artifacts. But we, humans, often make the mistake of
+saying things like "this is an image of protein A in cell type B" instead of
+"this is an image of a chimeric protein which includes the sequence of A, with
+a strong promoter in cell type B".
+
+§
+
+We know that these artifacts and biases are there, of course. But we believe
+the images. And this can be a problem because humans are not actually all that
+great at image analysis.
+
+Seeing is believing, which too often means that we suspend our disbelief (or,
+as we scientists, like to say: *we suspend our skepticism*).
+
+
