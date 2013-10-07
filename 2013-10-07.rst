@@ -1,0 +1,18 @@
+Mahotas and the Python Scientific Ecosystem for Bioimage Analysis
+
+This week, I'm in Barcelona to talk about mahotas at the `EuBIAS 2013 Meeting
+<http://eubias2013.irbbarcelona.org/>`__.
+
+You can get a preview of my talk `here
+<http://luispedro.org/files/talks/2013/EuBIAS/mahotas.html>`__. You'll see it
+does not exclusively talks about mahotas, but the whole ecosystem. Comments are
+welcome (especially if they come in the next 24 hours).
+
+In preparation, I released new versions of mahotas (and the sister
+mahotas-imread) yesterday:
+
+- `Mahotas 1.0.3 <http://pypi.python.org/pypi/mahotas/>`__
+- `imread 0.3.2 <https://pypi.python.org/pypi/imread>`__
+
+There are a few bugfixes and small improvements throughout.
+
