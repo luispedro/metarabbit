@@ -34,7 +34,7 @@ Eventually, I realised that *PNG files are in network order* (i.e., in
 big-endian format) and the code did not convert them to little-endian. Thus, my
 initial intuition had been right!
 
-Why did ``imshow(f.byteswap())`` result in a mangled image, however?
+But in this case, why did ``imshow(f.byteswap())`` result in a mangled image?
 
 I stated to suspect that ``matplotlib`` had a bug. I tried to do::
 
@@ -42,7 +42,13 @@ I stated to suspect that ``matplotlib`` had a bug. I tried to do::
 
 and it resulted in the correct image.
 
+As it turned out, `matplotlib does not do the right thing when given 16 bit
+files <https://github.com/matplotlib/matplotlib/issues/2499>`__. It assumes
+that non-8 bit images are floating point and does::
 
+    final_image = (input_image * 255).astype(np.uint8)
+
+And now 
 
 .. [#] People don't always appreciate how valuable good bug reports are.
    Seriously, they are a huge help: you are testing the software for me.
