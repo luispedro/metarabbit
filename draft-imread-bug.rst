@@ -19,9 +19,9 @@ interpreted after a bit reversion. I also noticed another thing, though::
     max_16bit_value = 2**16-1
     imshow(max_16bit_value - f)
 
-Also looks decent. This should not be surprising, in two-bit complement, ``~f``
-is roughly ``-f``. Roughly, but similarly enough that, by eye, it is hard to
-tell apart. The TIFF format does allow you to specify whether zero is supposed
+Also looks decent.
+
+The TIFF format does allow you to specify whether zero is supposed
 to be white or black. Maybe PNG has a similar "feature."
 
 I read through the libpng documentation (which is not great), a bit through its
@@ -43,12 +43,32 @@ I stated to suspect that ``matplotlib`` had a bug. I tried to do::
 and it resulted in the correct image.
 
 As it turned out, `matplotlib does not do the right thing when given 16 bit
-files <https://github.com/matplotlib/matplotlib/issues/2499>`__. It assumes
-that non-8 bit images are floating point and does::
+files <https://github.com/matplotlib/matplotlib/issues/2499>`__.
 
-    final_image = (input_image * 255).astype(np.uint8)
+A single bug is often easy to debug, but when you have multiple bugs interacting; the complexity.
 
-And now 
+§
+
+**Hairy details:** You may want to stop reading now.
+
+Consider the following identities::
+
+    255 == 0xff
+    -f == (f ^ 0xff + 1)
+    2**16 - f = -f + 2**16 == -f (because of overflow)
+
+Thus, it should not be surprising that flipping the bits or subtracting the
+image resulted int , in two-bit complement, ``~f`` is roughly ``-f``.  Not
+exactly, but similarly enough that, by eye, it is hard to tell apart.
+
+Finally, it all makes sense when you realise that matplotlib assumes that non-8
+bit images are floating point and does::
+
+    final_image = (input_image * 255)
+    final_image = final_image.astype(np.uint8)
+
+Because what is multiplying by 255? It's the same as multiplying by -1! Thus,
+matplotlib would multiply by -1 and then take the low order bits. Th
 
 .. [#] People don't always appreciate how valuable good bug reports are.
    Seriously, they are a huge help: you are testing the software for me.
