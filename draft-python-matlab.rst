@@ -1,12 +1,13 @@
 Why Python is Better than Matlab for Scientific Software
 
-0. My argument only applies for new projects
+0. My argument mostly applies for new projects
 
 If you have legacy code in MATLAB, then it may make sense to just continue
-using it. If it works, don't fix it.
+using it. If it works, don't fix it. However, if your Matlab code keeps causing
+you pain, Python might be a solution.
 
-However, note that porting code is not the same as writing from scratch. You
-can often convert code from MATLAB to Python in a small fraction of the time it
+Note too that porting code is not the same as writing from scratch. You can
+often convert code from MATLAB to Python in a small fraction of the time it
 would take you to start from scratch.
 
 1. Python has caught up with Matlab and is in the process of overtaking it.
@@ -20,24 +21,41 @@ exploded in recent years.
 
 Right now, depending on what you are doing, Python may even better support it.
 It is now, Matlab which is playing catch-up with open source software (for
-example, the introduction of .. in Matlab is just a closed source version of 
+example, Matlab `is now introducing
+<http://www.mathworks.nl/help/matlab/ref/table.html>`__ their own versions of
+Pandas (which is, itself, a nicer version of R's Dataframe).
+
+Just this week, `Yhat released ggplot for Python
+<http://blog.yhathq.com/posts/ggplot-for-python.html>`__ [#]_. So, while last
+week, I was still pointing to plotting as one of the weakneses of Python, it
+might no longer be true.
 
 2. It is a real programming language
 
-Matlab is not.
+Matlab is not, it is a linear algebra package. This means that if you need to
+add some non-numerical capabilities
 
-This means that if you need to add some non-numerical capabilities
+For scientific purposes, when writing a small specialized script, Python may
+often be the second best choice: for linear algebra, Matlab may have nicer
+syntax; for statistics, R is probably nicer; for heavy regular expression
+usage, Perl (ugh) might still be nicer; if you want speed, Fortran or C(++) may
+be a better choice. To design a webpage; perhaps you want node.js. Python is
+not perfect for any of these, but is acceptable for all of them.
 
 3. It can easily interface with other languages
 
 Python can interfact with any language which can be interacted through C.
+Technically, the same is true of Matlab.
 
-
+However, the Python community and *especially the scientific Python community*
+has been extremely active in developing tools to make this as easy as you'd
+like (e.g., `Cython <http://cython.org/>`__).
 
 4. You can have a full open-source stack
 
 This also means that you are allowed to, for example, ship a whole virtual
-machine image with your paper.
+machine image with your paper. You can also see look at all of the code that
+your computation depends on. No black boxes.
 
 5. Licensing issues are a pain. And expensive.
 
@@ -65,6 +83,9 @@ few groups now forced to buy it out-of-pocket).
 By the way, if you do want support, there are plenty of options for purchasing
 it [#]_: larger companies as well as individual consultants available in any
 city. The issue of support is orthogonal to the licensing of the software itself.
+
+.. [#] Yhat is a commercial company releasing open-source software, by the way;
+   for those keeping track at home.
 
 .. [#] However, because science is a third-world econonmy, it may be easier to
    spend 10k on Matlab licenses which come with phone support to spending 1k on
