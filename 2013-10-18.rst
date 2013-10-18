@@ -1,0 +1,10 @@
+Back to regularly scheduled programming, some Friday Links
+
+1. `Best Practices for Scientific Computing <http://arxiv.org/abs/1210.0530>`__
+by Greg Wilson et al.
+
+2. `PLoS Time to Publication <http://nbviewer.ipython.org/6860035>`__
+
+Georg (`@mbgrw <https://twitter.com/mbgrw>`__) took my original explorations
+and has been running with it.
+
