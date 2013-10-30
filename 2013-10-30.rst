@@ -1,0 +1,67 @@
+Paper review:
+
+    Assessing the efficacy of low-level image content descriptors for
+    computer-based fluorescence microscopy image analysis by L. Shamir in
+    Journal of Microscopy, 2011 [`DOI
+    <http://dx.doi.org/10.1111/j.1365-2818.2011.03502.x>`__]
+
+This is an excellent simple paper [#]_. I will jump to the punchline (slightly
+edited by me for brevity):
+
+    This paper demonstrates that microscopy images that were previously used
+    for developing and assessing the performance of bioimage classification
+    algorithms can be classified even when the biological content is removed
+    from the images [by replacing them with white squares], showing that
+    previously reported results might be biased, and that the computer analysis
+    could be driven by artefacts rather than by the actual biological content.
+    This shows that bioimage analysis that is based on
+
+Here is an example of what the author means:
+
+image:: images/white_squares.png
+
+Basically, the author shows that even after modifying the images by drawing
+white boxes where the cells are, classifiers still manage to do apparently
+well. Thus, they are probably picking up on artefacts instead of signal.
+
+This is (and this analogy is from the paper, although not exactly in this form)
+like a face recognition system which seems to work very well because all of the
+images it has of me have me wearing the same shirt. It can perform very well,
+but will be fooled by anyone who wears the same shirt.
+
+§
+
+This is a very important work as it points to the fact that many previous
+results were probably overinflated. Looking at the dates when this work was
+done, this was probably at the same time that I was working on my own paper `on
+evaluation of subcellular location determination
+<http://metarabbit.wordpress.com/2013/07/13/recognition-of-an-organelle-marker-is-not-the-same-as-recognition-of-the-organelle/>`__
+(just that it took a while for that one to appear in print).
+
+I expect that my proposed stricter protocol for evaluation (train and test on
+separate images) would be more protected against this sort of effect [#]_: we
+are now modeling the real problem instead of a proxy problem.
+
+§
+
+I believe two things about image analysis of biological samples:
+
+1. Computers can be much better than humans at this task.
+2. Some (most? much of?) published literature *overestimates* how well computers do.
+
+Note that there is no contradiction between the two, except that point 2, if
+widely believed, can make it harder to convince people of point 1.
+
+(There is also a third point which is `most people overestimate how well humans
+do <http://metarabbit.wordpress.com/2013/09/09/the-label-it-twice-principle/>`__.)
+
+.. [#] Normally, I'd review recent papers only, but this not only had this one
+   escaped my attention when it came out (in my defense, it came out just when
+   I was trying to finish my PhD thesis), but it deals with themes I have
+   blogged about before.
+.. [#] I tried a bit of testing around here, but it is hard to automate the
+   blocking of the cells. Automatic thresholding does not work because it
+   depends on the shape of the signal! This is why the author of this paper
+   drew squares by hand.
+
+
