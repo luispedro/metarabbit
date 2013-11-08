@@ -1,0 +1,58 @@
+1. `Finding who wrote my book
+<http://www.aicbt.com/authorship-attribution/>`__. Comment/discuss at
+`twotoreal <http://twotoreal.com/q/81/author-attribution-for-chapters-3-4>`__
+
+2. `The Great Forgetting
+<http://www.theatlantic.com/magazine/archive/2013/11/the-great-forgetting/309516/>`__
+
+A lot more mood affiliation than arguments (not even a philosophical
+*alienation* type of argument), but I want to highlight two common errors:
+
+
+    [Experts] pointed to the example of driving a car, which requires not only
+    the instantaneous interpretation of a welter of visual signals but also the
+    ability to adapt seamlessly to unanticipated situations.  "Executing a left
+    turn across oncoming traffic," two prominent economists wrote in 2004,
+    "involves so many factors that it is hard to imagine the set of rules that
+    can replicate a driver's behavior." Just six years later, in October 2010,
+    Google announced that it had built a fleet of seven "self-driving cars,"
+    which had already logged more than 140,000 miles on roads in California and
+    Nevada.
+
+I wonder who those *experts* were and worry that the writer is getting the pace
+of technology from economists, but that's not the point. The point is **the two
+economists were correct**! But this is *argument from lack of imagination*.
+
+I'll even make a stronger claim: Making a left turn involves so many factors
+that it is impossible to imagine the set of rules that can replicate a driver's
+behavior.
+
+The mistake is to assume that this implies that we cannot write a computer
+programmer who does this task **better than any human driver**. We do not write
+computer programs for these tasks by enumeration of rules. We write subsystems,
+we empirically test (or have the machine empirically test), and we end up with
+a system much more complex than any single human mind can grasp. This has
+nothing to do with computers, by the way, nobody can imagine the set of rules
+that run any large industry: humans can collectively build unimaginably complex
+systems.
+
+The second fallacy is even more obvious:
+
+    The technology theorist Kevin Kelly, commenting on the link between
+    automation and pilot error, argued that the obvious solution is to develop
+    an entirely autonomous autopilot: "Human pilots should not be flying planes
+    in the long run." [...] That idea is seductive, but no machine is
+    infallible. Sooner or later, even the most advanced technology will break
+    down, misfire, or, in the case of a computerized system, encounter
+    circumstances that its designers never anticipated.
+
+This is textbook `nirvana fallacy
+<http://en.wikipedia.org/wiki/Nirvana_fallacy>`__.
+
+§
+
+I often wonder whether my daughter will ever be allowed to drive a car in the
+Western world. I think that allowing humans to drive cars on public roads will
+be seen as we now look at the working conditions of 19th century factories:
+dangerous choices that can only be explained by the lack of better options.
+
