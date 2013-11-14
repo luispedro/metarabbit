@@ -11,7 +11,22 @@ is *Given images of a protein, can we assign it to an organelle?*
 
 This is, however, a simplified version of the world: many proteins are present
 in multiple organelles. They may move between organelles in response to a
-stimulus or as part of the cell cycle.
+stimulus or as part of the cell cycle. For example, here is an image of
+mitochondria in green (nuclei in red):
+
+.. image:: images/img17.jpg
+
+Here is one of lysosomes:
+
+.. image:: images/img71.jpg
+
+And here is a mix of both!:
+
+.. image:: images/img77-2.jpg
+
+This is a dataset constructed for the purpose of this work, so we know what is
+happening, but it simulates the situation *where a protein is present in two
+locations simultaneously*.
 
 Thus, we can move beyond simple assignment of a protein to an organelle to
 assigning it to multiple organelles. In fact, some work (both from the Murphy
@@ -51,7 +66,7 @@ T Zhao, M Velliste, MV Boland, RF Murphy Image Processing, IEEE Transactions on
 .. [#] This is still a limited model because we are not sure even how many base
    patterns we should consider, but it will do for now.
 
-.. commment:: 
+.. 
 
     I was pretty happy about these results, so were the other co-authors, we
     thought they were great, Nature Biotechnology agreed and mentioned it in
