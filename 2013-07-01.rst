@@ -18,7 +18,7 @@ text-based format, you can just use ``grep``.
 
 However, if you have ever done this::
 
-    grep -c '^>' big_file.fa
+    grep '^>' big_file.fa | wc -l
 
 or (even better because ``grep`` can count)::
 
