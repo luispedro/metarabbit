@@ -1,0 +1,21 @@
+As part of the software carpentry instructor training programme, I did a little
+screencast on how to use the github webflow:
+
+
+
+§
+
+I did a little preparation beforehand (preparing the repository and trying it
+out), but the capture itself took less than a pomodoro (a pomodoro is 25
+minutes).
+
+On the one hand, I did not do a lot of editing. On the other hand, the practice
+I had from doing the video abstract for my Bioinformatics paper really helped
+here.
+
+§
+
+I did it all on Linux, using qx11grab + arecord to capture, then kdenlive to
+paste it together. In this case, I could even just have used qx11grab as it was
+all a single take.
+
