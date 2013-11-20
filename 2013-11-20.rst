@@ -1,0 +1,24 @@
+FAQ: How Many Clusters Did You Use?
+
+    Luis Pedro Coelho, Joshua D. Kangas, Armaghan Naik, Elvira Osuna-Highley,
+    Estelle Glory-Afshar, Margaret Fuhrman, Ramanuja Simha, Peter B. Berget,
+    Jonathan W. Jarvik, and Robert F.  Murphy, *Determining the subcellular
+    location of new proteins from microscope images using local features* in
+    Bioinformatics, 2013 [`Advanced Access
+    <http://dx.doi.org/10.1093/bioinformatics/btt392>`__]
+    
+    Coelho, Luis Pedro, Tao Peng, and Robert F. Murphy. “Quantifying the
+    Distribution of Probes Between Subcellular Locations Using Unsupervised Pattern
+    Unmixing.” Bioinformatics 26.12 (2010): i7–i12. `DOI:
+    10.1093/bioinformatics/btq220
+    <http://doi.org/10.1093/bioinformatics/btq220>`__
+
+Both of my Bioinformatics papers above use the concept of `bag of visual words
+<http://en.wikipedia.org/wiki/Bag-of-words_model_in_computer_vision>`__. The
+first for classification, the second for `pattern unmixing
+<http://metarabbit.wordpress.com/2013/11/15/old-work-unsupervised-subcellular-pattern-unmixing/>`__.
+
+Visual words are formed by clustering local appearance descriptors. The
+descriptors may have different origins (see the papers above and the references
+below), but the clustering is the same. 
+
