@@ -20,5 +20,49 @@ first for classification, the second for `pattern unmixing
 
 Visual words are formed by clustering local appearance descriptors. The
 descriptors may have different origins (see the papers above and the references
-below), but the clustering is the same. 
+below) and the visual words are used differently, but the clustering is a
+common intermediate step.
+
+A common question when I present this work is *how many clusters do I use?*
+Here's the answer: *it does not matter too much*.
+
+I used to just pick a round number like 256 or 512, but for the local features
+paper, I decided to look at the issue a bit closer. This is one of the panels
+from the paper, showing accuracy (y-axis) as a function of the number of
+clusters (x-axis):
+
+.. image:: images/profile-field-dna+-RT-widefield-gs.png
+
+As you can see, if you use enough clusters, you'll do fine. If I had extended
+the results rightwards, then you'd see a plateau (read the full paper &
+supplements for these results) and then a drop-off. The green line is N/4,
+where N is the number of images in the study. This seems like a good heuristic
+across several datasets.
+
+One very interesting result is that **choosing clusters by minimising AIC can
+be counter-productive**! Here is the killer data (remember, we would be
+**minimizing the AIC**):
+
+.. image:: images/accuracy-aic-rt-widefield-gs.png
+
+Minimizing the AIC leads to lower accuracy! AIC was never intended to be used
+in this context, of course, but it is often used as a criterion to select the
+number of clusters. I've done it myself.
+
+**Punchline**:
+If doing classification using visual words, minimsing AIC may be *detrimental*,
+try using N/4 (N=nr of images).
+
+**Other References**
+
+This paper (reviewed before on this blog) presents supporting data too:
+
+.. raw:: html
+
+   <span class="Z3988"
+   title="ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.jtitle=Bioinformatics&rft_id=info%3Adoi%2F10.1093%2Fbioinformatics%2Fbtt207&rfr_id=info%3Asid%2Fresearchblogging.org&rft.atitle=FuncISH%3A+learning+a+functional+representation+of+neural+ISH+images&rft.issn=&rft.date=2013&rft.volume=&rft.issue=&rft.spage=&rft.epage=&rft.artnum=&rft.au=Noa+Liscovitch&rft.au=Uri+Shalit&rft.au=Gal+Chechik&rfe_dat=bpr3.included=1;bpr3.tags=Biology%2CComputer+Science+%2F+Engineering%2CNeuroscience%2CBioinformatics%2C+Computational+Biology%2C+Systems+Biology%2C+Biomedical+Engineering%2C+Artificial+Intelligence%2C+Computational+Neuroscience">Noa
+   Liscovitch, Uri Shalit, & Gal Chechik (2013). FuncISH: learning a functional
+   representation of neural ISH images <span style="font-style:
+   italic;">Bioinformatics</span> DOI: <a rev="review"
+   href="http://dx.doi.org/10.1093/bioinformatics/btt207">10.1093/bioinformatics/btt207</a></span>
 
