@@ -1,0 +1,97 @@
+Last week, I wrote on `twitter <https://twitter.com/luispedrocoelho/>`__:
+
+.. raw:: html
+
+    <blockquote class="twitter-tweet" lang="en"><p>Programming in shell feels
+    like programming in R: a lot of convenience to get started, but poor error
+    checking and many dark corners.</p>&mdash; Luis Pedro Coelho
+    (@luispedrocoelho) <a
+    href="https://twitter.com/luispedrocoelho/statuses/403887893997182976">November
+    22, 2013</a></blockquote> <script async
+    src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+This is a general pattern, but what was really upsetting me was that while
+using `process substitution
+<http://www.vincebuffalo.com/2013/08/08/the-mighty-named-pipe.html>`__ can be
+very convenient, it is hard to get an error from the subshells.
+
+Here is what I mean:
+
+Some pre-processing generated two outputs ``file1.gz`` and ``file2.gz``, both
+of which are sorted. Now, I want to merge the results (in sorted order) and run
+a Python ``dosummary.py`` script.
+
+**Option 1**::
+
+    gunzip file1.gz
+    gunzip file2.gz
+    sort --merge file1 file2 > intermediate
+    python dosummary.py < intermediate
+
+This works, but it generates a lot of slow disk IO. Note that I used ``sort
+--merge`` which merges already sorted files. This is a really neat option in my
+usage as I can often sort the intermediate small files at the source.
+
+**Options 2**::
+
+    sort --merge <(gunzip -c file1.gz) <(gunzip -c file2.gz) | python dosummary.py
+
+This is great! No intermediate files, all done with the magic of Unix files.
+
+§
+
+Except if there is an error!
+
+**Option 1 with error checking**::
+
+    set -e
+    gunzip file1.gz
+    gunzip file2.gz
+    sort --merge file1 file2 > intermediate
+    python dosummary.py < intermediate
+
+Now, if any of the steps fails, then the whole script fails with an error.
+
+What about the pipe version? Let's try this (I also use the `pipefail option
+<http://petereisentraut.blogspot.de/2010/11/pipefail.html>`__ to make the whole
+pipe fail if any of the elements fails [surprisingly, this is not the
+default]).
+
+**Option 2 with error checking**::
+
+    set -e
+    set -o pipefail
+    sort --merge <(gunzip -c file1.gz) <(gunzip -c file2.gz) | python dosummary.py
+
+However, if ``file1.gz`` is corrupt, the whole thing will seem to work just
+fine. I did not find any way to get an error out of process substitutions.
+
+I finally replaced ``<(gunzip -c file.gz)`` by ``<(gunzip -c file.gz || touch
+GUNZIP_FAILED)``.
+
+**Option 2 with hard-core error checking**::
+
+    set -e
+    set -o pipefail
+    sort --merge <(gunzip -c file1.gz || touch GUNZIP_FAILED) <(gunzip -c file2.gz || touch GUNZIP_FAILED) | python dosummary.py
+    if [[ -e GUNZIP_FAILED ]] ; then
+        exit 2
+    fi
+
+Now, any error will cause the whole thing to fail.
+
+§
+
+The issue is that, for this simple example, if I was running this one time,
+then I could just check the error logs. If ``gunzip`` fails, then it'll print a
+message to standard error.
+
+However, if this is a single-step in a longer pipeline, being run on many data
+sets; then an error here may easily get lost in the noise [#]_. Besides, I
+don't want to look at error logs, I want failing processes to announce
+themselves.
+
+.. [#] Especially as many bioinformatics tools are not good Unix citizens and
+   output a lot of messages even if there are no errors. Also, they don't
+   always distinguish between stdout & stderr correctly.
+
