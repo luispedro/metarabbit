@@ -7,9 +7,11 @@ use terms imprecisely, they write like journalists not scientists.
 
 I can totally imagine myself telling a student starting out: *a list is a list
 and an array is an array, these are well defined computer science terms, you
-cannot use them interchangibly* (and I can imagine their mental reaction:
-*this guy is a pedantic prick*). I say to the students think like a politician:
-*everything you write must still be defensible even taken out of context*. [#]_
+cannot use them interchangibly* (and I can imagine their mental reaction: *this
+guy is a pedantic prick* [#]_).
+
+I tell the students to think like a politician: *everything you write must
+still be defensible even taken out of context*. [#]_
 
 Calling an array a list is wrong.
 
@@ -23,9 +25,9 @@ machine! It is somewhat crashy on errors, but otherwise works.
 
 §
 
-First find: already in Python 1.0.1, lists were arrays! This was already an
-year old code base, so maybe at an even earlier time point, men were men and
-lists were lists. But by 1994, lists were arrays.
+First find: already in Python 1.0.1, lists were arrays! This was already year
+old code base, so maybe at an even earlier time point, men were men and lists
+were lists. But by 1994, lists were arrays.
 
 §
 
@@ -75,13 +77,19 @@ Even more surpring, here is the inner loop::
             PUSH(w);
             break;
 
-and so on... This is almost exactly the same as the most recent Python. We are
-still using fundamentally the same implementation of Python that was out 20
-years ago.
+and so on... This is almost exactly the same as the most recent Python.
 
-.. [#] A common complaint I have heard after MS theses defenses is *the jury
-   member took this one sentence from my introduction out of context and made a
-   big deal out of it. It wasn't even that related to my work*.
+We are still using fundamentally the same implementation of Python that was out
+20 years ago.
+
+.. [#] **Student**: I meant list as a general one-thing-after-another-in-order
+   box, **Wise older researcher** You mean a sequence? **Student**: Yeah, that.
+   **Wise older researcher**: then you should write sequence. *At this point,
+   the student attains enlightment and starts applying for jobs in industry.*
+
+.. [#] A common complaint I have heard after several MS thesis defenses is *the
+   jury member took this one sentence from my introduction out of context and
+   made a big deal out of it. It wasn't even that related to my work*.
 
 .. [#] There is a function ``getline()`` in the standard library which was not
    there in the early 1990s. So, Python's use of an internal function with the
