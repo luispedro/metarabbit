@@ -1,0 +1,72 @@
+Let me double down on a mistake. Two days ago, I wrote that `Python lists are
+not lists, they're arrays
+<http://metarabbit.wordpress.com/2013/12/03/python-lists-are-not-lists-a-history/>`__.
+
+I got called out `on twitter
+<https://twitter.com/luispedrocoelho/status/408236536866828288>`__ for not
+realising that Lists refers to the abstract data type called list and not a
+particular implementation.
+
+These people are right that list is used for an abstract data type that may be
+implemented by an array.
+
+§
+
+However, the word *list* carries more meaning than *the abstract data type
+list*. When people say a *list* they are not thinking of an array. If a group
+of theoreticians used the term list to in a restricted context, sure, they can
+go ahead, but it does not change the fact that when people say list in the
+context of computer programming, they mean "some type of linked list".
+
+Which is why it is not meaningless to say *Python lists are arrays, not lists*
+or to ask *should we use an array or a list for this?*
+
+§
+
+If I look at the `Most used programming languages
+<http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html>`__, Python
+is the only one I know of whose list type is not a list. Even PHP calls its
+arrays arrays [#]_. Other languages, use array or vector for arrays, and list
+for, well, lists.
+
+§
+
+Calling arrays lists is confusing. I mean this quite literally [#]_: I have
+cleared up confusions in other people's minds about Python lists [#]_ by just
+saying *they're not lists, they're arrays*.
+
+§
+
+I also do not particularly care about implementation details, but I do care
+about performance. I think that if you are going to call something a list, it
+should have O(1) splicing.
+
+I quite like the way that C++ does it (one of my `#UnpopularOpinon
+<https://twitter.com/search?q=%23UnpopularOpinion&src=typd>`__ is that C++ is
+still one of the most advanced programming languages around and others are
+still catching up). Its standard data structures are defined as abstract data
+types plus big-O performance guarantees. Naturally, this often constrains the
+implementation to a specific family of techniques (particularly for the basic
+types), but it still leaves a bit of wiggle room for implementers to tune to
+their particular architectures.
+
+More importantly, it lets me use the structure *without caring for the internal
+implementation* if I have the right performance guarantees. If you tell me
+*here's this structure with these functions* it is not really very usable until
+I have an idea of the performance. This is more and more important as data
+grows. Implementing ``car/cdr`` with arrays is fine if you have 100 elements,
+not if you have a billion.
+
+.. [#] Cheap shot, sorry. PHP probably got this right by coincidence.
+
+.. [#] In this case, I am using literal in the strict sense, although literally
+   `also means
+   <http://www.oxforddictionaries.com/definition/english/literally>`__
+   *emphatically*. The history of the word literally is similar to the overall
+   gist of this post: in a restricted context, literally means
+   non-figuratively, but the word has morphed to mean figuratively.
+
+.. [#] Because I started using Python a long time ago and am fairly vocal about
+   how great it is, a lot of people turn to me for doubts when they're learning
+   the language.
+

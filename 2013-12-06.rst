@@ -1,0 +1,77 @@
+Is Biology a Science?
+
+When reading `this polemic
+<http://aeon.co/magazine/nature-and-cosmos/why-its-time-to-lay-the-selfish-gene-to-rest/>`__,
+I could not help but think of the genre of articles that compares economics to
+physical sciences to argue that *economics is not a science*.
+
+It's exactly the same of sort of argument: trying to make a disagreement in
+emphasis into a disagreement in substance (I mean, this isn't even like the
+major fights in that other non-science, theoretical physics, where string
+theory is either the solution or a blind-alley).
+
+At the end of the article, I still don't understand the *anti-selfish gene*
+argument. I see two arguments in this article:
+
+Differences in gene expression can account for large changes. Well, duh. My
+hand is not liver even though the cells there have the same genome.
+
+The whole genome is a system and genes do not function individually. This is
+the part of the argument that most feels like the *anti-efficient markets*
+polemics I read after `Eugene Fama won the Nobel Prize
+<http://en.wikipedia.org/wiki/Eugene_Fama>`__. It's a `complete straw-man
+<http://en.wikipedia.org/wiki/Straw_man>`__. Even in the *Selfish Gene* book,
+Dawkins [#]_ stresses that (1) fitness of a gene is a function of the
+environment and (2) the most important environment for a gene is the genome in
+which it is inserted. Genes can be high-fitness by changing the expression of
+other genes, perhaps conditional on certain environmental cues. How else does
+gene expression change? It's genes all the way down [#]_.
+
+§
+
+Let me put it this way: the gene that codes for the light receptors in your
+eyes would be pretty useless in a species that lives in dark caves. The gene
+that regulates the expression of other genes would be pretty useless in the
+absence of those other genes. Even the light receptor gene is pretty useless if
+you species does not have a nervous system. Was this ever in doubt?
+
+Also, yes, we are no longer trying to look for the gene for autism, the gene
+for homosexuality, or the gene for X. In as much as these are genetically
+mediated, these are multi-gene phenomena with complicated environmental
+interactions. But saying this just says that the gain in fitness of a specific
+gene is a complicated process, which depends on the whole context, and that is
+not easy for humans to apprehend it.  It does not invalidate the idea of a gene
+as the basic element that gets selected (in the context of other genes). Only
+in a fuzzy sense does the systems biology view contradict the selfish gene
+model. In a non-fuzzy sense, they're compatible.
+
+§
+
+Maybe there is something I'm missing in the anti-selfish gene argument, but
+having read a few of these, it always feels that the author just does not like
+the word selfish in the metaphor as it celebrates the wrong kind of human
+behaviour (as if making a point about the evolution of insects had anything to
+do with how you should live your life: a locust is a grasshopper therefore you
+should visit your mother for Thanksgiving).
+    
+The author says towards the end:
+
+    It’s not a selfish gene or a solitary genome. It’s a social genome.
+
+And the camera pans to an open field with a painted barn. The the American flag
+is visible on the horizon. Soft music.
+
+§
+
+Turns out that, just like Economics, Biology is not a science.
+
+.. [#] I find myself in the unusual position of defending Dawkins, which I
+   generally find a very shallow thinker.
+
+.. [#] Dawkins says this in the piece. The author is taken by surprise (which
+   just means that he never even understood the view that he's criticizing) and
+   replies with a non-answer quote. It's like that old chestnut *markets are
+   not efficient because you cannot predict them* (actually, the efficient
+   market hypothesis is the idea that you cannot predict markets, so you've
+   just argued that gravity is not true because things fall).
+
