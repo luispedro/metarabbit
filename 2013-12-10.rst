@@ -1,0 +1,47 @@
+How to save & load large pandas dataframes
+
+I have recently started using `Pandas <http://pandas.pydata.org/>`__ for many
+projects, but one feature which I felt was missing was a native file format the
+data. This is especially important as the data grows.
+
+Numpy has a simple data format which is just a header plus a memory dump, which
+is great as it allows you to memory-map the data into memory. Pandas does not
+have the same thing.
+
+After looking at the code a little bit, I realized it's pretty easy to fake it
+though:
+
+1. The data in a Pandas DataFrame is held in a numpy array.
+2. You can save that array using the numpy format.
+3. The numpy code does not care about the file beyond the header: it just maps
+   the rest of the data into memory.
+4. In particular, it does not care if there is something in the file after the
+   data. Thus, **you can save the Pandas extra-data after the numpy array on
+   disk**.
+
+I wrote this up. Here is the writing code::
+
+    np.save(open(fname, 'w'), data)
+    meta = data.index,data.columns
+    s = pickle.dumps(meta)
+    s = s.encode('string_escape')
+    with open(fname, 'a') as f:
+        f.seek(0, 2)
+        f.write(s)
+
+We save the array to disk with the numpy machinery, then ``seek`` to the end
+and write out the metadata.
+
+Here is the corresponding loading code::
+
+    values = np.load(fname, mmap_mode='r')
+    with open(fname) as f:
+        numpy.lib.format.read_magic(f)
+        numpy.lib.format.read_array_header_1_0(f)
+        f.seek(values.dtype.alignment*values.size, 1)
+        meta = pickle.loads(f.readline().decode('string_escape'))
+    frame = pd.DataFrame(values, index=meta[0], columns=meta[1])
+
+Check out this `gist <https://gist.github.com/luispedro/7887214>`__ for a
+better version of these, which also supports ``pandas.Series``.
+
