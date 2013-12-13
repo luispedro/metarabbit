@@ -1,0 +1,36 @@
+1. `On Schekman's pledge to not publish high-profile
+<http://pipeline.corante.com/archives/2013/12/11/down_with_the_luxury_journals.php>`__.
+I almost called this *a balanced view*, but then realized that I probably used
+that phrase to refer to Derek Lowe's work at least twice in the past. The man
+is smart and balanced, what can I say?
+
+2. `An interesting meeting report
+<http://genomebiology.com/2013/14/12/315/abstract>`__ (closed access, sorry).
+Two highlights:
+
+    While discussing mutations that predispose to cancer, Nazneen Rahman
+    (Institute of Cancer Research, UK) rightly reminded us that people make big
+    decisions and have parts of their anatomy removed based on their genotype.
+
+    [...]
+
+    Jeanne Lawrence (University of Massachusetts Medical School, USA)
+    convincingly showed that her lab was able to silence one entire copy of
+    chromosome 21 in stem cells in vitro. Trisomy 21 or Down’s syndrome is
+    caused by an extra copy of chromosome 21. [...] Lawrence and colleagues
+    inserted XIST (human X-inactivation gene) into chromosome 21 in stem cells
+    with trisomy 21. They then showed using eight different methods that a
+    single copy of the chromosome had indeed been silenced.
+    
+
+3. A `good explanation of Bitcoin, the protocol <http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/>`__
+
+4. Interesting article about `wine & technology
+<http://www.economist.com/news/technology-quarterly/21590767-high-tech-winemaking-technology-has-already-made-poor-plonk-thing-past?utm_content=buffer2fcce&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer>`__
+in The Economist (which is one of the few mainstream magazines whose science
+coverage is worth reading [#]_).
+
+.. [#] Actually, I think it's the only one who can be consistently trusted, but
+   I enjoy anything by Ed Yong wherever he publishes and been reading some
+   excellent articles by Carl Zimmer in The Atlantic.
+
