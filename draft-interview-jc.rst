@@ -1,6 +1,9 @@
-I've known João for a few years, but last year, we were both at `Instituto de
-Medicina Molecular <>`__ in Lisbon and we got to interact more and talked
-a lot of science and non-science.
+I've known `João Carriço <http://www.joaocarrico.info>`__ for a few years, but
+last year, we were both at `Instituto de Medicina Molecular
+<http://im.fm.ul.pt/dokuwiki/doku.php>`__ in Lisbon and we got to interact more
+and talked a lot of science and non-science.
+
+.. image:: http://kdbio.inesc-id.pt/~jcarrico/JAC2.png
 
 Below is a little conversation we had on science, twitter, and bioinformatics.
 My questions are bolded:
@@ -11,19 +14,19 @@ opposite of the typical path for a computational biologist.  Do you agree?**
 As I see it there are two possible paths for computational biologist: you are
 either someone with Computational Science/Physics background or from
 Biology/Biochemistry background. I am closer to this second category since my
-degree was Applied Chemistry, Biotechnology. Furthermore, at this point I don’t
-believe there is a “typical” path. IF you like computer science and biology you
-can become a computational biologist with more or less work on either (or both)
-areas.
+degree was in Applied Chemistry, Biotechnology. However, at this point, I don’t
+believe there is a “typical” path. IF you like computer science and
+biology you can become a computational biologist with more or less work on
+either (or both) areas.
 
 **Does this impact the way you work when compared with someone who came in the
 other way, from pure computer science?**
 
-Indeed. There are huge differences in how these two communities tackle the
-problems. Coming from a biology-like background I just focus how can I get the
-answer and visualize it, and try not to worry much about the algorithm is
-implemented. My first main goal is to get an answer out and then worry about
-the details of the algorithm.
+Indeed, it does. There are huge differences in how these two communities tackle
+the problems. Coming from a biology-like background I just focus how can I get
+the answer and visualize it, and try not to worry too much about how the
+algorithm is implemented. My first main goal is to get an answer out and then
+worry about the details of the algorithm.
 
 **On a related note, how do you see computational biology evolving? Will it
 remain "interdisciplinary" or become itself a discipline, so that people are
@@ -48,73 +51,77 @@ tasks.
 **Have you already seen changes in how institutions handle computational
 biology (and bioinformatics)? How do you rate these changes?**
 
-Unfortunately I can’t say that I have seen it, at least at any serious
-commitment level. Now, with the new next generation sequencing approaches they
-are starting to realize the need to have specialised personnel and
-infrastructure to handle it, but the institutions (at least the ones oriented
-in biological research) still don’t recognise the scientific merit or research
-needs of the field.
+Unfortunately I can’t say that I have seen it, at least with a serious
+commitment level. Now, with the new next generation sequencing approaches some
+people are starting to realize the need to have specialised personnel and
+infrastructure, but the institutions (at least the ones oriented in biological
+research) still don’t recognise the scientific merit or research needs of the
+field.
 
 **Let's switch tracks a bit and talk about science per se, namely your
 projects: Your work seem to be a mixture of method development and applications
 that are very close to the clinic. Is this a fair characterisation?**
 
 You can say that. Not as close to the clinical practice as I would like though.
+
 I work basically in data analysis and management of microbial typing methods,
 which are used to identify bacterial pathogens at strain level. This is
 important since we know that for several bacteria only a few lineages in a
 certain species are the cause of the majority of diseases while others are
 commensal to us. The aim of my research is to understand what is the best way
 to do this classification based on the available methods and how can that be
-useful to track and predict the appearance of problematic strains,i.e., the
-ones that can be spread faster or be resistant to antibiotics for example.
+useful to track and predict the appearance of problematic strains, i.e., the
+ones that can be spread faster or be resistant to antibiotics.
 
 **How does one go about managing a project where you may have someone who is a
 bench biologist, another person who lives inside the command line, and a
 medical doctor?**
 
 Well, as always the first step is finding a common language and trying to
-restrict our conversations to that. In the beginning we don’t want a computer
+restrict our conversations to that. In the beginning, we don’t want a computer
 scientist explaining algorithmic details to an MD or an MD explaining in detail
 how the infection advances in a patient to a computer scientist as both will be
 at loss. Eventually this will come and the questions will rise and the common
 language will encompass it. The important thing is remind everyone to have an
-open mind about the subjects to be discussed. You always have to be the “hinge”
-people as someone told me some time ago. For the biologists I am the computer
-scientist and for the computer scientist I am the biologist, thus being the
-hinge between to fields. But in the end I can say that we can get very
-interesting and productive results!
+open mind about the subjects to be discussed.
+
+You always have to be the “hinge” people as someone told me some time ago. For
+the biologists I am the computer scientist and for the computer scientist I am
+the biologist, thus being the hinge between to fields. But in the end I can say
+that we can get very interesting and productive results!
 
 **Do you think hospitals will start using next-generation-sequence-based tools
 to either analyse samples or monitor for antibiotic resistant outbreaks? If so,
 what's the timeline: in 5 years or 20 years?**
 
-This will be for sure in less than 5 years. The problem in that example is that
-the presence of a antibiotic resistance gene doesn’t always correlate to the
-strain being non-susceptible to that antibiotic. So in the next 2-5 years, if
-the price of sequencing continues to drop, I can see NGS being done routinely
-as first approach as you can get results in less than 12 hours and that could
-eventually guide or advise the antimicrobial therapeutic that should be
-prescribed or even detect some relevant virulence factors/toxins that the
+This will happen for sure in less than 5 years. The problem in that example is
+that the presence of a antibiotic resistance gene doesn’t always correlate to
+the strain being non-susceptible to that antibiotic. So in the next 2-5 years,
+if the price of sequencing continues to drop, I can see NGS being done
+routinely as first approach as you can get results in less than 12 hours and
+that could eventually guide or advise the antimicrobial therapeutic that should
+be prescribed or even detect some relevant virulence factors/toxins that the
 strain can produce .
 
-**Tell us about an interesting recent project of yours, whether published or
-not.**
+**Tell us about an interesting recent project of yours (published or
+unpublished).**
 
 In the last years I have been working a lot with ontologies and RESTful
-interfaces applied to microbial typing and NGS. As I usually say, I’m not a big
-fan of this type of work as I prefer working in algorithms and visualisation,
-but I see it as the base for all my other works. Again, without a common
-language with which databases can communicate or simply reduce the overhead for
-data integration, having the best algorithms and result visualisation can be
-meaningless with you don’t get the data integrated correctly or even if you
-don’t get the data. It is the part of the big puzzle that most people recognise
-its necessity but shun away from doing it. I decided to bite the bullet and
-push (slowly) forward in this field and I’m being rewarded with some good
-collaborations and interest from the community. Hopefully, next year we will
-have a couple of publication to show the results.
+interfaces applied to microbial typing and NGS.
 
-**You are an active science twitterer. Is this something that's an addition to
+As I usually say, I’m not a big fan of this type of work as I prefer working in
+algorithms and visualisation, but I see it as the base for all my other work.
+Again, without a common language with which databases can communicate or simply
+reduce the overhead for data integration, having the best algorithms and result
+visualisation can be meaningless with you don’t get the data integrated
+correctly or even if you don’t get the data. It is the part of the big puzzle
+that most people recognise its necessity but shun away from doing it. I decided
+to bite the bullet and push (slowly) forward in this field and I’m being
+rewarded with some good collaborations and interest from the community.
+Hopefully, next year we will have a couple of publication to show the results.
+
+**You are an active science twitterer [João is `@jacarrico
+<https://twitter.com/jacarrico>`__]. Is this something that's an addition to
 your work, a distraction, or both?**
 
 Being a very important addition to my work largely outweighs the distraction!
@@ -132,4 +139,14 @@ The science gossip with all its juicy bits through twitter is here to stay. As
 I see it, the filtering of twitter gossip happens at blog level as tweets get
 blogged and commented upon, so the good parts will stay afloat from the noisy
 background.
+
+**Thank You!**
+
+`João Carriço <http://www.joaocarrico.info>`__ is a researcher at the
+`Molecular Microbiology and Infection Unit
+<http://im.fm.ul.pt/dokuwiki/doku.php>`__ of the `Instituto de Medicina
+Molecular <http://imm.fm.ul.pt/web/imm/home>`__. He can be found on twitter as
+`@jacarrico <https://twitter.com/jacarrico>`__. A full list of his publications
+can be found in `his google scholar profile
+<http://scholar.google.lu/citations?user=pdOMK7wAAAAJ&hl=en&oi=ao>`__
 
