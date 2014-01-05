@@ -1,0 +1,50 @@
+Year in Review: papers
+
+1. `Determining the subcellular location of new proteins from microscope images
+using local features
+<http://bioinformatics.oxfordjournals.org/content/29/18/2343.short>`__ by
+Coelho et al., in Bioinformatics (2013).
+
+One sentence summary: `Recognition of an organelle is a harder problem than
+recognition of a fluorescent marker
+<http://metarabbit.wordpress.com/2013/07/13/recognition-of-an-organelle-marker-is-not-the-same-as-recognition-of-the-organelle/>`__,
+but `local features can improve performance
+<http://metarabbit.wordpress.com/2013/07/10/new-paper-determining-the-subcellular-location-of-new-proteins-from-microscope-images-using-local-features/>`__.
+
+See `previous posts on this paper
+<http://metarabbit.wordpress.com/tag/coelho2013_bioinformatics/>`__ or our
+`video abstract
+<http://figshare.com/articles/Video_Abstract_for_Determining_the_subcellular_location_of_new_proteins_from_microscope_images_using_local_features_/744842>`__
+
+2. `Mahotas: Open source software for scriptable computer vision
+<http://openresearchsoftware.metajnl.com/article/view/jors.ac>`__ by Coelho in
+Journal of Open Research Software (2013).
+
+This paper presents `mahotas <http://mahotas.readthedocs.org/en/latest/>`__, my
+Python package for computer vision and image processing.
+
+One sentence summary: `Python is great for computer vision
+<http://metarabbit.wordpress.com/2013/10/18/why-python-is-better-than-matlab-for-scientific-software/>`__.
+
+3. `Metagenomic species profiling using universal phylogenetic marker genes
+<http://www.nature.com/nmeth/journal/v10/n12/abs/nmeth.2693.html>`__ by
+Sunagawa et al. in Nature Methods (2013).
+
+One sentence summary: *We can profile species even without a reference genome
+by carefully using marker genes and linkage groups*.
+
+4. `Host-cell sensors for Plasmodium activate innate immunity against
+liver-stage infection
+<http://www.nature.com/nm/journal/vaop/ncurrent/full/nm.3424.html>`__ by Liehl
+et al. in Nature Medicine (2013).
+
+One sentence summary: *Plasmodium falciparum liver-stage infections trigger a
+type-I Inteferon response*.
+
+§
+
+I also published a book in 2013: `Building Machine Learning Systems with Python
+<http://www.amazon.com/Building-Machine-Learning-Systems-Python/dp/1782161406%3FSubscriptionId%3DAKIAJBDF5XQBATGDX4VQ%26tag%3Dspea06-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1782161406>`__.
+
+And I started a blog (you're reading it now).
+
