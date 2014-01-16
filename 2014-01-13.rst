@@ -1,0 +1,41 @@
+1. You know when in TV, they zoom in on an image to a ridiculous level of
+resolution? What a joke!
+
+Actually, even though the TV shows exaggerate how much you can extract from an
+image, see the video on:
+
+    *Identifiable Images of Bystanders Extracted from Corneal Reflections* by
+    Rob Jenkins and Christie Kerr in PLoS One, 2013 [`DOI
+    <http://doi.org/10.1371/journal.pone.0083325>`__]
+
+And the joke is on us.
+
+2. `The homogenization of scientific computing, or why Python is steadily
+eating other languages’ lunch
+<http://www.r-bloggers.com/the-homogenization-of-scientific-computing-or-why-python-is-steadily-eating-other-languages-lunch/>`__
+
+This is pretty much what I said before about Python: for scientific computing,
+Python is rarely the best language for any single task, but it's almost always
+the second best choice and the only one who can span all the necessary areas.
+
+3. `Myths of organic farming
+<http://blogs.scientificamerican.com/science-sushi/2011/07/18/mythbusting-101-organic-farming-conventional-agriculture/>`__
+
+4. `I had the healthiest childhood imaginable. And yet I was sick all the time.
+<http://www.slate.com/articles/life/family/2014/01/growing_up_unvaccinated_a_healthy_lifestyle_couldn_t_prevent_many_childhood.html>`__
+
+This article seems to fight the good fight (it's pro-vaccines), but gives half
+the game away to the idiots on the other side:
+
+    I was brought up on an incredibly healthy diet: no sugar till I was 1,
+    breastfed for over a year, organic homegrown vegetables, raw milk, no MSG,
+    no additives, no aspartame. My mother used homeopathy, aromatherapy,
+    osteopathy; we took daily supplements of vitamin C, echinacea, cod liver
+    oil.
+
+What a perversion of the word *healthy*! Only the breastfeeding (and arguably
+the cod liver oil, if there were other dietary deficiencies) is in any way
+related to health. Raw milk is even dangerous for your health (you might say
+it's worth the small risk of disease because you get better tasting cheese, but
+that's not what the word *healthy* means).
+
