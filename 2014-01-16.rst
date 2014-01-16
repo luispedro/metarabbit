@@ -1,0 +1,30 @@
+During the break, another paper where I played a part came out:
+
+    *Host-cell sensors for Plasmodium activate innate immunity against
+    liver-stage infection* by Liehl et al., in Nature Medicine (2013) `[DOI]
+    <http://doi.org/10.1038/nm.3424>`__
+
+`Plasmodium <http://en.wikipedia.org/wiki/Plasmodium>`__, the malaria causing
+parasite, when entering the human body, first infects the liver. There, the
+small number of initial parasites (perhaps only a handful of them), multiply
+until they burst into the blood stream where they cause havoc, which can have
+potentially fatal consequences if left untreated.
+
+The liver stage is clinically silent, with no visible symptoms. However, it
+does not go completely undetected by the host's immune system. There were
+previous reports of an immune response in the liver, but we worked on
+understanding more of what was going on and observed a type-I interferon
+response using transcriptomics.
+
+What I thought was most surprising (although this may be a function of my
+naïveté) was that the response seems to be activated by *RNA sensing*. The host
+detects the Plasmodium RNA and **that triggers an immune response**. This is
+some bad ass immune system stuff: using RNA sensors against eukariotic
+parasites instead of just viruses.
+
+§
+
+Nature Medicine thought this was cool too and `wrote up summary
+<http://www.nature.com/nm/journal/v20/n1/full/nm.3446.html>`__ as well as
+putting the paper on the cover of January edition!
+
