@@ -1,3 +1,16 @@
 1. `We have shown... <http://georg.io/2014/01/PLoS_Biology_Author_Action/>`__
 
+2. `Obtaining antibiotics without a prescription
+   <http://www.nejm.org/doi/full/10.1056/NEJM200207183470319>`__ (I think the
+   real problem is not that they are not regulated for human consumption, but
+   the antibiotic overuse issue).
+
+3. `An alternative way to distribute research money
+   <http://embor.embopress.org/content/early/2014/01/07/embr.201338068>`__. I
+   honestly do not know whether this would work and would be against a whole
+   change switch to the system.
+
+   However, I'd love to see some experimentation with this system. A funding
+   agency could try it out on a small subset of their recipients to see if the
+   possible preverse effects win out over the obvious benefits.
 
