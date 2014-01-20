@@ -1,4 +1,6 @@
 1. `We have shown... <http://georg.io/2014/01/PLoS_Biology_Author_Action/>`__
+   and `citation counts in PLos Bioogy
+   <http://georg.io/2014/01/PLoS_Biology_Citation_Counts/>`__ by Georg Walther.
 
 2. `Obtaining antibiotics without a prescription
    <http://www.nejm.org/doi/full/10.1056/NEJM200207183470319>`__ (I think the
@@ -14,3 +16,11 @@
    agency could try it out on a small subset of their recipients to see if the
    possible preverse effects win out over the obvious benefits.
 
+4. A small stab against chemophobia: `natural products with a list of
+   ingredients
+   <http://io9.com/what-if-natural-products-came-with-a-list-of-ingredient-1503320184>`__
+
+        Anthocynanins, for example, which are said to give blueberries their
+        "superfood" status, are also known as E163."
+
+    
