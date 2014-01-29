@@ -1,0 +1,109 @@
+    First they mock you while you clean their house, then they write columns
+    about how much better they are, then you take their job. -- The Robot
+    Ghandi
+
+
+0. I thought MOOCs were a gimmick when I first heard of them, but then I read
+many anti-MOOC articles and now I think MOOCs are great.
+
+No, that's not a typo. When I read my inchoate critical arguments about MOOCs
+spelled out, I saw how weak they are. Now, I that the critics miss the point
+and the boosters are correct.
+
+1. I learned to cook from a MOOC. Not strictly true. (1) I could already cook
+pretty well before [#]_ and (2) it was a MOOC, but an online course from
+`rouxbe <http://rouxbe.com/>`__ which is not open: you pay for it [#]_.
+However, I did learn a lot from the videos.
+
+Interesting how much we spend on classes of a certain type: cooking classes,
+yoga classes, spin classes, basket weaving classes, musical instrument classes,
+but we see these as separate from serious learning [#]_. We could say that
+serious learning is what people don't like doing, but it seems that MOOCs are
+transforming *higher education into yoga classes*.
+
+2. MOOCs are are cute and have value, but major weaknesses. Current MOOCs are
+an amateur affair done by professors who are making it up as they go along.
+
+However, too many are making the mistake of confusing weaknesses of the MOOC
+model with weak potential for online education more general. Rouxbe, for
+example, has professionally edited videos, with a professional voice actor. You
+can see that each 5 minute segment took hours of work.
+
+Add automated grading and student following by machine, and the resulting system
+may be hard to beat by anything but a dedicated human tutor. [#]_ And feel free
+to add a few low-earning TAs to the mix.
+
+3. MOOCs (and online education more generally) may be calling the bluff on many
+myths of education.
+
+Bryan Caplan has been pointing out for years that, if you live in a big city,
+you can probably just walk into any university course you want and the
+instructor probably won't mind even if you're not a student. You don't have to
+accept his conclusion that education is mostly about signalling to see that
+MOOCs call the bluff on *lack of access* arguments.
+
+Professors are getting their bluff called too. They risk getting demoted from
+guardians of knowledge and designers of curricula to coaches or nags. `This
+very interesting Atlantic piece (not about MOOCs)
+<http://www.theatlantic.com/magazine/archive/2014/01/how-to-escape-the-community-college-trap/355745/?google_editors_picks=true>`__
+has the following quote *students don't do optional* (another way to phrase it
+is *students do not study to learn*). Professors risk becoming the voice of the
+machine: when the automated tutor notes that a student starts lagging, it sends
+the human because humans can exert a different kind of psychological pressure
+when the automated nags start to lose power. And if your job is to *be the
+human*, then that's not really a very hard-to-find skill, is it? Or, to put it
+another way, you can't really expect a very large salary. [#]_
+
+
+The idea that education/certification needs to come with a gym membership and
+neatly manicured campuses (the typical American college experience) is also
+getting its bluff called. Many forms of student consumption get subsidized by
+parents and state if they came bundled with a degree, but now it will be
+increasingly easy to just get the education if online tuition is less than half
+of what it costs to get the Deluxe package. This is especially true at 
+`non-first tier colleges
+<http://www.slate.com/articles/life/education/2014/01/southern_new_hampshire_university_how_paul_leblanc_s_tiny_school_has_become.single.html>`__.
+
+(There are a lot of people who are inclined to argue this point by stating *the
+rise in tuition is explained by the rise in administration, not
+professors/TAs*. This is, at best, a change of subject; at worst, it points out
+how much harder traditional universities have to work to survive. Cutting on
+administration will not be easy and many of these extra costs will fight back
+[what, are you shutting down the gym in an obesity crisis? firing the the
+campus diversity task force only shows how bigoted Big State U still is...] Big
+organizations rarely slim down peacefully)
+
+This ties in to the fourth point:
+
+4. Over the next few decades, online education will probably make educational
+results more meritocratic and more unequal (after a few decades, I don't know,
+nor do you).
+
+Having the ability to profit from these new opportunities will be increasingly
+valuable. Call it `motivation
+<http://metarabbit.wordpress.com/2013/07/29/the-hard-part-is-motivation-books-etc/>`__,
+conscientiousness, `bourgeois values
+<http://www.amazon.co.uk/Bourgeois-Virtues-Ethics-Age-Commerce/dp/0226556646/ref=sr_1_2?s=books&ie=UTF8&qid=1390986717&sr=1-2&keywords=deirdre+mccloskey>`__,
+its value is going up.
+`Average is Over
+<http://www.amazon.com/gp/product/0525953736/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0525953736&linkCode=as2&tag=mutualinform-20>`__
+
+.. [#] I am a pretty decent amateur cook. At one point, I considered going to
+   culinary school.
+
+.. [#] Open is the word-du-jour, but people throw it about to mean things like
+   `free as in beer, free as in speech
+   <https://en.wikipedia.org/wiki/Gratis_versus_libre>`__ or just the fact that
+   you do not need to enroll in a university to attend an open course.
+
+.. [#] I think basic cooking skills should be taught in high-school, but that
+   is a topic for another day.
+
+.. [#] The comeback about "inspiring teachers" just proves the point: this is a
+   teacher-like-coach not teacher-as-knowledge-source. Couldn't a good actor
+   "inspire" more?
+
+.. [#] Expect however star power to grow. Well-known professors will be able to
+   lend their name to projects and charge for that while the grunt work is done
+   by anonymous TAs.
+
