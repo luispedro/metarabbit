@@ -1,9 +1,9 @@
 IMPACT or How I Learned to Start Worrying and Fear Altmetrics
 
-Altmetrics is the idea that scientific publications should be judged (perhaps
-primarily) on the impact they have in the general media, including on social
-media. This is in alternative to looking at either citations of journal impact
-factors.
+`Altmetrics <http://altmetrics.org/manifesto/>`__ is the idea that scientific
+publications should be judged (perhaps primarily) on the impact they have in
+the general media, including on social media. This is in alternative to looking
+at either citations of journal impact factors.
 
 §
 
@@ -24,27 +24,41 @@ bunch themselves, thus we cannot disentangle farm-to-fork from more human
 antibiotic usage) and lack of direct causality (presence of antibiotic
 resistant genes is not sufficient to indicate antbiotic resistant pathogens).
 
-
 We wrote as good scientists, presenting our data and conclusions, acknowledging
 limitations. We hope to get scientific recognition for this. Most directly in
 the form of citations, naturally, but more generally in recognition (*oh, those
-people in the Bork lab did a really good job in their summary*). If our
-incentives were to stir up controversy in social networks, then they would
-point away from this towards a more polemical stance (and whilst they may, in
-some sense, draw more engagement with scientific results, they would, in a more
-fundamental sense, move the discourse in a evidence-based direction).
+people in the Bork lab did a really good job both on their own data and in
+reviewing other work*).
 
-When I write a blogpost, I often put in a short (<140 sentence) that is
-tweetable; it'd be dangerous if I had the same impulse when writing a journal
-paper.
+If our incentives were to stir up controversy in social networks, then they
+would point away from this towards a more polemical stance (and whilst they
+may, in some sense, draw more engagement with scientific results, they would,
+in a more fundamental sense, move the discourse away from a evidence-based
+direction [#]_).
+
+When writing blogposts, I put in short sentences for twitter; it'd be dangerous
+if I did the same when writing a journal paper.
 
 §
 
-An unrelated criticism of altmetrics is that they'd be outright gamed and that
-the scientific world has nowhere close to the capacity to fight spam like
-google et al. do.
+Metrics don't just measure, they also shape behaviour, you need to `solve for
+the equilibrium
+<http://marginalrevolution.com/?s=Solve+for+the+equilibrium>`__. Would it be a
+good thing if people started, on the margin, to optimze for your metric?
+
+§
+
+An unrelated criticism of altmetrics is that they'd be `outright gamed
+<http://scholarlyoa.com/2013/08/01/article-level-metrics/>`__ and that the
+scientific world has nowhere close to the capacity to fight spam like google et
+al. do. The linked article is also notable for using the word *meretricious* in
+the title.
 
 .. [#] I'm the sort of guy that when a person complains that their doctor
    didn't give them antibiotics for the flu is liable to praise the doctor
    instead of expressing empathy.
+
+.. [#] In fact, public diffusion of speculative scientific results can lead to
+   mistrust of science as these speculative results will then tend to
+   contradict themselves.
 
