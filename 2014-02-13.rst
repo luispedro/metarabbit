@@ -1,0 +1,54 @@
+Mahotas 1.1 Released
+
+I `released mahotas 1.1.0 yesterday <https://pypi.python.org/pypi/mahotas>`__.
+
+Use ``pip install mahotas --upgrade`` to upgrade.
+
+
+Summary of Changes
+------------------
+
+It adds the functions resize_to and resize_rgb_to, which can be used like::
+
+    import mahotas as mh
+    lena = mh.demos.load('lena')
+    big = mh.resize.resize_rgb_to(lena, [1024, 1024])
+
+As well as remove_regions_where, which is useful for handling labeled images::
+
+    import mahotas as mh
+    nuclear = mh.demos.load('nuclear')
+    nuclear = mh.gaussian_filter(nuclear, 2)
+    labeled,_ = mh.label(nuclear > nuclear.mean())
+
+    # Ok, now remove small regions:
+
+    sizes = mh.labeled.labeled_size(labeled)
+
+    labeled = mh.labeled.remove_regions_where(
+            labeled, sizes < 100)
+
+Moments computation can now be done in a normalized mode, which is robust against scale changes::
+
+    import mahotas as mh
+    lena = mh.demos.load('lena', as_grey=1)
+    print mh.features.moments.moments(lena, 1, 2, normalize=1)
+    print mh.features.moments.moments(lena[::2], 1, 2, normalize=1)
+    print mh.features.moments.moments(lena[::2,::3], 1, 2, normalize=1)
+
+prints
+126.609789161
+126.618233592
+126.640228523
+
+You can even spell the keyword argument "normalise"!
+
+::
+
+    print mh.features.moments.moments(lena[::2,::3], 1, 2, normalise=1)
+
+This release also contains some bugfixes to SLIC superpixels and to convolutions of very small images.
+
+
+
+
