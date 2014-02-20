@@ -1,0 +1,135 @@
+I've lately seen some discussions of productivity and they often seem to refer
+to the widget cranking model of productivity even whilst claiming not to do so!
+
+§
+
+This is the productivity model I typically see discussed (or assumed):
+
+.. image:: output-time-basic.png
+
+On the x-axis, I plot time spent working; on the y-axis I plot *output*. In
+this model, when you work 20 hours a week, you are super productive and can
+output more than double what you can output when you work 40 hours a week. As
+working time goes up, fatigue sets in and less is produced per hour until it
+actually becomes counter-productive including a steep-decline as the worker
+burns out or just commit egregious mistakes [#]_.
+
+This is the widget cranking model and it applies to factory workers assembling
+iPhones, or baristas at a coffee store. It does not apply to intelectual
+workers working in a modern organization [#]_.
+
+§
+
+My personal impression is much more like this:
+
+.. image:: output-time-modern.png
+
+The first few hours of the week are zero-output. This is *Maintenance*. These
+are attending seminars, reading papers, reading department announcement emails,
+filling out paperwork, attending training sessions on how to fill out
+paperwork, some of the meetings I attend, &c. I could do this for years and
+nothing would come out. Sure, I'd be informed of the literature from reading
+papers, I'd know what all of the week's speakers are; but this would not get a
+single paper published, a single talk given, a single student taught.
+
+Next, there are the *Basic Tasks*, the stuff that produces some output, but is
+not really very challenging or produces very high impact output: answering work
+emails, (re-)giving talks on work already done, editing a little bit. These
+basic tasks can take a few hours every week. Sometimes they take away a whole
+month. Unfortunately, they don't produce all that much in my line of work.
+
+If all your tasks are of this form then the widget model may apply to you after
+you add in the Maintenance phase, which in a well-run organization can be 5
+hours per week or less [#]_. I think this actually describes many office jobs,
+which are done with the brain, but do not require that much creativity and
+insight. It may even describe a lot of the work done by doctors seeing
+patients (although less now than it did in the past). However, if you have a
+really intelectually intensive job in the modern economy, it does not.
+
+Next comes the most interesting aspect of this model (in the sense that it is
+obvious to me, but left out of discussions): *Hotloading* phase. This a mental
+aspect, where you wrap your head around the details of a project/problem. This
+is best achieved as a side-effect from working on basic tasks or from attempting
+breakthroughs and it is hard to achieve directly. Moreover, it takes some time.
+
+When I switch projects to something I have not worked at for a while [#]_, it
+sometimes **takes me a full week or more just to get my head around it again**.
+Even coming back from the week-end, it takes a few hours to get all of it back.
+I think I've got it and then make silly mistake because I forgot that in this
+special project the normalization of the input was done slightly differently so
+I waste a full day on something stupid; I spend more time looking up basic
+information, I make changes to code which need to be reverted because I forgot
+why the code was doing what it was doing. (For the programmers in the audience,
+think about switching to a programming language you know well but have not used
+for a few months. You are now calling the ``size`` method instead of ``length``
+to get the number of elements of a vector, looking up library functions you
+used to know by heart, &c)
+
+Only when I finally have the project in my head, does the typical widget model
+appear to me: *breakthroughs* are now easy and I am very productive. I can
+manipulate the concepts in your head and translate them to actual analysis, I
+remember pitfalls automatically, do not fall through them, and things are good.
+I can try new things easily without breaking up everything else (of course,
+they are not all successful attempts, but I am iterating fast).
+
+However, you cannot get to this phase without hotloading. I often have my best
+ideas on the bus. I have been struggling with something for the whole
+afternoon, and on the bus on my way home, I finally see the solution. However,
+**if I just rode the bus around town all day, I would not be very productive**.
+Loading the project into memory is a vital phase of the process. Only then can
+I make the insightful leaps.
+
+Later comes fatigue and breakdown when mistakes accumulate and I can't spell
+anymore [#]_.
+
+§
+
+In this model, although we still have diminishing returns at the right end of
+the curve; we have increasing returns at the left end. **Working half the time
+produces less than half of the output**, working a quarter of the time produces
+almost nothing.
+
+§
+
+In this model, average is over. In this model it makes sense for widget makers
+to work fewer hours as society gets rich, while the elites work more hours for
+much more money. You cannot be a part-time-C-level-executive, part time quant
+trader, part time cutting-edge-scientist-at-a-big-institution.
+
+You can, however, be a part time barista or HR drone.
+
+In this model, it is hard to cash on society's wealth by working fewer hours
+and still maintain a high-level interesting career, except if you take
+advantage of a loophole: you take long breaks or vacations. Not some puny two- or
+three-weeks in the Summer every year or something 20th century like that (which
+require another week or so of catching up time when you get back). Sure you
+might do a week in Lanzarote when the fancy strikes, but I meant that you take
+some real time off, like a few months to go live in Asia (or volunteer in
+Africa). You take a year off to walk from Alaska to Peru. Then you go back and
+work 50 hour weeks at a hedge fund for a while again, until you take your next
+six months off. I think this is both more rational in the model and better
+describes the life-styles of the modern elites.
+
+.. [#] It may apply to certain types of gentleman scholar work such as a writer
+   who writes his best work before lunch and takes the afternoons off.
+
+.. [#] I purposefully left out values out of these plots. Some have claimed
+   that 40 hours is the peak output (on average). Perhaps that is true, but it
+   feels a bit Panglossian to me (it would also mean that the historical fights
+   for the 40 hour work-week were based on a mistake on the part of the
+   employers fighting to get their employees to work longer hours: they'd get
+   more output while paying them less by switching to 40 hours). On the other
+   hand, I know my peak is way beyond 40 hours, so I might just be generalizing
+   from N=1.
+
+.. [#] In a badly run organization, this can take much longer.
+
+.. [#] The common English idiom is *working on*, but many times research feels
+   more like *working at* problems than *working on* them.
+
+.. [#] Which is why context switches can be so painful. Not interruptions per
+   se, but context switches.
+
+.. [#] Actually, I can't spell at all in any language at any time of day; but
+   you get the point.
+
