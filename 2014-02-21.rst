@@ -1,0 +1,37 @@
+1. `Mathematical proof by computer
+<http://www.newscientist.com/article/dn25068-wikipediasize-maths-proof-too-big-for-humans-to-check.html>`__
+
+I don't fully understand why you'd want to verify the output of the programme
+and not just the code/reasoning behind it.
+
+2. `A computer mines the literature for mistakes
+<http://pipeline.corante.com/archives/2014/02/19/robocombing_the_chemistry_literature_for_mistakes.php>`__
+
+This seems great: a computational system that checks the scientific literature.
+
+3. From the Oxford University Press, ladies and gentlemen, we have this insight
+into modern physics:
+
+    I am struck by the fact that treatises on particle physics never say what
+    shape the particles have, and whether different kinds of particles might
+    have different shapes.  In diagrams they are usually depicted as spherical,
+    but such a determination never plays a role in the theories of particles —
+    unlike questions of charge and mass. Would it matter if an electron had a
+    star shape?
+
+    — `Basic Structures of Reality
+    <http://global.oup.com/academic/product/basic-structures-of-reality-9780199841103>`__
+    by Colin McGinn
+
+Sokal would be proud to publish there. Do read the full `review in Mind
+<http://mind.oxfordjournals.org/content/early/2013/10/31/mind.fzt073.full.pdf>`__
+[#]_, which summarises the book thus:
+
+    McGinn’s thesis, to repeat, is that our technical competence with physics
+    ‘conceals vast chasms of ignorance’.
+
+On the other hand, McGinn's technical incompetence conceals nothing.
+
+.. [#] Before you lump all the *ignorant philosophers* into one bag, note that
+   this review is from a philosophy journal.
+
