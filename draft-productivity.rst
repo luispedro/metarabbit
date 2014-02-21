@@ -5,7 +5,7 @@ to the widget cranking model of productivity even whilst claiming not to do so!
 
 This is the productivity model I typically see discussed (or assumed):
 
-.. image:: output-time-basic.png
+.. image:: output-time-widget.png
 
 On the x-axis, I plot time spent working; on the y-axis I plot *output*. In
 this model, when you work 20 hours a week, you are super productive and can
@@ -15,12 +15,13 @@ actually becomes counter-productive including a steep-decline as the worker
 burns out or just commit egregious mistakes [#]_.
 
 This is the widget cranking model and it applies to factory workers assembling
-iPhones, or baristas at a coffee store. It does not apply to intelectual
-workers working in a modern organization [#]_.
+iPhones, or baristas at a coffee store, with small modifications (see below) it
+apply to office workers. It does not apply to certain types of
+highly-intelectual workers working in a modern organization [#]_.
 
 §
 
-My personal impression is much more like this:
+My personal impression is that my personal productivity is much more like this:
 
 .. image:: output-time-modern.png
 
@@ -32,11 +33,11 @@ nothing would come out. Sure, I'd be informed of the literature from reading
 papers, I'd know what all of the week's speakers are; but this would not get a
 single paper published, a single talk given, a single student taught.
 
-Next, there are the *Basic Tasks*, the stuff that produces some output, but is
-not really very challenging or produces very high impact output: answering work
-emails, (re-)giving talks on work already done, editing a little bit. These
-basic tasks can take a few hours every week. Sometimes they take away a whole
-month. Unfortunately, they don't produce all that much in my line of work.
+Next, there are the *Shallow Tasks*, the stuff that produces some output, but
+is not really very challenging or produces very high impact output: answering
+work emails, (re-)giving talks on work already done, merging text edits from
+co-authors. These basic tasks can take a few hours every week. Sometimes they
+take away a whole month.
 
 If all your tasks are of this form then the widget model may apply to you after
 you add in the Maintenance phase, which in a well-run organization can be 5
@@ -46,34 +47,41 @@ insight. It may even describe a lot of the work done by doctors seeing
 patients (although less now than it did in the past). However, if you have a
 really intelectually intensive job in the modern economy, it does not.
 
-Next comes the most interesting aspect of this model (in the sense that it is
-obvious to me, but left out of discussions): *Hotloading* phase. This a mental
-aspect, where you wrap your head around the details of a project/problem. This
-is best achieved as a side-effect from working on basic tasks or from attempting
-breakthroughs and it is hard to achieve directly. Moreover, it takes some time.
+In my line of work, in particular, just performing shallow tasks won't cut it.
+At some point, you need more and faster progress. You need deep thinking and
+breakthroughs.
+
+However, and this is the important point of this model, I cannot do this on a
+cold cache. I can only really get there when I have wrapped my head around the
+details of a project/problem. This is best achieved as a side-effect from
+working on shallow tasks or from failed attempts at breakthroughs. Moreover, it
+takes some time and it does not lend itself to being partioned into discrete
+tasks.
 
 When I switch projects to something I have not worked at for a while [#]_, it
-sometimes **takes me a full week or more just to get my head around it again**.
-Even coming back from the week-end, it takes a few hours to get all of it back.
-I think I've got it and then make silly mistake because I forgot that in this
-special project the normalization of the input was done slightly differently so
-I waste a full day on something stupid; I spend more time looking up basic
-information, I make changes to code which need to be reverted because I forgot
-why the code was doing what it was doing. (For the programmers in the audience,
-think about switching to a programming language you know well but have not used
-for a few months. You are now calling the ``size`` method instead of ``length``
-to get the number of elements of a vector, looking up library functions you
-used to know by heart, &c)
+sometimes **takes me a full week or more just to get the details back in my
+head**. Even coming back from the week-end, it takes a few hours to get back to
+where I was on Friday. I sometimes think I've got it and then make silly
+mistake because I forgot that in this particular project, some aspect was done
+slightly differently from what is usual so I have wasted a full day on
+something stupid; I spend more time looking up basic information, I make
+changes to code which need to be reverted because I forgot why the code was
+doing what it was doing. (For the programmers in the audience, think about
+switching to a programming language you know well but have not used for a few
+months. You are now calling the ``size`` method instead of ``length`` to get
+the number of elements of a vector, looking up library functions you used to
+know by heart, &c)
 
 Only when I finally have the project in my head, does the typical widget model
-appear to me: *breakthroughs* are now easy and I am very productive. I can
-manipulate the concepts in your head and translate them to actual analysis, I
-remember pitfalls automatically, do not fall through them, and things are good.
-I can try new things easily without breaking up everything else (of course,
-they are not all successful attempts, but I am iterating fast).
+appear to me: *breakthroughs* are now easy and I am very productive for the
+first few hours of investment. I can manipulate the concepts in your head and
+translate them to actual analysis, I remember pitfalls automatically, do not
+fall through them, and things are good. I can try new things easily without
+breaking up everything else (of course, they are not all successful attempts,
+but I am iterating fast).
 
-However, you cannot get to this phase without hotloading. I often have my best
-ideas on the bus. I have been struggling with something for the whole
+However, I cannot get to this phase without a preparatory phase. I often have
+my best ideas on the bus. I have been struggling with something for the whole
 afternoon, and on the bus on my way home, I finally see the solution. However,
 **if I just rode the bus around town all day, I would not be very productive**.
 Loading the project into memory is a vital phase of the process. Only then can
@@ -107,8 +115,10 @@ might do a week in Lanzarote when the fancy strikes, but I meant that you take
 some real time off, like a few months to go live in Asia (or volunteer in
 Africa). You take a year off to walk from Alaska to Peru. Then you go back and
 work 50 hour weeks at a hedge fund for a while again, until you take your next
-six months off. I think this is both more rational in the model and better
-describes the life-styles of the modern elites.
+six months off.
+
+I think this mix of workaholism and long breaks is both more rational by this
+model and better describes the life-styles of the modern elites.
 
 .. [#] It may apply to certain types of gentleman scholar work such as a writer
    who writes his best work before lunch and takes the afternoons off.
