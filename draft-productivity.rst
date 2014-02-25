@@ -5,7 +5,7 @@ to the widget cranking model of productivity even whilst claiming not to do so!
 
 This is the productivity model I typically see discussed (or assumed):
 
-.. image:: output-time-widget.png
+.. image:: images/productivity/output-time-widget.png
 
 On the x-axis, I plot time spent working; on the y-axis I plot *output* (total
 output, not productivity, which would be the derivative).
@@ -25,7 +25,7 @@ highly-intelectual workers working in a modern organization [#]_.
 
 My personal impression is that my personal productivity is much more like this:
 
-.. image:: output-time-modern.png
+.. image:: images/productivity/output-time-modern.png
 
 The first few hours of the week are zero-output. This is *Maintenance*. These
 including attending seminars, reading papers, reading department announcement
