@@ -107,32 +107,35 @@ almost nothing.
 
 §
 
-In this model, Average is Over. In this model, it makes sense for widget makers
-to work fewer hours as society gets rich (they are cashing in on society's
-wealth in the form of leisure), while the elites work more hours for much more
-money (they cannot cash in in the same way, they can only take actual cash).
-You cannot be a part-time-C-level-executive, part time quant trader, part time
-cutting-edge-scientist-at-a-big-institution.
+In this model, `Average is Over
+<http://en.wikipedia.org/wiki/Average_is_Over>`__. The 40 hour week is over,
+there will be those who work 20 to 30 hours and those who work 50 to 60.
 
-You can, however, be a part time barista or HR officer.
+In this model, it makes sense for widget makers to work fewer hours as society
+gets rich (they are cashing in on society's wealth in the form of leisure,
+becoming threshold earners), while the elites work more hours for much more
+money. You cannot be a part-time C-level executive, part-time quant trader,
+part time cutting-edge-scientist at a big institution. You can, however, be a
+part time barista or HR officer.
 
-In this model, it is hard to cash on society's wealth by working fewer hours
-and still maintain a high-level interesting career, except if you take
-advantage of a loophole: you take long breaks or vacations. Not some puny two- or
-three-weeks in the Summer every year or something 20th century like that (which
-require another week or so of catching up time when you get back). Sure you
-might do a week in Lanzarote when the fancy strikes, but I meant that you take
-some real time off, like a few months to go live in Asia (or volunteer in
-Africa). You take a year off to walk from Alaska to Peru. Then you go back and
-work 60 hour weeks at a hedge fund for a while again, until you take your next
-six months off.
+In this model, for certain careers, it is hard to cash on society's wealth by
+working fewer hours, except if you take advantage of a loophole: you take long
+breaks or vacations. Not some puny two- or three-weeks in the Summer every year
+or something 20th century like that (which require another week or so of
+catching up time when you get back). Sure you might do a week in Lanzarote when
+the fancy strikes and visit the in-laws for the holidays, but I meant that you
+take some real time off, like a few months to go live in Asia (or `volunteer in
+Africa <http://beiraproject.org/>`__). You take a year off to walk from Alaska
+to Peru. Then you go back and work 60-hour weeks at a hedge fund again, until
+you take your next six months off.
 
-I think this mix of workaholism and long breaks is both more rational by this
-model and better describes the life-styles of the modern elites.
+I think that this back-n-forth between apparent-workaholism and long breaks is
+both more rational in this model and better describes the life-styles of the
+modern elites.
 
-The poor may work in the morning, hunt in the afternoon, and criticize in the
-evening; the rich will work one year, hunt the next one, and criticize (go into
-politics) a decade later.
+The poor may work in the morning, fish in the afternoon, and criticize in the
+evening [#]_; the rich will work one year, fish the next one, and criticize (go
+into politics) a decade later.
 
 .. [#] It may apply to certain types of gentleman scholar work such as a writer
    who writes his best work before lunch and takes the afternoons off.
@@ -156,4 +159,9 @@ politics) a decade later.
 
 .. [#] Actually, I can't spell at all in any language at any time of day; but
    you get the point.
+
+.. [#] I mean material-poor relative to the very rich. This can apply to people
+   with very rich lives who are part of the global 1% of income (you need
+   34k/year to be in the global 1%).
+
 
