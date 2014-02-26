@@ -19,7 +19,7 @@ burns out or just commit egregious mistakes [#]_.
 This is the widget cranking model and it applies to factory workers assembling
 iPhones, or baristas at a coffee store, with small modifications (see below) it
 apply to office workers. It does not apply to certain types of
-highly-intelectual workers working in a modern organization [#]_.
+highly-intellectual workers working in a modern organization [#]_.
 
 §
 
@@ -45,29 +45,28 @@ take away a whole month.
 If all your tasks are of this form then the widget model may apply to you after
 the Maintenance phase, which in a well-run organization can be 5 hours per week
 or less [#]_. I think this actually describes many office jobs, which are done
-with the brain, but do not require that much creativity and insight. It may
-even describe a lot of the work done by doctors seeing patients (although less
-now than it did in the past). I can certainly teach a class in shallow mode
-(probably won't be my best work, but I can do it).  However, if you have a
-really intelectually intensive job, which requires creativity, shallowing it
-will not do.
+with the brain, but do not require that much creativity, insight or deep
+knowledge of a field. It may even describe a lot of the work done by doctors
+seeing patients (although less now than it did in the past). I can certainly
+teach a class in shallow mode (probably won't be my best work, but I can do
+it). However, if you have a really intellectually intensive job, which requires
+creativity, shallowing it will not do.
 
-In my line of work, in particular, just performing shallow tasks won't cut it.
-At some point, you need more and faster progress. You need deep thinking and
-breakthroughs.
+In my line of work, research, shallowing is not enough. At some point, you need
+more and faster progress. You need deep thinking and breakthroughs.
 
 However, and this is the important point of this model, I **cannot do deep
 thinking on a cold cache**. I can only really get there when I have wrapped my
 head around the details of a project/problem. This is best achieved as a
 side-effect from working on shallow tasks or from failed attempts at
 breakthroughs. It takes some time and it does not lend itself to being
-partioned into discrete tasks spread through a long period of time (a few hours
-every week).
+partitioned into discrete tasks spread through a long period of time (a few
+hours every week).
 
 When I switch projects to something I have not worked at for a while [#]_, it
 sometimes **takes me a full week or more just to get the details back in my
 head**. Even coming back from the week-end, it takes a few hours to get back to
-where I was on Friday. I sometimes think I've got it and then make silly
+where I was on Friday [#]_. I sometimes think I've got it and then make silly
 mistake because I forgot that in this particular project, some aspect was done
 slightly differently from usual so I waste a full day on something stupid; I
 spend more time looking up basic information, I make changes to code which need
@@ -109,25 +108,25 @@ almost nothing.
 
 In this model, `Average is Over
 <http://en.wikipedia.org/wiki/Average_is_Over>`__. The 40 hour week is over,
-there will be those who work 20 to 30 hours and those who work 50 to 60.
+there will be those who work 20 to 30 hours (those who are on the top curve)
+and those who work 50 to 60 (those who are on the bottom curve).
 
 In this model, it makes sense for widget makers to work fewer hours as society
-gets rich (they are cashing in on society's wealth in the form of leisure,
-becoming threshold earners), while the elites work more hours for much more
-money. You cannot be a part-time C-level executive, part-time quant trader,
-part time cutting-edge-scientist at a big institution. You can, however, be a
-part time barista or HR officer.
+gets rich (they are cashing in on society's wealth in the form of leisure),
+while the elites work more hours for much more money. You cannot be a part-time
+C-level executive, part-time quant trader, part time cutting-edge-scientist at
+a big institution. You can, however, be a part time barista or HR officer.
 
 In this model, for certain careers, it is hard to cash on society's wealth by
 working fewer hours, except if you take advantage of a loophole: you take long
 breaks or vacations. Not some puny two- or three-weeks in the Summer every year
 or something 20th century like that (which require another week or so of
-catching up time when you get back). Sure you might do a week in Lanzarote when
-the fancy strikes and visit the in-laws for the holidays, but I meant that you
-take some real time off, like a few months to go live in Asia (or `volunteer in
-Africa <http://beiraproject.org/>`__). You take a year off to walk from Alaska
-to Peru. Then you go back and work 60-hour weeks at a hedge fund again, until
-you take your next six months off.
+catching up time when you get back). Sure you might do a week in in Florida
+(Lanzarote, for Europeans) when the fancy strikes and visit the in-laws for the
+holidays, but I meant that you take some real time off, like a few months to go
+live in Asia (or `volunteer in Africa <http://beiraproject.org/>`__). You take
+a year off to walk from Alaska to Peru. Then you go back and work 60-hour weeks
+at a hedge fund again, until you take your next six months off.
 
 I think that this back-n-forth between apparent-workaholism and long breaks is
 both more rational in this model and better describes the life-styles of the
