@@ -38,16 +38,31 @@ In the case of a positive correlation with no bias, this reduces to the
 R-squared between :math:`\hat{y}` and :math:`y`, also known to as the explained
 variance.
 
+I like to look at the results in plots like this one
+
+.. image:: images/regression/base.png
+
+On the x-axis, I have the underlying output, and on the y-axis, the
+cross-validated (or out-of-bag prediction) for each sample. I also plot the
+diagonal. In this case, the prediction is very good and there is only a little
+noise pushing points away from the diagonal.
+
+§
+
 However, it does not reduce the R-squared in a few interesting cases:
 
 1. The model does not predict at all.
+
+.. image:: images/regression/null.png
 
 Let's say that your output cannot be explained by the input at all. To simplify
 things, let's assume you don't even have an input, just a set of outputs,
 :math:`\{ y_1 .. y_N \}`, which you predict as the mean in the training set.
 
 If you use leave-one-out-cross-validation (LOOCV), then this null-prediction
-has perfect (negative) correlation with the input! Its R-squared is 1!
+has perfect (negative) correlation with the input (see also `here
+<http://www.russpoldrack.org/2012/12/the-perils-of-leave-one-out.html>`__ and
+`here <http://not2hastie.tumblr.com/>`__! Its R-squared is 1!
 
 If you are using LOOCV, then you'll probably see this and catch it, but it
 might slip by if your using 10 folds and you don't have a lot of data and
@@ -57,23 +72,27 @@ sampled :math:`y_i`, the R-squared is different from zero, with p-value < 0.05,
 
 2. Reversion to the mean models.
 
+.. image:: images/regression/mean_regression.png
+
 This is an instance of where your model was oversmoothed.
 
 In this instance, your model predicts in the right direction, but it
 underpredicts. However, if you just report R-squared of the prediction, you'll
 lead your readers to think you can predict very well.
 
-It's not strictly the case that you could just have gone back and multiplied
-all your coefficients by a number larger than 1. It may be that to get the
-larger coefficients would imply that you would get noise in the output. This
-would not happen in traditional regression problems, but in :math:`p > n`
-settings, where penalized regression is necessary, it can and does happen.
+It's not always the case that you could just have gone back and multiplied all
+your coefficients by a number larger than 1. It may be that to get the larger
+coefficients would imply that you would get noise in the output. This would not
+happen in traditional regression problems, but in :math:`p > n` settings, where
+penalized regression is necessary, it can and does happen.
 
 3. Biased models
 
+.. image:: images/regression/biased.png
+
 If your models are biased, this naturally introduces a penalty. R-squared is
-invariant to addition (:math:`R2(\hat{y} + B, y) + R2(\hat{y}, y)`), but NRMSD
-is not. In fact, if the correlation is positive,
+invariant to addition (:math:`R2(\hat{y} + B, y) + R2(\hat{y}, y)`), but N is
+not. In fact, if the correlation is positive,
 
 .. math::
 
@@ -82,6 +101,7 @@ is not. In fact, if the correlation is positive,
 I most often see this when comparing human annotations. People have very
 similar trends, but one of the operators will consistenly report a lower value.
 
-In some cases this may matter and in others it may not (*Matt and John are
-equivalent salesman. Matt always gets exactly $10,000 more from the customers.
-So, it doesn't matter who you send.*)
+In some cases this may not matter and in others it will (if Matt always needs
+to give a bigger discount than John to get a sale, this does not mean that Matt
+and John are equivalent salesman).
+
