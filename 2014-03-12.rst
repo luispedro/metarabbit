@@ -1,0 +1,69 @@
+Haven't They Suffered Enough?
+
+Every time I read about a plan to have more women and minority in science
+careers, I think of that famous `New Yorker quip about gays getting married
+<http://www.condenaststore.com/-sp/Gays-and-lesbians-getting-married-haven-t-they-suffered-enough-New-Yorker-Cartoon-Prints_i8544598_.htm>`__:
+
+*Gays getting married? Haven't they suffered enough?*
+
+*Women in tenure-track positions? Haven't they suffered enough?*
+
+§
+
+I read `this rant
+<http://anothersb.blogspot.de/2014/03/my-life-as-phd-scientist-you-should.html>`__ yesterday:
+
+    I was the lucky kid who never had to study for tests.  I always scored in
+    the 99% percentile on the annual state assessments.
+    
+    [... Now I don't make that much money.]
+
+    The national average at the time was that for every one faculty position,
+    there were 200 applications.  For our department, there were 300
+    applications for every one faculty position
+
+    [...]
+
+    Science will fail because the System is running the scientists out of it.
+
+This is like *nobody goes there anymore, it's too crowded*. In one sense it
+expresses a truth, but it is actually non-sensical.
+
+The problem with science cannot simmultaneously be that scientists are not
+sufficiently paid and that there are too many of them for the same position.
+
+§
+
+If you want to make the argument that there should be more science funding, go
+ahead, I'll support you 100%.
+
+If you want to make the argument that postdoc salaries are so low that it's
+hard to get a qualified candidate, go ahead, I'll mostly disagree.
+
+If you want to make the argument that the current system leads to sub-optimal
+science, go ahead, I might support or disagree depending on the details. In the
+comments to that article someone points out that in the current system PIs are
+incentivized to be overly conservative and focused on the short-term unlike the
+private sector which has a longer time-horizon (and perhaps more tolerance for
+failure). This sort of argument is much more interesting as it implies that
+there could be better mechanisms.
+
+§
+
+But, reading these *poor me* laments, I actually conclude that the taxpayer is
+getting a great deal: it gets very smart people working 80 hour days for so
+little money that they cannot afford to go to the movies [#]_ and they even
+produce a lot of nice results. Man, your tax dollars are hard at work!
+
+Can we structure the rest of the public sector to be like this? [#]_ We'd get
+excellent public services for much lower taxes (even the Council Tax which
+seems to take such a big chunk of this poor fellow's salary).
+
+.. [#] I have to say I don't fully believe this.
+
+.. [#] Joking aside, I actually think that science funding is, in general,
+   better than other types of funding at getting bang-for-public-buck. Tenure
+   comes late in your career (and it is not enough to sit on your ass and not
+   get fired for 2 years), the grant system is competitive, &c In spite of the
+   fact that public funding dominates, very few people would argue that there
+   is no competition in science.
