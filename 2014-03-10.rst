@@ -1,0 +1,5 @@
+Q2!
+
+Thanks to Mario Figueiredo for pointing out in the comments that the measure I
+was looking for is called Q2 in the literature.
+
