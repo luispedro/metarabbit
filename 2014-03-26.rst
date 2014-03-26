@@ -1,0 +1,38 @@
+Paper Review: Approaches to automatic parameter fitting in a microscopy image segmentation pipeline: An exploratory parameter space analysis
+
+    Held C, Nattkemper T, Palmisano R, Wittenberg T. Approaches to automatic
+    parameter fitting in a microscopy image segmentation pipeline: An
+    exploratory parameter space analysis. J Pathol Inform 2013;4:5. `DOI:
+    10.4103/2153-3539.109831 <http://dx.doi.org/10.4103/2153-3539.109831>`__
+
+
+I once heard `Larry Wasserman <http://normaldeviate.wordpress.com/>`__ claim
+that *all problems in statistics are solved, except one, how to set λ*. By
+which he meant (or I understood or I remember; in fact, he may not even have
+claimed this and I am just assigning a nice quip to a famous name) that we have
+methods that work very well on most settings, but they tend to come with
+parameters and adjusting these parameters (often called λ₁, λ₂... in
+statistics) is what is pretty hard.
+
+In traditional image processing, parameters abound too. Thresholds and weights
+are abundant in the published literature. Often, tuning them to a specific
+dataset is an unfortunate necessity. It also makes the published results from
+different authors almost incomparable as they often tune their own algorithms
+much harder than those of others.
+
+In this paper, the problem of setting the parameters is viewed as an
+optimization problem using a supervised machine learning approach where the
+goal is to set parameters that reproduce a gold standard.
+
+The set up is interesting and it's definitely a good idea to explore this way
+of thinking. Unfortunately, the paper is very short (just as it's getting good,
+it ends). Thus, there aren't a lot of results, except the observations that
+local minima can be a problem and that genetic algorithms do pretty well at a
+high computational cost. For example, there is a short discussion of the human
+behaviour in parameter tuning and one is hoping for an experimental validation
+of these speculations (particularly given that the second author is well-known
+for `earlier work on this theme
+<http://www.sciencedirect.com/science/article/pii/S0010482502000604>`__).
+
+I will be looking out for follow-up work from the same authors.
+
