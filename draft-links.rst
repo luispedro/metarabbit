@@ -1,0 +1,17 @@
+1. `Swanson Premimum RNA & DNA <http://www.swansonvitamins.com/swanson-premium-rna-dna-100-10-mg-250-tabs>`__
+
+Don't forget to read the reviews:
+
+    "I noticed a difference right away. I have more energy, it has helped to
+    lessen my appetite, and my skin took on a healthy glow. I recommend this
+    product to anyone, especially siting the value. I'm glad I tried it."
+    
+Some costumers like to live dangerously:
+
+    "I felt a slight boost to my energy level . I had to take one pill twice a
+    day to feel the slight boost of energy . More than the recommended one pill
+    once a day."
+
+This guy is taking a whole 20mg of DNA per day.
+
+(H/T: `In the pipeline <http://pipeline.corante.com/archives/2014/03/26/getcher_nucleic_acids_cheap.php>`__)
