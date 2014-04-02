@@ -1,0 +1,49 @@
+Often the reaction to teaching things like *version control* or *unit testing*
+to scientists is of the sort *aren't these things more appropriate for
+professional software developers who can put in the effort to learn them?* I
+strongly disagree.
+
+In fact, I'll defend that unit testing and version control are more important
+for science than commercial software.
+
+§
+
+Let's say you are running a web-based business. Unfortunately, your website's
+code is a mess. Many of features were implemented by someone who left a while
+back and none of your new hires really understands what that code does.
+Fortunately, however, the code works, the site is pleasing to the eye and
+customers are happily paying for your services. Even these old code bases can
+have their lives stretched for far longer than you'd expect. Life is not that
+bad.
+
+Let's say, on the other hand, you are running a computer-based science
+enterprise. Unfortunately, your code is a mess. Many of the features were
+implemented by someone who left a while back and none of your new hires really
+understands what that code does. Fortunately, the code produces pretty plots.
+Unfortunately, you cannot explain what the plots represent beyond a vague idea.
+You can adapt the code to a new dataset, but never really sure why it's working
+like it is and sometimes the outputs are downright mysterious. Life is pretty
+bad. You need to start over.
+
+§
+
+The difference is that in many commercial aspects, only the final output
+matters. If a website is pretty, it won't much matter whether the CSS behind it
+is a mess. If the search engine gives the customers want they want, both
+costumer and vendor are happy and nobody will say *I'll buy, but first can we
+go over the methodological details?* There are solid reasons to make the code
+clean and well-tested (in terms of minimizing the negative impact of individual
+members leaving the team or avoiding increasing costs to maintenance &
+extension).
+
+In science, however, it is not enough to have a pretty output plot. You also
+need to be able to explain the details behind the plot and be certain that the
+plot was produced the way you think it was produced. If the code gives a
+mysterious result, then it's not OK to just add a hacky line of code *adding 10
+to result* to make it work.
+
+§
+
+This is why I think it's very good that unit testing & version control are both
+part of the software carpentry basic curriculum.
+
