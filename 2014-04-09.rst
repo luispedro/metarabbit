@@ -1,0 +1,28 @@
+I was in Denmark last week, teaching software carpentry. The students were very
+enthusiastic, but they had very different starting points, which made teaching
+harder.
+
+For a complete beginner's to programming course, I typically rely heavily on
+the Python Tutor created by Philip Guo, which is an excellent tool. Then, my
+goal is to get them to understand names, objects, and the flow of control.
+For more intermediate students (the kind that has used one programming
+language), I typically go through the motions. I find that many still have
+major faults in their mental model of how names and objects work.
+
+I don't use the term variable when discussing Python as I don't think it's a
+very good concept. C has variables, which work like little boxes you put values
+in. If you're thinking of little boxes in Python, things get confusing. If you
+try to think of little boxes plus pointers (or references), it's still not a
+very good map.
+
+However, if students have been exposed to any other imperative programming
+language, this step can go much faster [#]_. If it's the first time they are
+even seeing the idea of writing code, then it naturally needs to be slow.
+
+§
+
+A bit of Danish weirdness:
+
+.. [#]  I suppose if students knew Haskell quite well but no imperative
+        programming, this may no longer apply, but teaching Python to Haskell
+        programmers is not a situation I have been in.
