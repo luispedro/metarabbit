@@ -1,0 +1,36 @@
+Modernity
+
+The `Bourne shell was first released in 1977
+<http://en.wikipedia.org/wiki/Bourne_shell>`__ (37 years ago).
+
+The `C Programming Language book was published in 1978
+<http://en.wikipedia.org/wiki/The_C_Programming_Language>`__ (36 years ago),
+describing the C language which had been out for a few years.
+
+Python was first released in 1991 (23 years ago). The first version that looks
+very much like the current Python was `version 2.2, released in 2001
+<https://www.python.org/download/releases/2.2>`__ (13 years ago), but the code
+from Python 1.0.1 is already pretty familiar to my eyes.
+
+The future might point in the direction of functional languages such as
+Haskell, which first appeared in 1990 (24 years ago), although the first modern
+version is from 1998 (`Haskell 98 <http://www.haskell.org/onlinereport/>`__).
+
+`Vim was first released in 1991
+<http://en.wikipedia.org/wiki/Vim_(text_editor)>`__, based on `vi released in
+1976 <http://en.wikipedia.org/wiki/Vi>`__. Some people prefer Emacs, `released
+a bit earlier <http://en.wikipedia.org/wiki/Emacs>`__ (GNU Emacs, however, is
+fairly recent, `only released in 1985`; so 19 years ago)
+
+The web was `first implemented in 1989 with some preliminary work in the early
+1980s <http://en.wikipedia.org/wiki/History_of_the_World_Wide_Web>`__ (although
+the idea of `hypertext had been around for longer
+<http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/>`__).
+
+§
+
+The only really new software I use regularly is `distributed version control
+systems <http://en.wikipedia.org/wiki/Distributed_revision_control>`__, which
+are less than 20 years old in both implementation and ideas.
+
+
