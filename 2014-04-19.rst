@@ -1,0 +1,40 @@
+Modernity 2: Social Edition
+
+An obvious missing addition in my previous `Modernity post
+<https://metarabbit.wordpress.com/2014/04/16/modernity/>`__ was (as pointed out
+by Franklin Chen in the comments) was LaTeX, `developed in the early 1980s
+<http://en.wikipedia.org/wiki/LaTeX>`__ as a set of macros for TeX (`released
+in 1978 <http://en.wikipedia.org/wiki/TeX>`__).
+
+By the way, if you prefer Microsoft Word, that technology is from the same era
+(`first released in 1983 <http://en.wikipedia.org/wiki/Microsoft_Word>`__),
+although it was a copy of `early 1970s technology
+<http://en.wikipedia.org/wiki/Bravo_(software)>`__ [#]_. I remember using it on
+a Mac (I think it was the `Macintosh SE
+<http://en.wikipedia.org/wiki/Macintosh_SE>`__) in the late 80s and, although
+it was black&white, it was already very close to today's versions.
+
+§
+
+Some of our ideas of what's modern in other areas of life are similarly off:
+
+As our family debates education options for our children, we are choosing
+between Montessori schools, with Waldorf coming in a close second. Sometimes
+people will say *oh, exploration-centred learning, how modern you guys are!*
+
+This reminds me of the classic quip about Brazil: *it's the country of the
+future! It has always been the country of the future and will always be the
+country of the future.*
+
+The `first Montessori schools were opened over 100 years ago
+<http://en.wikipedia.org/wiki/Montessori_education>`__, while `Waldorf is just
+slightly newer <http://en.wikipedia.org/wiki/Waldorf_education>`__ as the first
+school opened in 1919.
+
+§
+
+Obviously, my point is that we tend to think that change is fast in our current
+society while we live in a `Great Stagnation
+<http://en.wikipedia.org/wiki/The_Great_Stagnation>`__.
+
+.. [#] Yes, LaTeX is newer, more modern if you wish, than WYSIWYG editors.
