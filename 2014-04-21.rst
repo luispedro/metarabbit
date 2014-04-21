@@ -1,0 +1,21 @@
+New release of Jug: 1.0 release candidate
+
+I've put out a new release of jug, which I'm calling *1.0-rc0*.  This is a
+release candidate for version 1.0 and if there are no bugs, in a few days, I'll
+just call it 1.0!
+
+There are few changes from the previous version, but this has reached maturity now.
+
+For the future, I want to start developing the `hooks interface
+<https://groups.google.com/forum/#!topic/jug-users/PV5jKw0AEgY>`__ and use
+hooks for more functionality.
+
+In the meanwhile, download jug from `PyPI <http://pypi.python.org/pypi/jug>`__,
+watch `the video
+<http://showmedo.com/videotutorials/video?name=9750000;fromSeriesID=975>`__ or
+`read the tutorials
+<http://metarabbit.wordpress.com/2013/05/20/segmenting-images-in-parallel-with-python-jug/>`__
+or the `full documentation <https://jug.readthedocs.org/en/latest/>`__.
+
+
+
