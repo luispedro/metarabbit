@@ -9,3 +9,9 @@ I, for one, am happy that someone is trying to solve the problem of too many
 job openings for scientists and too few scientists by thinking up ways to make
 alternatives less appealing.
 
+3. `Better than human face recognition
+<https://medium.com/the-physics-arxiv-blog/2c567adbf7fc>`__. Naturally, we
+generally do face recognition based on a 3D presence, but this is like the
+traditional definition of artificial intelligence that *real intelligence is
+whatever computers cannot yet do*.
+
