@@ -1,0 +1,140 @@
+PSA: Invest in index funds
+
+We live in a sort of reverse victorian age: it's easier to talk of sexual
+matters than of money [#]_. I have recently been surprised at how ignorant even
+highly educated Europeans are about their financial possibilities [#]_. I meet
+people with large sums in savings accounts where the money is just sitting
+there or in hare-brained "investment" schemes. So, this is a bit of public
+service announcement, although there is a particular point that applies mostly
+to scientists.
+
+**Invest in index funds**. An index fund is a fund which buys a large number of
+stocks (for example, the stocks that make up the S&P 500). You want ones with
+low fees (<0.5% per year) and a few that make a diverse range, but seriously it
+does not matter what you have as it'll always be better than nothing or a
+savings account.
+
+You should just assume that markets are efficient, Now, there is a debate in
+academic circles whether they are 99.9999% efficient (i.e., people who think
+they are efficient) or only 95% efficient (people who disagree). But if there
+are market inefficiencies, they'll be exploited by professional hedge funds,
+not you in your free time. So, just assume that markets are efficient, you
+cannot beat them, and strive to minimize the amount you pay in fees [#]_.
+
+Index funds are investment, not speculation, your goal is to collect dividends,
+not necessarily have the fund rise in price! If you buy a fund at the price 100
+and later sell it at the price of 90, you might still have made money if you
+made more than 10 in dividends [#]_. More typical however, is that you buy at
+100, sell at 116 a few years later and will have collected 82 in dividends over
+that period (Some people don't even know this basic fact of how these things
+work and are surprised when I mention dividends as a large part of the return I
+expect from my investments).
+
+To actually buy these, you need a brokerage account. I use `TD Direct Investing
+<http://int.tddirectinvesting.com/>`__ in Europe, but others exist. Your bank
+will generally not help you and will try to sell you products where they make
+large fees (it's like going to a Chrysler dealer and telling them you know that
+Toyota/Honda have much better value for money, but could they please help
+you choose between an Accord and a Camry? [#]_).
+
+**Do not pick stocks as it can lead to conflicts of interest** I could again
+just say *don't pick stocks, assume markets are efficient*, but an additional
+reason for me and for any scientist is that owning stock of particular
+companies is a conflict of interest if you ever have to evaluate anything which
+touches (even peripherally) on anything the company does.  Note that a conflict
+of interest will not immediately translate to a bias and the practice in
+science is to disclose the conflicts without completely dismissing the speaker,
+but if you're writing scientific papers or reviewing them, why force yourself
+to disclose a conflict when you could just as easily avoided the issue by not
+owning the stock in the first place? Further, it is an unnecessary risk that
+you unintentionally fail to disclose and someone will later point out that your
+paper on how X protein binds with Y protein conveniently fit with your
+ownership of pharma P' stock as they have a large investiment on an X-inhibitor
+[#]_. We scientists already have to spend too much time defending ourselves of
+the accusation that we are just flaks for Big Pharma or Monsanto, so just don't
+own their stock.
+
+**If you're thinking about buying gold, consider buying a gun instead**. This
+is tongue-in-cheek, but there is this persistent idea that owning gold is a
+good idea because when the revolution comes, money and stocks will be worthless
+as civilization collapses. But when civilization has collapsed and we are all
+back in the state of nature where life is *nasty, brutish, and short*, a gun is
+even better than gold. If you have gold and your neighbour has a gun... well,
+at the end of the day, your neighbour will still have the gun, but you might
+have lost your gold. When civilization collapses, you'll want to be `the one
+who knocks <https://www.youtube.com/watch?v=3HH9IiHMD2M>`__.
+
+So, if you're worried about the incoming collapse of civilization into a
+Hobbesian nightmare, consider buying a gun. [#]_
+
+Back in the real world, gold is still a bad proposition, subject to volatile
+prices. Volatile means that (1) you can make large profits if you guess the
+time to sell&buy and (2) you can lose a lot of money by guessing wrong.
+However, you will likely not get the timing right. More importantly, unlike
+stock/bonds or real estate, there is no inherent income stream from holding
+gold. You are just betting that the price will go up. In recent years, perhaps
+because of the recent strong growth in the world economy, particularly in China
+and India (`Indian culture is obsessed with gold
+<https://www.google.de/search?q=indian+culture+and+gold&oq=indian+culture+and+gold&aqs=chrome..69i57.3113j0j7&sourceid=chrome&es_sm=91&ie=UTF-8>`__)
+or perhaps because of rich people panicking (or whatever [#]_), the prices of
+gold have risen (although volatility is high: just last week, it lost 10%).
+However, by buying now you might just be buying at the top of the growth curve
+[#]_.
+
+§
+
+**Introductory pop intro to this stuff**
+
+`I will teach you to be rich
+<http://www.amazon.com/gp/product/0761147489/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0761147489&linkCode=as2&tag=mutualinform-20>`__
+by Ramit Sethi. Pretty basic stuff. One important point: if you do get a
+finantial advisor, get one paid by the hour; not one that gets paid by
+comission. You want to talk to an advisor, not a salesman.
+
+.. [#] Arguably, much discussion of sex is not fully honest, particularly of
+   the emotional/sexual nexus. Still, the point remains: it's easier to get
+   someone in bed that to discuss their financials.
+
+.. [#] Americans tend to be a bit better because there is less fatalism wrt
+   retirement (many young Europeans are aware that their public pensions will
+   be less than they were promised even just a few years ago, but they often
+   just adopt a *whatever will be, will be* attitude, although there may be
+   increasing interest in alternatives to putting your trust on the promises of
+   politicians).
+
+.. [#] I actually believe a pretty strong version of market efficiency and I
+   think that the large profits of financial corporations come from
+   rent-seeking (i.e., taxpayer bailouts) and charging high fees for things
+   that are not worth a lot. Still, even you think that markets are not that
+   great and that there is a lot of potential to earn money by being better
+   than the markets, then it is still likely that it will not be you who'll do
+   it.
+
+.. [#] The example does not work so well for Europeans as a Fiat is much
+   cheaper in Europe than Honda here so it's not so obvious that the Honda is
+   better value for money as Fiats.
+
+.. [#] Some funds do not pay dividends per se and instead are engineered so
+   that the dividends from the stock they own get translated into a higher
+   price even if the underlying securities has not moved in price. This has
+   some tax advantages in some jurisdictions, but it works out to be the same.
+
+.. [#] Nowadays, stock ownership is rarely mentioned as an important conflict
+   of interest in published papers, but who knows how ethical fashions will
+   evolve and where your career will be in 10 years when an enterprising
+   journalist decides to expose you as the Monsanto-fundede Big Pharma flak
+   that all scientists really are.
+
+.. [#] My guess is that guns hold their resale value, making them a good store
+   of value, but I couldn't really find data on this.
+
+.. [#] This is another dependency on external factors that could potentially be
+   a conflict of interest.
+
+.. [#] I'd write top of the bubble, but I don't think bubbles are a very useful
+   concept. Gold is still as likely to go up as to go down or just to stay the
+   same. If it goes down, we'll retrospectively call it a bubble and whoever
+   buys now will be labeled a sucker; in that case it'll be obvious we were in
+   a bubble now. If it doesn't go down, well it `will be obvious that gold is
+   now a golden opportunity <http://en.wikipedia.org/wiki/Hindsight_bias>`__
+
