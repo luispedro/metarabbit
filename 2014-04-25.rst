@@ -15,3 +15,5 @@ generally do face recognition based on a 3D presence, but this is like the
 traditional definition of artificial intelligence that *real intelligence is
 whatever computers cannot yet do*.
 
+4. `Changing my mind, a personal history <http://www.gwern.net/Mistakes>`__
+
