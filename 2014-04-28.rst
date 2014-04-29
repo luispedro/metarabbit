@@ -1,10 +1,12 @@
 Nonspecific Citations
 
+The point of this post is to introduce the term *nonspecific citation*.
+
 A common problem with antibody is non-specific binding: while the antibody may
 be targetted to grab on to protein P, it actually also grabs X, Y, and Z, which
 are somewhat similar to P.
 
-A non-specific citation is when paper gets cited as an example of a broad class
+A nonspecific citation is when paper gets cited as an example of a broad class
 rather than for its specific ideas.
 
 §
@@ -16,9 +18,10 @@ though, you could cite other reviews.
 
 In the case of the research articles, though, it is often more of a *throwaway
 citation*: we need to mention work in the area of cell image analysis and I
-have a `recent paper out on this
+have a `fairly recent paper on this
 <http://metarabbit.wordpress.com/2013/07/10/new-paper-determining-the-subcellular-location-of-new-proteins-from-microscope-images-using-local-features/>`__,
-so you cite that.
+so you cite that. Or you cite somebody else's work as it does not really matter
+the specific contents of that citation.
 
 §
 
@@ -28,6 +31,10 @@ sentence such as:
 
     Local features are useful (or SURF has been used) in many context such as A
     [paper], B [paper], and cell image analysis [my work].
+
+Then there is the completely nonspecific:
+
+    Recent work in bioimage informatics [..., my work, ...] ...
 
 §
 
