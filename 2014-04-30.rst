@@ -1,0 +1,101 @@
+Building ImageJ Hyperstacks from Python
+
+ImageJ calls a 4D image a hyperstack (it actually be 5D or even higher). You
+can save these and open them and it'll show a nice GUI for them.
+
+Unfortunately, it's not very well documented (if at all) how it recognises some
+images as hyperstacks. This is what I found: A hyperstack is a multi-page TIFF
+with the image description tag containing information on the hyperstack.
+
+I can generate one by outputting the individual slices to files (in the right
+order) and then calling ``tiffcp`` on the command line to concatenate them
+together. If the metadata is there, ImageJ will recognise it as a hyperstack.
+
+§
+
+Here is how to do it in Python and `mahotas-imread
+<http://imread.readthedocs.org/en/latest/>`__ [#]_.
+
+Define the metadata (as a template):
+
+.. code-block:: python
+
+    _imagej_metadata = """ImageJ=1.47a
+    images={nr_images}
+    channels={nr_channels}
+    slices={nr_slices}
+    hyperstack=true
+    mode=color
+    loop=false"""
+
+Now, we write a function which takes a z-stack and a filename to write to
+
+.. code-block:: python
+
+    def output_hyperstack(zs, oname):
+        '''
+        Write out a hyperstack to ``oname``
+
+        Parameters
+        ----------
+        zs : 4D ndarray
+            dimensions should be (c,z,x,y)
+        oname : str
+            filename to write to
+        '''
+
+Some basic imports:
+
+.. code-block:: python
+
+        import tempfile
+        import shutil
+        from os import system
+        try:
+            # We create a directory to save the results
+            tmp_dir = tempfile.mkdtemp(prefix='hyperstack')
+
+            # Channels are in first dimension
+            nr_channels = zs.shape[0]
+            nr_slices = zs.shape[1]
+            nr_images = nr_channels*nr_slices
+            metadata=_imagej_metadata.format(nr_images=nr_images, nr_slices=nr_slices,nr_channels=nr_channels)
+
+Now, we output all the images as separate TIFF files:
+
+.. code-block:: python
+
+            frames = []
+            next = 0
+            for s1 in xrange(zs.shape[1]):
+                for s0 in xrange(zs.shape[0]):
+                    fname = '{}/s{:03}.tiff'.format(tmp_dir,next)
+                    # Do not forget to output the metadata!
+                    mh.imsave(fname, zs[s0,s1], metadata=metadata)
+                    frames.append(fname)
+                    next += 1
+
+Since 
+
+.. code-block:: python
+
+            cmd = "tiffcp {inputs} {tmp_dir}/stacked.tiff".format(inputs=" ".join(frames), tmp_dir=tmp_dir)
+            r = system(cmd)
+            if r != 0:
+                raise IOError('tiffcp call failed')
+            shutil.copy('{tmp_dir}/stacked.tiff'.format(tmp_dir=tmp_dir), oname)
+
+Finally, we remove the temporary directory:
+
+.. code-block:: python
+
+        finally:
+            shutil.rmtree(tmp_dir)
+
+And, voilà! This function will output a file with the right format for ImageJ
+to think it is a hyperstack.
+
+.. [#] Naturally, you can use other packages, but you need one which lets you
+   write the image description TIFF tag.
+
+
