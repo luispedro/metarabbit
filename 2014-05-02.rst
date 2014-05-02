@@ -1,0 +1,34 @@
+1. `Building a better painkiller <http://nautil.us/issue/12/feedback/building-the-perfect-painkillerhttp://nautil.us/issue/12/feedback/building-the-perfect-painkiller>`__. 
+
+    In 1915, for example, Roche introduced a drug called Pantopon, which was
+    also made from the opium poppy. It was said to be less addictive than
+    morphine because it contained multiple compounds from the plant, which was
+    supposed to be safer because it was more "natural." It wasn't.
+
+    [...]
+
+    In fact, the basis for the initial claim about OxyContin's reduced
+    addiction potential wasn't actually wrong: The drug was a long-acting
+    medication that was delivered slowly and steadily to the brain.
+
+    Unfortunately, recreational users almost immediately figured out how to
+    defeat its time-release mechanism by crushing the pills, which then
+    delivered a quick, massive dose when snorted, eaten, or injected.
+
+    [..]
+
+    The current version of OxyContin [..] contains substances that turn it into
+    a gel if people try to dissolve it, which makes the drug almost impossible
+    to get into a syringe.  The tablets are also far more difficult to grind up
+    small enough to defeat the time-release mechanism by snorting or swallowing
+    a crushed pill.
+
+(It is opportune to point out that persisten pain is a major health problem and
+we should be careful about taking needed medication away from people who
+suffer. Radley Balko has a `good series on this
+<http://www.huffingtonpost.com/radley-balko/prescription-painkillers_b_1240722.html>`__).
+
+2. Scientists may feel that the science is settled, but perhaps `we should
+teach the controversy
+<http://www.newyorker.com/online/blogs/elements/2014/04/a-civil-debate-over-genetically-modified-food.html>`__
+
