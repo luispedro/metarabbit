@@ -1,0 +1,108 @@
+How I Use Jug & IPython Notebooks
+
+Having just released Jug 1.0 and having recently started using Ipython
+notebooks for data analysis, I want to describe how I combine these two
+technologies:
+
+1. Jug is for heavy computation. This should run in batch mode and can take
+   advantage of a computer cluster.
+
+2. IPython is for visualization of the results. From the notebook, I will load
+   the results of the jug run and plot them.
+
+I am going to use as an example, the sort of work I did for classifying images
+with local features that I did for my `Bioinformatics paper last year
+<https://metarabbit.wordpress.com/2013/07/10/new-paper-determining-the-subcellular-location-of-new-proteins-from-microscope-images-using-local-features/>`__
+That code did not use IPython notebook, but I already used a split between
+heavy computation and plotting [#]_.
+
+I write a ``jugfile.py`` with my heavy computation, in this case, feature
+computation and classification [#]_:
+
+.. code-block:: python
+    
+    from jug import TaskGenerator
+    from features import computefeatures
+    from ml import classification
+
+    # computefeatures takes an image path and returns features
+    computefeatures = TaskGenerator(computefeatures)
+
+    # crossvalidation returns a confusion matrix
+    crossvalidation = TaskGenerator(crossvalidation)
+
+    images,labels = load_images() # This loads all the images
+    features = [computefeatures(im) for im in images]
+    results = crossvalidation(features, labels)
+
+Now, if I have 1000 images, the ``computefeatures`` step can be run in parallel
+and use many cores. After a while, it'll be over.
+
+Now, I want to look at the results and display them. For example, graphically
+plot a confusion matrix.
+
+The only non-obvious trick is how to load the results from jug:
+
+.. code-block:: python
+
+    from jug import value, set_jugdir
+    import jugfile
+    set_jugdir('jugfile.jugdata')
+    results = value(jugfile.results)
+
+And, boom!, results is a variable in our notebook with all the data from the
+computations (if the computation is not finished, an exception will be raised).
+Let's unpack this one by one:
+
+.. code-block:: python
+
+    from jug import value, set_jugdir
+
+Imports from ``jug``. Nothing special. You are just importing jug in a Python
+notebook.
+
+.. code-block:: python
+
+    import jugfile
+
+Here you import your ``jugfile``.
+
+.. code-block:: python
+
+    set_jugdir('jugfile.jugdata')
+
+This is the important step! You need to tell jug where its data is. Here I
+assumed you used the defaults.
+
+.. code-block:: python
+
+    results = value(jugfile.results)
+
+You now use the ``value`` function to load the value from disk. Done.
+
+Now, use a second cell to plot:
+
+.. code-block:: python
+
+    from matplotlib import pyplot as plt
+    from matplotlib import cm
+
+    plt.imshow(results, interpolation='nearest', cmap=cm.OrRd)
+
+§
+
+I find this division of labour to maximize the value of each tool: jug does
+well for long computations and ensures that the results are consistent while
+making it easy to use the cluster; ipython is nicer at exploring the results
+and tweaking the graphical outputs.
+
+
+.. [#] I would save the results from jug to a text file and load it from
+    another script.
+
+.. [#] This is a very simplified form of what the original `actually looked
+    like
+    <https://github.com/luispedro/Coelho2013_Bioinformatics/blob/master/sources/jugfile.py>`__.
+    I started to write this post trying to make it realistic, but the
+    complexity was too much.
+
