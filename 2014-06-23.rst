@@ -14,6 +14,14 @@ water works?
 
 (How do they think reality works?)
 
-3. `Interesting science profile
+3. `Interesting profile of a Nobel Laureate
 <http://www.slate.com/articles/business/how_failure_breeds_success/2014/05/nobel_prize_in_physics_andre_geim_went_from_levitating_frogs_to_science.html>`__
+
+4. `Forward and reverse modeling
+<http://www.biomedcentral.com/1741-7007/12/29/abstract>`__
+
+I think there should have been more discussion of "approximation" in there (the
+author claims that physics-based models are infalliable or would point at
+fundamental new discoveries in physics; but physics-based models with
+approximate computations need not be infalliable)
 
