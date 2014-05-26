@@ -1,0 +1,17 @@
+Protip: Enable deprecation warnings in Python
+
+Since version 2.7, Python no longer outputs anything when a deprecation warning
+is hit. This is a good idea if you are running apps that use Python internally
+as you might not care about this sort of thing. However, **it's a bad idea if
+you are developing Python yourself**.
+
+You can turn them back on by either (1) passing ``-Wd`` on the command line, or
+(2) setting the ``PYTHONWARNINGS`` environmental variable to ``d``. In fact,
+this allows you to just set this option in your ``.bashrc`` (or ``.zshrc``)::
+
+    export PYTHONWARNINGS=d
+
+Now, all your Python will warn you about deprecations, which you should care
+about as a developer.
+
+
