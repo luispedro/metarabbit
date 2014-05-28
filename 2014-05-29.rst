@@ -1,0 +1,85 @@
+This was going to be a link for a Friday Links, but it quickly expanded from a
+comment to a full post.
+
+§
+
+A glimpse of the future. `Oh, no, it's algorithms!
+<http://www.nationalnursesunited.org/press/entry/nurses-launch-new-campaign-to-alert-public-to-dangers-of-medical-technology/>`__
+
+(tl;dr a nurse union warns against using "algorithms" for diagnostic, saying
+that you should ask for a nurse's judgement)
+
+This is heavy on the tropes used against `evidence based medicine
+<http://en.wikipedia.org/wiki/Evidence-based_medicine>`__ in general [#]_, with
+the basic argument being that "we cannot rely on conclusions from statistics
+because each individual case is different".
+
+The point that is more directly related to computers (or algorithms) is that
+"algorithms are simple mathematical formulas that nobody understands".
+Naturally, the "simple" was sarcastic, *simple mathematical formula* being an
+oxymoron.
+
+In fact, some of the algorithms can use a complex formula that nobody
+understands. The systems get so complex that it starts to make sense to talk
+about *the computer's intution*. The leaps of logic to arrive at a correct
+solution are too complex to be followed. The system cannot be comprehended.
+This is true not just "in practice", but, for practical purposes, "in
+principle". By this I mean two things: (1) the amount of effort required to
+retrace the computations becomes too large. When google returns a specific page
+in return to a query, the amount of computation that would be required to
+reproduce that by hand might be longer than the life of the universe. In
+addition, even in cases where the result can be traced, there might be no
+there there, no insight. We'd be inside the Chinese Room [#]_.
+
+We cannot, however fall for the easy `Nirvana fallacy
+<http://en.wikipedia.org/wiki/Nirvana_fallacy>`__. We currently already often
+rely on uncomprehensible intuition, just that it is human intuition. But the
+exact reasoning of a doctor is not always retraceable: this case matches some
+explicitly learned rule or some previously observed cases (this is exactly what
+the computer does by the way). A little species pride makes us want to be
+better at this game than computers are, but that should remain an empirical
+question, liable to be tested and disproved.
+
+§
+
+In fact, in order to move towards personalized medicine, we probably need more
+computers and automated diagnostic. Nurses can nurse and the basic sort of
+medicine that we have today can be provided by humans (although it can become
+more costumer service than reasoning [#]_), but only hyper-specialized doctors
+will have a shot at the sort of reasoning that is necessary to be able to truly
+deliver personalized medicine.
+
+    Dr. Smith, here are the patients DNAs from a wide body-site sampling [#]_,
+    a full record of the patients biological activity over the last two weeks.
+    The full history is, of course, available from the online system.
+
+I mean, seriously, this is beyond human cognitive abilities. There is nothing
+wrong with this. Humans are just not very good at computing.
+
+If you really want to be treated as an individual, you will need more, not
+fewer computers.
+
+§
+
+Also note this public choice story [#]_: *Observation is the latest fad in
+large part because Medicare reimbursement penalties for patients re-admitted
+within 30 days for the same illness do not apply if the patient was discharged
+from an observation unit*. `Goodhart's Law
+<http://en.wikipedia.org/wiki/Goodhart%27s_Law>`__ strikes again.
+
+.. [#] There are issues with evidence-based medicine, yes; but they are not as
+   bad as the issues with the alternative.
+.. [#] Like many philosophical arguments, the Chinese Room is a bad argument,
+   but an useful metaphor.
+.. [#] One person one genome is so 2010.
+.. [#] We already see with the rise of nurse-practicioners that the system is
+   catching up to the notion that having MDs perform customer service ("Let me
+   read what the results say on the computer. Now let me read this prescription
+   for me.") is wasteful.
+.. [#] The whole thing is classic public choice: a special interest group
+   trying to derail the public good for private benefit (last time I checked,
+   American healthcare was very expensive; but these adds portrait attempts at
+   cost savings as mean-spirited). It's also interesting that nurses have more
+   recently greatly benefitted from the trend of replacing more expensive
+   doctors in many contexts (but that cost cutting was not mean-spirited).
+
