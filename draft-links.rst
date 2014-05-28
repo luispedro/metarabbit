@@ -1,8 +1,4 @@
-1. A glimpse of the future. `Oh, no, it's algorithms!
-<http://www.nationalnursesunited.org/press/entry/nurses-launch-new-campaign-to-alert-public-to-dangers-of-medical-technology/>`__
+1. `Do android suffer from visual illusions?
+   <http://www.i-programmer.info/news/105-artificial-intelligence/7352-the-flaw-lurking-in-every-deep-neural-net.html>`__
 
-(Also note this public choice story: *Observation is the latest fad in large
-part because Medicare reimbursement penalties for patients re-admitted within
-30 days for the same illness do not apply if the patient was discharged from an
-observation unit*)
-
+The
