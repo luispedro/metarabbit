@@ -1,6 +1,7 @@
 1. `A court has been called to rule on whether a wealthy guru is dead or in a
 transcendental meditative state.
 <http://www.theatlantic.com/health/archive/2014/05/dead-or-meditating/371846/>`__
+(the culture that is India)
 
 2. Oldy, but interesting: `A report on a clinical trial of quack medication for
    cancer
@@ -15,11 +16,17 @@ This is interesting:
     assignment to the chemotherapy arm.
 
 We often think that the ethical issue with randomized trials is that it assigns
-some people to a placebo, but here the problem is that people refused to get
-the medication.
+some people to a useless placebo, but here the problem is that people refused
+to get the medication and demanded the placebo.
 
 For me this also undermines much of the dicussion of ethics in that post (but
 not the interestingness of the story). Perhaps studying this was against
 ethical rules, but not it is not so clear what was unethical in the sense of
 immoral.
+
+3. `I will be in Leuven in September
+<http://www.esat.kuleuven.be/stadius/tcmm2014/>`__
+
+4. `An algorithm makes it to the board of a company
+<http://marginalrevolution.com/marginalrevolution/2014/06/a-company-just-appointed-an-algorithm-to-its-board.html>`__
 
