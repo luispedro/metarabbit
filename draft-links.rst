@@ -30,3 +30,18 @@ immoral.
 4. `An algorithm makes it to the board of a company
 <http://marginalrevolution.com/marginalrevolution/2014/06/a-company-just-appointed-an-algorithm-to-its-board.html>`__
 
+5. `Anti-science propaganda on your yogurts
+<http://www.popsci.com/article/science/yogurt-maker-chobani-sick-scientists-ruining-everything>`__
+
+The bit about "evaporated cane juice" is not specific to this company, though.
+Many many products use this euphemism for sugar. I also agree with `Derek Lowe
+<http://pipeline.corante.com/archives/2014/06/05/get_the_science_out_of_your_yogurt.php>`__
+
+    The slogan itself is annoying, but what gets me more are the attitudes
+    behind it. First, of course, is the "Science = icky" assumption, which
+    seems to be just taken for granted by whoever wrote this thing. Its author
+    also trusted everyone who read it to make the same connection, which isn't
+    too comforting, either.
+
+
+
