@@ -1,0 +1,43 @@
+1. `Medical rituals
+<http://slatestarcodex.com/2014/06/15/fish-now-by-prescription/>`__
+
+    If it were discovered tomorrow that potatoes cured cancer, then people
+    wouldn’t “suppress” this “natural” remedy. Two years from now there would
+    be an ultrapurified potato extract called POTAXOR™®© that was, on closer
+    examination, physically and chemically identical to mashed potatoes. But
+    these mashed potatoes would be mashed in a giant centrifuge by scientists
+    with five Ph. Ds each. Any time someone got cancer, their doctor would
+    prescribe POTAXOR™®© and charge $6,000 per dose, and the patient would get
+    better, and the thought of just going out and eating a potato would never
+    occur to anybody. Not to the doctor, who doesn’t want to sound like the
+    idiot who tells her cancer patients to eat potatoes. Not to the FDA, who
+    doesn’t know whether potatoes might be contaminated with lead or potato
+    fungus or ketchup or God-knows-what. And certainly not to the patient. They
+    would have to pay 60 cents for a potato at the supermarket, but if they
+    have a good enough insurance the POTAXOR™®© is free!
+
+I remember a speaker from a pharmaceutical company once saying:
+
+    We do not charge for the pills. With a few exceptions, pills go for a few
+    cents each. However, the little foldable paper insert with small print
+    listing all the side-effects and some other information? *That cost a
+    billion dollars or more.* We charge for that.
+
+2. More Slate Start Codex, from a completely `unrelated post
+<http://slatestarcodex.com/2014/06/14/living-by-the-sword/>`__ about people
+behaving like caricatures, we have this gem:
+
+    why don’t whales get cancer more often?
+
+    I mean, think about it. Cancer results from a series of mutations occurring
+    by chance in a single cell. So over a given time period, the cancer rate of
+    an organism should be proportional to the number of cells in that organism.
+    If a whale is a thousand times bigger than a person, it should have a
+    thousand times more cells and therefore get cancer a thousand times more
+    often. [...]
+
+    I don’t know which of the various proposed solutions to this puzzle is true
+    but the most hilarious is no doubt Nagy, Victor and Cropper (2007). [...]
+    [T]he theory is that whales survive because they are so big that their
+    cancers get cancer and die.
+
