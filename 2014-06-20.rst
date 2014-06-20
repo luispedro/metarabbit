@@ -41,3 +41,7 @@ behaving like caricatures, we have this gem:
     [T]he theory is that whales survive because they are so big that their
     cancers get cancer and die.
 
+3. Congratulations to the `scikit-image <http://scikit-image.org/>`__ team for
+   the publication of their `software paper
+   <https://peerj.com/articles/453/>`__
+
