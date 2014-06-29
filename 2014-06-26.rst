@@ -1,0 +1,78 @@
+The Schelling Globalization
+
+Why is soccer the world's most important sport? I could write about the sport.
+Say that it is the inherent unfairness of the sport which makes it so appealing
+(yes, the unfairness is what is appealing; the fact that a team playing visibly
+worse football can get a lucky break and score a late goal to beat the stronger
+team is what makes soccer a gripping emotional experience [#]_).
+
+However, to a large extent, we like soccer as individuals because others like
+soccer. Viewing the games of the World Cup is a great common activity which
+sweeps up even those who don't usually watch sports (except for a few
+philistines). Even following the results is a collective experience, as are
+betting pools &c. Collectively, we watch the World Cup because we watch the
+World Cup.
+
+Or, to use a fancy technical term: The World Cup is the global `Schelling Point
+<http://en.wikipedia.org/wiki/Focal_point_(game_theory)>`__ of sports
+enjoyment.
+
+§
+
+In the past, the dominance of soccer was not as great as individual countries
+often converged on a sport that few others cared about that much (China can
+dominate ping-pong without upsetting too many people; which other countries
+even have ping-pong fans? [#]_). In the extreme case, a country could just make
+up its own sport and proudly dominate it while others looked on amused or
+puzzled (e.g., American football). [#]_
+
+Now, we seem to have converged to a single Schelling point. Yes, the US is a
+laggard in soccer fever, but even there, `25 million people
+<http://time.com/2917615/world-cup-2014-soccer-ratings/>`__ watched the
+national team draw with Portugal (which does not even have 25 million people)
+[#]_. There is no going back, the US will become one large soccer market.
+
+I think this is symptomatic of a wider phenomenon: *The Schelling
+Globalization* as more and more shared experiences are global. This is not just
+because the market is larger in the classical sense (Apple can make each phone
+cheaper when it sells to the whole world), but also in the Schelling sense
+(either the iPhone is a fashionable accessory or it is not, but it does not
+become fashionable in some places and not in others — it actually becomes
+fashionable is some communities and not in others, but these are not defined
+geographical [#]_).
+
+In my generation, most Europeans have not heard of Jerry Seinfeld (as in,
+*never heard of him*). However, there are few in the younger generation who
+don't know about Game of Thrones. Harry Potter was huge not just by taking
+advantage of a larger market, it was the Global Schelling point.
+
+Another obvious global Schelling point is the increasing dominance of the
+English language as regional languages recede (Europeans of different countries
+now default to English as their lingua franca, instead of either French
+[Western Europe], German [Central Europe] or Russian [Eastern Europe]).
+
+§
+
+In science, you still seem some old fashion references to "international" and
+"national" journals. It's nice and quaint, but seriously, who would publish in
+a "national" journal? Nobody good publishes there, because nobody good
+publishes there. Our global Schelling points are Science and Nature.
+
+.. [#] This is tightly linked to the fact that the sport is a low scoring one.
+   Attempts to make it higher score risk ruining this by making the better team
+   win even more often.
+
+.. [#] Portugal together with Spain completely dominated `quad hockey
+   <http://en.wikipedia.org/wiki/Roller_hockey_(quad)>`__ for generations. As I
+   was growing up, it was still present in the general consciousceness, but has
+   now become a minor sport.
+
+.. [#] Perhaps this was not the "past", but just bizarre world of 1950-2000.
+
+.. [#] I've long said the US are an underrated team. They consistently "beat
+   expectations," which means the general expectations are too low. I expect
+   them to win a World Cup in the next few decades.
+
+.. [#] For extra credit, re-read this sentence but using *Google Glass* instead
+   of *iPhone* as an example.
+
