@@ -1,0 +1,114 @@
+Facebook did `a study <http://www.pnas.org/content/111/24/8788.full>`__ of how
+its users react to different sorts of stories in their feeds, namely by
+`looking at emotional words in posts and giving different users different mixes
+of posts
+<http://www.thespectroscope.com/read/emotional-contagion-on-facebook-or-facebook-did-what-by-matthew-davis-152>`__.
+Turns out that there is a tiny but measurable effect in what people write
+afterwards.
+
+Several people were `immediately outraged
+<http://www.slate.com/articles/health_and_science/science/2014/06/facebook_unethical_experiment_it_made_news_feeds_happier_or_sadder_to_manipulate.html>`__
+that facebook would do a thing like this and publish it.
+
+§
+
+Much of the discussion between scientists centered around the fact that
+Facebook did not get Institutional Review Board (IRB) approval and they
+probably got US public money so according to the law, they needed to. In fact,
+yes, if you are working with human subjects, then you need approval from one of
+these IRBs to conduct your research.
+
+This whole thing reads to me incredibly legalistic (even more because
+`Cornell's IRB might have given them a yes
+<http://www.theatlantic.com/technology/archive/2014/06/even-the-editor-of-facebooks-mood-study-thought-it-was-creepy/373649/>`__,
+but it's not clear whether all the protocols were followed to the letter). At
+one extreme, it even felt a bit like "we scientists in academia have to jump
+through all sorts of bureaucratic hoops, why shouldn't others do the same? Not
+fair!"
+
+§
+
+Even if facebook is at fault for not following the rules, it's a different
+point from whether what they did was wrong. Sure, if they did not follow some
+regulation related to their Federal research funding, maybe the funding agency
+should cut their funding or give them a warning to improve their practices or
+what not. But was it morally wrong? Here, I just don't see a strong case for
+the prosecution.
+
+Reasoning by etymology is fallacious, but, at these times, the relationship
+between ethics and etiquette just jumps at you. When I tell my daughter that
+she needs to ask politely, she excitedly asks in a nice voice with a *please*
+at the end. She knows that now I've already given in, the rest is just
+procedural, follow the form, the etiquette, the ethics protocol. Is the problem
+that Facebook did not ask please?
+
+This sort of study is standard for private companies, except that it's normally
+done to increase profits not knowledge. Any company tries out new things on its
+users, from the corner coffeeshop owner who asks me what I think of the new
+Ethiopian brew, to large-scale A/B testing done by internet companies. A/B
+testing is when an organization tries randomly two versions of its website and
+sees which one works best in whatever metric (clicks, purchases, or donations
+being the common goals).
+
+For a company the size of Facebook, several of these experiments will be
+running *at any given time*. Do people share more if photos of friends are
+shown above or below the text? Will this cause them to share more photos
+themselves? To "Like" them more?
+
+Now, this is rarely phrased as "manipulating users emotions", but, really, what
+else is it? This whole brouhaha started with another commercial entity
+manipulating its users' emotions to sell more advertisement, namely the press
+writing inflammatory stories about the facebook study [#]_.
+
+§
+
+If a company does this all the time to increase profits, what's the harm done
+to the human subjects if they do it and publish it?
+
+Hilary Mason wrote that `cultures are not consistent
+<https://twitter.com/hmason/status/483359405363044352>`__, which is a fine
+conservative sentiment, but it is not enough to just say "this is how it is,
+take it or leave it." The inconsistencies should at least give us some pause
+and make us question our emotional certainties.
+
+§
+
+Following a sort of `Goldwin's Law for ethics
+<https://twitter.com/DrLabRatOry/status/483249834292690944>`__, the `Tuskegee
+Syphilis Experiment
+<http://en.wikipedia.org/wiki/Tuskegee_syphilis_experiment>`__ was immediately
+mentioned by several people (this is an infamous experiment when black Syphilis
+patients were left untreated "to see what happened"). I don't see, however, how
+it remotely applies. Even forgetting for a minute that syphilis is much worse
+than a small (but measurable) impact in use of emotionally laden words; what I
+see as the fundamental difference is that mistreating syphilis patients is bad
+(illegal even) outside the context of a scientific study. It is not enough to
+say "it's OK, because it's for science". Or to put it in another way,
+individual rights
+cannot be trampled just for scientific benefits. However, what facebook is
+doing is perfectly fine, except if it is for science. This is fundamentally
+different from the problems of misusing individuals for the greater good.
+
+
+§
+
+I just cannot shake the idea that facebook was fine until they published their
+results through the traditional scientific process. That was their mistake.
+
+Facebook probably learned its lesson and will no longer attempt to publish any
+of its studies. They will still do them internally to understand their business
+better and make more money, just not publish them. This knowledge will now
+spread through word of mouth and at tech conferences without making it into the
+scientific literature [#]_.
+
+This is a loss.
+
+.. [#] The paper has actually been out for a month. PNAS-reading scientists did
+   not seem to care to o much until they were riled up by press and social
+   media.
+
+.. [#] Also, it won't be peer reviewed, but, hey, it's psychology, their
+   publication standards are way lower than whatever rule facebook uses to
+   decide to change the font on its website (because facebook's website font
+   matters more than academic psychology).
+
