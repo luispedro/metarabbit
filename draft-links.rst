@@ -10,6 +10,9 @@ claims:
     It may be necessary for individual nation-states to make clear decisions
     about what kind of development and society they want, and, if necessary, be
     prepared to protect themselves from the ruthless introduction of this kind
-    of equipment by the multinational corporations.
+    of equipment [automation using computers] by the multinational
+    corporations.
+
+
 
 
