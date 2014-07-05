@@ -14,5 +14,8 @@ claims:
     corporations.
 
 
-
+3. New face of biology? Outsource `wetlab work
+<http://recode.net/2014/06/30/founders-fund-backs-a-robotic-lab-that-puts-science-in-the-cloud/>`__,
+keep analysis in house? For many studies this makes way more sense than the
+often proposed opposite (do wetlab in house, outsource analysis to the cloud).
 
