@@ -1,0 +1,30 @@
+1. A last `link on the facebook saga
+   <http://lucatrevisan.wordpress.com/2014/07/08/the-facebook-study-sampling-and-the-principle-of-delayed-decision/>`__
+   makes the observation that if facebook just includes some randomness in all
+   decisions of what to show on the stream (which they might do just to improve
+   their service), then any study which leverages this is a randomized
+   observational study. And observational studies have much reduced ethical
+   thresholds.
+
+2. An excellent `summary of what is known about SSRIs
+   <http://slatestarcodex.com/2014/07/07/ssris-much-more-than-you-wanted-to-know/>`__.
+   I really liked both the conversion of effect size to weight loss numbers and
+   the discussion of how, whilst people can agree on the data, it gets very
+   hairy when you start to use words such as "moderate depression" or "severe
+   depression" to describe different numeric results.
+
+3. Some people who make more money than I do, can `activate your DNA
+   <http://dnaperfection.com/>`__. Obviously, they are skeptical of ENCODE
+   claims. This guy's biography is perfect:
+
+        Toby Alexander, is a coach, speaker, seminar leader and author. He is a
+        leading expert in a variety of fields including energy medicine,
+        emotional mastery, peak mental strategies for optimal performance, 15th
+        dimensional physics, futures and forex trading, SAP, remote viewing,
+        and distant healing.
+
+    SAP, forex trading, and distant healing?
+
+4. Next week, I'll be in Lisbon for `LxMLS 2014 <http://lxmls.it.pt/2014/>`__.
+   Contact me if you want to get in touch there.
+
