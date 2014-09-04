@@ -1,0 +1,45 @@
+1. From `Megan McArdle
+   <http://www.bloombergview.com/articles/2014-09-02/want-to-quit-smoking-or-lose-weight-try-major-surgery>`__
+   on why very invasive surgery works better than less invasive surgery:
+
+    Patients may prefer percutaneous coronary intervention -- also known as
+    angioplasty -- to a coronary bypass because it doesn’t involve cracking
+    your chest open and grafting things onto your heart. But bypass patients
+    seem to have better long-term outcomes, even though both methods increase
+    blood flow to the heart muscle. [...]
+
+    A new working paper from the National Bureau of Economic Research suggests
+    a possible answer: Bypass works better precisely because it’s more
+    invasive.  The very scale of the treatment makes people more likely to
+    change their post-operative behavior in ways that enhance their long-term
+    chances of survival
+
+The `original paper <http://www.nber.org/papers/w20373>`__ states that
+
+    We find that CABG patients are 12 percentage points more likely to quit
+    smoking in the one-year period immediately surrounding their procedure than
+    PCI patients, a result that is robust to numerous alternative
+    specifications
+
+2. I have in the past criticized nutricional sciences, but this is `excellent
+   scientific behaviour
+   <http://www.businessinsider.com.au/gluten-sensitivity-and-study-replication-2014-5>`__
+
+    In one of the best examples of science working, a researcher who provided
+    key evidence of (non-celiac disease) gluten sensitivity recently published
+    follow-up papers that show the opposite.
+
+    [...]
+
+    For a follow-up paper, 37 self-identified gluten-sensitive patients were
+    tested [...]
+
+    The subjects cycled through high-gluten, low-gluten, and no-gluten
+    (placebo) diets, without knowing which diet plan they were on at any given
+    time. In the end, all of the treatment diets — even the placebo diet —
+    caused pain, bloating, nausea, and gas to a similar degree. It didn’t
+    matter if the diet contained gluten.
+
+One of the most insidious things about some of the health fads is that because
+of psychological effects, they do "work."
+
