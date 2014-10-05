@@ -1,0 +1,34 @@
+John Cook tells this `wonderful story about Windows 10
+<http://www.johndcook.com/blog/2014/10/02/the-mistakes-of-others/>`__:
+
+    The version of Windows following 8.1 will be Windows 10, not Windows 9.
+    Apparently this is because Microsoft knows that a lot of software naively
+    looks at the first digit of the version number, concluding that it must be
+    Windows 95 or Windows 98 if it starts with 9.
+    
+    Many think this is stupid. They say that Microsoft should call the next
+    version Windows 9, and if somebody’s dumb code breaks, it’s their own
+    fault.
+    
+    People who think that way aren’t billionaires.
+
+Open source has generally been horrible about this, with the major exception of
+the Linux kernel, because Linus' attitude is `very different
+<https://lkml.org/lkml/2012/12/23/75>`__::
+
+    > Are you saying that pulseaudio is entering on some weird loop if the
+    > returned value is not -EINVAL? That seems a bug at pulseaudio.
+
+    [redacted]
+
+    It's a bug alright - in the kernel. How long have you been a
+    maintainer? And you *still* haven't learnt the first rule of kernel
+    maintenance?
+
+    If a change results in user programs breaking, it's a bug in the
+    kernel. We never EVER blame the user programs. How hard can this be to
+    understand?
+
+Note the very different attitude of the `glibc developers
+<http://lwn.net/Articles/414467/>`__, who *broke Flash Player for their users
+and said it was all Adobe's fault*.
