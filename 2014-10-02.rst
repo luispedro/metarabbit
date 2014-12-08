@@ -1,0 +1,50 @@
+It's Nobel Prize Season and there is `inevitable speculation
+<http://sciencewatch.com/nobel/2014-predictions>`__ on who will get one. I
+have a negative prediction: The Prize will not be award to the creators of
+BLAST.
+
+However, I think **the creators of BLAST should get a Nobel Prize**.
+
+In terms of impact in the field, it's undeniable that BLAST has been huge.
+These people created a verb! What modern biologist does not know what "Blasting
+a sequence" means? The BLAST paper was, at one point, the most highly cited
+paper in history. The impact on physiology is undeniable.
+
+`Lipman <http://en.wikipedia.org/wiki/David_J._Lipman>`__ and `Gene
+Meyers <http://en.wikipedia.org/wiki/Eugene_Myers>`__ stand out for their
+contributions to the computational processing of biological sequences. (See how
+I phrased that in a Nobel Committee way).
+
+I know, BLAST was built on previous work like FASTA; but (1) so is everything
+and (2) FASTA is also Lipman's work so he can claim credit for that.
+
+The other counterargument I've heard is that BLAST is mostly a method, but so
+was GFP (admittedly, a chemistry prize). One may argue that it was very cool
+that one could have a protein that fluoresced by itself, but the prize was
+awarded for the `impact in the lab
+<http://www.nobelprize.org/nobel_prizes/chemistry/laureates/2008/press.html>`__
+(does anybody believe that just the 1962 discovery of a jellyfish protein would
+have sufficed for a Nobel?)
+
+The statistical and algorithmic ideas behind BLAST and other methods developed
+by these people are also very cool (the suffix array is one of those "how did
+it take so long for someone to think of this?" ideas) while solving a hard
+problem with a large number of applications.
+
+§
+
+Of course, this Prize would bring prestige to the whole field of computational
+and systems biology, which may seem very self-serving of me (my field gets a
+prize, so I get to bask in the glow).
+
+On the other hand, I have often heard that *systems biology is just physiology
+with computers*. By this definition, eventually, a systems biology prize will
+have to be awarded or the prize renamed to "*Noncomputational* Physiology and
+Medicine", which sounds weird.
+
+BLAST was definitely one of the most largest advances in the field of
+physiology in the last few decades. *For this reason, David Lipman and Gene
+Meyers should get a Physiology and Medicine Nobel Prize.*
+
+
+
