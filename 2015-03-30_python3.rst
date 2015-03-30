@@ -1,0 +1,44 @@
+A weird Python 3 failure
+
+The following code can fail on my system::
+
+    from os import listdir
+    for f in listdir('.'):
+        print(f)
+
+Why?
+
+::
+
+    UnicodeEncodeError: 'utf-8' codec can't encode character '\udce9' in position 13: surrogates not allowed
+
+What?
+
+1. I have a file with the name ``b'Latin1 file: \xe9'``. This is a filename with a "é" encoded using Latin-1 (which is byte value ``\xe9``)
+2. Python attempts to decode it using the current locale, which is ``utf-8``. Unfortunately, ``\xe9`` is not valid UTF-8, so Python solves this by inserting a surrogate character. So, I get a variable ``f`` which can be used to open the file.
+3. However, I cannot print the value of this ``f`` because when it attempts to convert back to UTF-8 to print, an error is triggered.
+
+I can understand what is happening, but it's just a mess. [#]_
+
+§
+
+Here is a complete example::
+
+    f = open('Latin1 file: é'.encode('latin1'), 'w')
+    f.write("My file")
+    f.close()
+
+    from os import listdir
+    for f in listdir('.'):
+        print(f)
+
+
+On a modern Unix system (i.e., one that uses UTF-8 as its system encoding), this will fail.
+
+§
+
+A good essay on the failure of the Python 3 transition is out there to be written.
+
+.. [#] ``ls`` on the same directory generates a placeholder character, which is
+    a decent fallback.
+
