@@ -1,0 +1,54 @@
+I cannot find a decent offline email client
+
+I spend a lot of time on trains and airplanes without internet connection and
+keep struggling with the fact that it has become significantly harder to use
+email without an internet connection. I would like to be able to write a few
+emails, which would be sent out when I reached civilization and had enough
+wireless coverage to tether the computer to my phone. Ten years ago, this would
+have been easy; today, not so much.
+
+(Of course, if there was decent wireless data coverage everywhere, this would
+not be an issue [#]_, except perhaps for data charges, but as the world stands,
+I can get neither a good data connection nor decent software to handle this.)
+
+§
+
+The first email clients were on networked machines are were online only, then
+when dialup came along, they became desktop applications: your mail would be
+stored on your machine and minimizing the amount of time spent online was often
+a goal: you would write your messages, save in the Outbox, and then go online
+to get new messages and send your stored messages. As things moved to the cloud
+(especially with the appearance of Hotmail and the concept of webmail), desktop
+email started losing users (it probably never had many customers) and is dieing
+slowly.
+
+I would happily pay for a decent desktop offline-capable email client, but
+cannot find one. I tried Postbox, but it's just a reheated version of
+thunderbird. Thunderbird itself is no longer being developed (as Mozilla is
+focusing on other priorities [#]_). I used to use Kmail, which was not great,
+but worked in KDE3; completely stopped working with the advent of KDE4. Opera
+Mail is also no longer begin developed.
+
+I could try to use mutt or another command line client, but the command line
+has not adapted to rich displays [#]_ and HTML is a nuisance in those [#]_. I
+also enjoy drag&dropping attachments.
+
+§
+
+It is interesting to see how even with software, functionality can be lost if
+not continuously maintained.
+
+.. [#] Perhaps part of the issue is that the US does have better wireless data
+   than Germany. Since most technology is developed for that market, I am not
+   really a customer.
+
+.. [#] I also suspect the technology hit a local maximum and could not easily
+   be improved and the many bugs encountered are very hard to fix.
+
+.. [#] There is no technical reason to not have colour and HTML on the command
+   line, but it's hard to move these very old technology and the track record
+   is that they'll be with us for a few more decades.
+
+.. [#] I still remember when it was considered rude by some to send HTML email.
+   I too had a phase like that.
+
